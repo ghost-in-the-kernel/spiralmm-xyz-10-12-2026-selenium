@@ -1,0 +1,84 @@
+{
+  "tool": "suite-builder",
+  "ledgerVersion": 1,
+  "entities": [
+    {
+      "id": "type:/",
+      "kind": "page-type",
+      "introducedAt": "36ba2af17817b3348cd42df1c69f9d061ce85e69a7e44fd6e18dc0c7eb8a2c8a",
+      "cls": "HomePage",
+      "patterns": [
+        "/"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "36ba2af17817b3348cd42df1c69f9d061ce85e69a7e44fd6e18dc0c7eb8a2c8a"
+      }
+    },
+    {
+      "id": "type:/contact/",
+      "kind": "page-type",
+      "introducedAt": "36ba2af17817b3348cd42df1c69f9d061ce85e69a7e44fd6e18dc0c7eb8a2c8a",
+      "cls": "ContactPage",
+      "patterns": [
+        "/contact/"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "36ba2af17817b3348cd42df1c69f9d061ce85e69a7e44fd6e18dc0c7eb8a2c8a"
+      }
+    },
+    {
+      "id": "type:/careers/",
+      "kind": "page-type",
+      "introducedAt": "36ba2af17817b3348cd42df1c69f9d061ce85e69a7e44fd6e18dc0c7eb8a2c8a",
+      "cls": "CareersPage",
+      "patterns": [
+        "/careers/"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "36ba2af17817b3348cd42df1c69f9d061ce85e69a7e44fd6e18dc0c7eb8a2c8a"
+      }
+    },
+    {
+      "id": "type:/careers/*",
+      "kind": "page-type",
+      "introducedAt": "36ba2af17817b3348cd42df1c69f9d061ce85e69a7e44fd6e18dc0c7eb8a2c8a",
+      "cls": "CareerPage",
+      "patterns": [
+        "/careers/*"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "36ba2af17817b3348cd42df1c69f9d061ce85e69a7e44fd6e18dc0c7eb8a2c8a"
+      }
+    },
+    {
+      "id": "type:/projects/",
+      "kind": "page-type",
+      "introducedAt": "36ba2af17817b3348cd42df1c69f9d061ce85e69a7e44fd6e18dc0c7eb8a2c8a",
+      "cls": "ProjectsPage",
+      "patterns": [
+        "/projects/"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "36ba2af17817b3348cd42df1c69f9d061ce85e69a7e44fd6e18dc0c7eb8a2c8a"
+      }
+    },
+    {
+      "id": "type:/projects/*",
+      "kind": "page-type",
+      "introducedAt": "36ba2af17817b3348cd42df1c69f9d061ce85e69a7e44fd6e18dc0c7eb8a2c8a",
+      "cls": "ProjectPage",
+      "patterns": [
+        "/projects/*"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "36ba2af17817b3348cd42df1c69f9d061ce85e69a7e44fd6e18dc0c7eb8a2c8a"
+      }
+    }
+  ]
+}

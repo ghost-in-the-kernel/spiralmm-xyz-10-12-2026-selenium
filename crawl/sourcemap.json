@@ -1,0 +1,2629 @@
+{
+  "version": 2,
+  "crawl": {
+    "file": "crawl/spiralmm.xyz.crawl.json",
+    "sha256": "4efe3c007db15e490fa9a321d9570c335568afb1aa11d860bd3d85ab96192e02"
+  },
+  "entities": {
+    "type:/": {
+      "kind": "type",
+      "why": "the start page: always a page type of its own, since every test starts there [rules: start-page]",
+      "facts": [
+        "page HomePage",
+        "page HomePage opens ()",
+        "page HomePage url-shapes /",
+        "page HomePage doors read, verify",
+        "page HomePage settles 200",
+        "page HomePage title is \"Spiral — Software for Every Idea\""
+      ],
+      "evidence": [
+        {
+          "url": "https://spiralmm.xyz/",
+          "snapshot": "crawl/pages/index.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/xyz/spiralmm/tests/pages/home/HomePage.java",
+          "line": 34,
+          "fact": "page HomePage",
+          "why": "the start page: always a page type of its own, since every test starts there [rules: start-page]"
+        },
+        {
+          "file": "src/main/java/xyz/spiralmm/tests/pages/home/HomePage.java",
+          "line": 54,
+          "fact": "page HomePage opens ()",
+          "why": "the start page: always a page type of its own, since every test starts there [rules: start-page]"
+        },
+        {
+          "file": "src/main/java/xyz/spiralmm/tests/pages/home/HomePage.java",
+          "line": 61,
+          "fact": "page HomePage url-shapes /",
+          "why": "the start page: always a page type of its own, since every test starts there [rules: start-page]"
+        },
+        {
+          "file": "src/main/java/xyz/spiralmm/tests/pages/home/HomePage.java",
+          "line": 34,
+          "fact": "page HomePage doors read, verify",
+          "why": "the doors its controls, links and forms give it, read and verify always, and any a person filled"
+        },
+        {
+          "file": "src/main/java/xyz/spiralmm/tests/pages/home/HomePage.java",
+          "line": 92,
+          "fact": "page HomePage settles 200",
+          "why": "the median of its pages read, after their load event, the crawl's quiet windows taken out"
+        },
+        {
+          "file": "src/main/java/xyz/spiralmm/tests/pages/home/HomePage.java",
+          "line": 40,
+          "fact": "page HomePage title is \"Spiral — Software for Every Idea\"",
+          "why": "every page read of it had this title"
+        }
+      ]
+    },
+    "structure:/:main-heading": {
+      "kind": "structure",
+      "why": "its page read has one main heading (h1), whatever it says",
+      "facts": [
+        "page HomePage structure MAIN_HEADING xpath //h1",
+        "page HomePage loaded-when MAIN_HEADING"
+      ],
+      "evidence": [
+        {
+          "url": "https://spiralmm.xyz/",
+          "snapshot": "crawl/pages/index.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/xyz/spiralmm/tests/pages/home/HomeElements.java",
+          "line": 22,
+          "fact": "page HomePage structure MAIN_HEADING xpath //h1",
+          "why": "its page read has one main heading (h1), whatever it says"
+        },
+        {
+          "file": "src/main/java/xyz/spiralmm/tests/pages/home/HomePage.java",
+          "line": 44,
+          "fact": "page HomePage loaded-when MAIN_HEADING",
+          "why": "its page read has one main heading (h1), whatever it says; structure before copy"
+        }
+      ]
+    },
+    "structure:/:main-region": {
+      "kind": "structure",
+      "why": "its page read shows a main region",
+      "facts": [
+        "page HomePage structure MAIN_REGION xpath //main | //*[@role='main']"
+      ],
+      "evidence": [
+        {
+          "url": "https://spiralmm.xyz/",
+          "snapshot": "crawl/pages/index.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/xyz/spiralmm/tests/pages/home/HomeElements.java",
+          "line": 24,
+          "fact": "page HomePage structure MAIN_REGION xpath //main | //*[@role='main']",
+          "why": "its page read shows a main region"
+        }
+      ]
+    },
+    "check:/:Software for the people.": {
+      "kind": "check",
+      "why": "every page of HomePage the crawl read showed it (1 page); isLoaded() waits for the first 2 checks",
+      "facts": [
+        "page HomePage loaded-when \"Software for the people.\"",
+        "page HomePage check \"Software for the people.\" spelled \"Software for the people.\""
+      ],
+      "evidence": [
+        {
+          "url": "https://spiralmm.xyz/",
+          "snapshot": "crawl/pages/index.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/xyz/spiralmm/tests/pages/home/HomePage.java",
+          "line": 44,
+          "fact": "page HomePage loaded-when \"Software for the people.\"",
+          "why": "every page of HomePage the crawl read showed it (1 page); isLoaded() waits for the first 2 checks"
+        },
+        {
+          "file": "src/main/java/xyz/spiralmm/tests/pages/home/HomeElements.java",
+          "line": 18,
+          "fact": "page HomePage check \"Software for the people.\" spelled \"Software for the people.\"",
+          "why": "every page of HomePage the crawl read showed it (1 page)"
+        }
+      ]
+    },
+    "type:/contact/": {
+      "kind": "type",
+      "why": "no other page read is enough like it (the closest, /careers/, shares 37% of its layout and 0% of its headings) [rules: unlike-others]",
+      "facts": [
+        "page ContactPage",
+        "page ContactPage opens ()",
+        "page ContactPage url-shapes /contact/",
+        "page ContactPage doors click, enter, read, verify, execute",
+        "page ContactPage answers 404",
+        "page ContactPage settles 0",
+        "page ContactPage title is \"Spiral — Software for Every Idea\""
+      ],
+      "evidence": [
+        {
+          "url": "https://spiralmm.xyz/contact/",
+          "snapshot": "crawl/pages/contact.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/xyz/spiralmm/tests/pages/contact/ContactPage.java",
+          "line": 41,
+          "fact": "page ContactPage",
+          "why": "no other page read is enough like it (the closest, /careers/, shares 37% of its layout and 0% of its headings) [rules: unlike-others]"
+        },
+        {
+          "file": "src/main/java/xyz/spiralmm/tests/pages/contact/ContactPage.java",
+          "line": 64,
+          "fact": "page ContactPage opens ()",
+          "why": "no other page read is enough like it (the closest, /careers/, shares 37% of its layout and 0% of its headings) [rules: unlike-others]"
+        },
+        {
+          "file": "src/main/java/xyz/spiralmm/tests/pages/contact/ContactPage.java",
+          "line": 71,
+          "fact": "page ContactPage url-shapes /contact/",
+          "why": "no other page read is enough like it (the closest, /careers/, shares 37% of its layout and 0% of its headings) [rules: unlike-others]"
+        },
+        {
+          "file": "src/main/java/xyz/spiralmm/tests/pages/contact/ContactPage.java",
+          "line": 41,
+          "fact": "page ContactPage doors click, enter, read, verify, execute",
+          "why": "the doors its controls, links and forms give it, read and verify always, and any a person filled"
+        },
+        {
+          "file": "src/main/java/xyz/spiralmm/tests/pages/contact/ContactPage.java",
+          "line": 110,
+          "fact": "page ContactPage answers 404",
+          "why": "every page of it answered this error in the crawl while drawing a page of its own: a known defect (SITE-01)"
+        },
+        {
+          "file": "src/main/java/xyz/spiralmm/tests/pages/contact/ContactPage.java",
+          "line": 102,
+          "fact": "page ContactPage settles 0",
+          "why": "the median of its pages read, after their load event, the crawl's quiet windows taken out"
+        },
+        {
+          "file": "src/main/java/xyz/spiralmm/tests/pages/contact/ContactPage.java",
+          "line": 50,
+          "fact": "page ContactPage title is \"Spiral — Software for Every Idea\"",
+          "why": "every page read of it had this title"
+        }
+      ]
+    },
+    "control:/contact/:NAME_INPUT": {
+      "kind": "control",
+      "why": "seen on /contact/: text field \"Name\"; the crawl trusts its locator (text field)",
+      "facts": [
+        "page ContactPage element NAME_INPUT xpath //input[@id='name']",
+        "page ContactPage enter name on NAME_INPUT",
+        "page ContactPage clear clearName on NAME_INPUT"
+      ],
+      "evidence": [
+        {
+          "url": "https://spiralmm.xyz/contact/",
+          "snapshot": "crawl/pages/contact.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/xyz/spiralmm/tests/pages/contact/ContactElements.java",
+          "line": 28,
+          "fact": "page ContactPage element NAME_INPUT xpath //input[@id='name']",
+          "why": "seen on /contact/: text field \"Name\"; the crawl trusts its locator (text field)"
+        },
+        {
+          "file": "src/main/java/xyz/spiralmm/tests/pages/contact/actions/ContactEnterActions.java",
+          "line": 24,
+          "fact": "page ContactPage enter name on NAME_INPUT",
+          "why": "seen on /contact/: text field \"Name\""
+        },
+        {
+          "file": "src/main/java/xyz/spiralmm/tests/pages/contact/actions/ContactEnterActions.java",
+          "line": 30,
+          "fact": "page ContactPage clear clearName on NAME_INPUT",
+          "why": "seen on /contact/: text field \"Name\""
+        }
+      ]
+    },
+    "control:/contact/:EMAIL_INPUT": {
+      "kind": "control",
+      "why": "seen on /contact/: email field \"Email\"; the crawl trusts its locator (email field)",
+      "facts": [
+        "page ContactPage element EMAIL_INPUT xpath //input[@id='email']",
+        "page ContactPage enter email on EMAIL_INPUT",
+        "page ContactPage clear clearEmail on EMAIL_INPUT"
+      ],
+      "evidence": [
+        {
+          "url": "https://spiralmm.xyz/contact/",
+          "snapshot": "crawl/pages/contact.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/xyz/spiralmm/tests/pages/contact/ContactElements.java",
+          "line": 30,
+          "fact": "page ContactPage element EMAIL_INPUT xpath //input[@id='email']",
+          "why": "seen on /contact/: email field \"Email\"; the crawl trusts its locator (email field)"
+        },
+        {
+          "file": "src/main/java/xyz/spiralmm/tests/pages/contact/actions/ContactEnterActions.java",
+          "line": 36,
+          "fact": "page ContactPage enter email on EMAIL_INPUT",
+          "why": "seen on /contact/: email field \"Email\""
+        },
+        {
+          "file": "src/main/java/xyz/spiralmm/tests/pages/contact/actions/ContactEnterActions.java",
+          "line": 42,
+          "fact": "page ContactPage clear clearEmail on EMAIL_INPUT",
+          "why": "seen on /contact/: email field \"Email\""
+        }
+      ]
+    },
+    "control:/contact/:MOBILE_INPUT": {
+      "kind": "control",
+      "why": "seen on /contact/: tel field \"Mobile\"; the crawl trusts its locator (tel field)",
+      "facts": [
+        "page ContactPage element MOBILE_INPUT xpath //input[@id='mobile']",
+        "page ContactPage enter mobile on MOBILE_INPUT",
+        "page ContactPage clear clearMobile on MOBILE_INPUT"
+      ],
+      "evidence": [
+        {
+          "url": "https://spiralmm.xyz/contact/",
+          "snapshot": "crawl/pages/contact.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/xyz/spiralmm/tests/pages/contact/ContactElements.java",
+          "line": 32,
+          "fact": "page ContactPage element MOBILE_INPUT xpath //input[@id='mobile']",
+          "why": "seen on /contact/: tel field \"Mobile\"; the crawl trusts its locator (tel field)"
+        },
+        {
+          "file": "src/main/java/xyz/spiralmm/tests/pages/contact/actions/ContactEnterActions.java",
+          "line": 48,
+          "fact": "page ContactPage enter mobile on MOBILE_INPUT",
+          "why": "seen on /contact/: tel field \"Mobile\""
+        },
+        {
+          "file": "src/main/java/xyz/spiralmm/tests/pages/contact/actions/ContactEnterActions.java",
+          "line": 54,
+          "fact": "page ContactPage clear clearMobile on MOBILE_INPUT",
+          "why": "seen on /contact/: tel field \"Mobile\""
+        }
+      ]
+    },
+    "control:/contact/:COMPANY_INPUT": {
+      "kind": "control",
+      "why": "seen on /contact/: text field \"Company\"; the crawl trusts its locator (text field)",
+      "facts": [
+        "page ContactPage element COMPANY_INPUT xpath //input[@id='company']",
+        "page ContactPage enter company on COMPANY_INPUT",
+        "page ContactPage clear clearCompany on COMPANY_INPUT"
+      ],
+      "evidence": [
+        {
+          "url": "https://spiralmm.xyz/contact/",
+          "snapshot": "crawl/pages/contact.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/xyz/spiralmm/tests/pages/contact/ContactElements.java",
+          "line": 34,
+          "fact": "page ContactPage element COMPANY_INPUT xpath //input[@id='company']",
+          "why": "seen on /contact/: text field \"Company\"; the crawl trusts its locator (text field)"
+        },
+        {
+          "file": "src/main/java/xyz/spiralmm/tests/pages/contact/actions/ContactEnterActions.java",
+          "line": 60,
+          "fact": "page ContactPage enter company on COMPANY_INPUT",
+          "why": "seen on /contact/: text field \"Company\""
+        },
+        {
+          "file": "src/main/java/xyz/spiralmm/tests/pages/contact/actions/ContactEnterActions.java",
+          "line": 66,
+          "fact": "page ContactPage clear clearCompany on COMPANY_INPUT",
+          "why": "seen on /contact/: text field \"Company\""
+        }
+      ]
+    },
+    "control:/contact/:PROJECT_TYPE_SELECT": {
+      "kind": "control",
+      "why": "seen on /contact/: dropdown \"Project Type\"; the crawl trusts its locator (dropdown)",
+      "facts": [
+        "page ContactPage element PROJECT_TYPE_SELECT xpath //select[@id='projectType']",
+        "page ContactPage choose projectType on PROJECT_TYPE_SELECT"
+      ],
+      "evidence": [
+        {
+          "url": "https://spiralmm.xyz/contact/",
+          "snapshot": "crawl/pages/contact.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/xyz/spiralmm/tests/pages/contact/ContactElements.java",
+          "line": 36,
+          "fact": "page ContactPage element PROJECT_TYPE_SELECT xpath //select[@id='projectType']",
+          "why": "seen on /contact/: dropdown \"Project Type\"; the crawl trusts its locator (dropdown)"
+        },
+        {
+          "file": "src/main/java/xyz/spiralmm/tests/pages/contact/actions/ContactEnterActions.java",
+          "line": 72,
+          "fact": "page ContactPage choose projectType on PROJECT_TYPE_SELECT",
+          "why": "seen on /contact/: dropdown \"Project Type\""
+        }
+      ]
+    },
+    "control:/contact/:MESSAGE_INPUT": {
+      "kind": "control",
+      "why": "seen on /contact/: text area \"Message\"; the crawl trusts its locator (text area)",
+      "facts": [
+        "page ContactPage element MESSAGE_INPUT xpath //textarea[@id='message']",
+        "page ContactPage enter message on MESSAGE_INPUT",
+        "page ContactPage clear clearMessage on MESSAGE_INPUT"
+      ],
+      "evidence": [
+        {
+          "url": "https://spiralmm.xyz/contact/",
+          "snapshot": "crawl/pages/contact.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/xyz/spiralmm/tests/pages/contact/ContactElements.java",
+          "line": 38,
+          "fact": "page ContactPage element MESSAGE_INPUT xpath //textarea[@id='message']",
+          "why": "seen on /contact/: text area \"Message\"; the crawl trusts its locator (text area)"
+        },
+        {
+          "file": "src/main/java/xyz/spiralmm/tests/pages/contact/actions/ContactEnterActions.java",
+          "line": 78,
+          "fact": "page ContactPage enter message on MESSAGE_INPUT",
+          "why": "seen on /contact/: text area \"Message\""
+        },
+        {
+          "file": "src/main/java/xyz/spiralmm/tests/pages/contact/actions/ContactEnterActions.java",
+          "line": 84,
+          "fact": "page ContactPage clear clearMessage on MESSAGE_INPUT",
+          "why": "seen on /contact/: text area \"Message\""
+        }
+      ]
+    },
+    "control:/contact/:SEND_MESSAGE_BUTTON": {
+      "kind": "control",
+      "why": "seen on /contact/: button \"Send Message\"; the crawl trusts its locator (button)",
+      "facts": [
+        "page ContactPage element SEND_MESSAGE_BUTTON xpath //button[normalize-space()='Send Message']",
+        "page ContactPage click sendMessage on SEND_MESSAGE_BUTTON"
+      ],
+      "evidence": [
+        {
+          "url": "https://spiralmm.xyz/contact/",
+          "snapshot": "crawl/pages/contact.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/xyz/spiralmm/tests/pages/contact/ContactElements.java",
+          "line": 40,
+          "fact": "page ContactPage element SEND_MESSAGE_BUTTON xpath //button[normalize-space()='Send Message']",
+          "why": "seen on /contact/: button \"Send Message\"; the crawl trusts its locator (button)"
+        },
+        {
+          "file": "src/main/java/xyz/spiralmm/tests/pages/contact/actions/ContactClickActions.java",
+          "line": 25,
+          "fact": "page ContactPage click sendMessage on SEND_MESSAGE_BUTTON",
+          "why": "seen on /contact/: button \"Send Message\""
+        }
+      ]
+    },
+    "form:/contact/:Let's Build Something": {
+      "kind": "form",
+      "why": "the \"Let's Build Something\" form the crawl saw; filled, never sent",
+      "facts": [
+        "page ContactPage task fillLetSBuildSomethingForm takes LetSBuildSomething enters name, email, mobile, company, projectType, message",
+        "page ContactPage record LetSBuildSomething name=\"Test Name\" email=\"test@example.com\" mobile=\"555-0100\" company=\"Test Company\" projectType=\"Artist Profile / Filmography\" message=\"A test from the suite: please ignore.\""
+      ],
+      "evidence": [
+        {
+          "url": "https://spiralmm.xyz/contact/",
+          "snapshot": "crawl/pages/contact.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/xyz/spiralmm/tests/pages/contact/ContactTasks.java",
+          "line": 27,
+          "fact": "page ContactPage task fillLetSBuildSomethingForm takes LetSBuildSomething enters name, email, mobile, company, projectType, message",
+          "why": "the \"Let's Build Something\" form the crawl saw; filled, never sent"
+        },
+        {
+          "file": "src/main/java/xyz/spiralmm/tests/pages/contact/LetSBuildSomething.java",
+          "line": 14,
+          "fact": "page ContactPage record LetSBuildSomething name=\"Test Name\" email=\"test@example.com\" mobile=\"555-0100\" company=\"Test Company\" projectType=\"Artist Profile / Filmography\" message=\"A test from the suite: please ignore.\"",
+          "why": "the \"Let's Build Something\" form's fields in page order, each sample plausible for its kind"
+        }
+      ]
+    },
+    "structure:/contact/:main-heading": {
+      "kind": "structure",
+      "why": "its page read has one main heading (h1), whatever it says",
+      "facts": [
+        "page ContactPage structure MAIN_HEADING xpath //h1",
+        "page ContactPage loaded-when MAIN_HEADING"
+      ],
+      "evidence": [
+        {
+          "url": "https://spiralmm.xyz/contact/",
+          "snapshot": "crawl/pages/contact.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/xyz/spiralmm/tests/pages/contact/ContactElements.java",
+          "line": 22,
+          "fact": "page ContactPage structure MAIN_HEADING xpath //h1",
+          "why": "its page read has one main heading (h1), whatever it says"
+        },
+        {
+          "file": "src/main/java/xyz/spiralmm/tests/pages/contact/ContactPage.java",
+          "line": 54,
+          "fact": "page ContactPage loaded-when MAIN_HEADING",
+          "why": "its page read has one main heading (h1), whatever it says; structure before copy"
+        }
+      ]
+    },
+    "structure:/contact/:main-region": {
+      "kind": "structure",
+      "why": "its page read shows a main region",
+      "facts": [
+        "page ContactPage structure MAIN_REGION xpath //main | //*[@role='main']"
+      ],
+      "evidence": [
+        {
+          "url": "https://spiralmm.xyz/contact/",
+          "snapshot": "crawl/pages/contact.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/xyz/spiralmm/tests/pages/contact/ContactElements.java",
+          "line": 24,
+          "fact": "page ContactPage structure MAIN_REGION xpath //main | //*[@role='main']",
+          "why": "its page read shows a main region"
+        }
+      ]
+    },
+    "check:/contact/:Let's Build Something": {
+      "kind": "check",
+      "why": "every page of ContactPage the crawl read showed it (1 page); isLoaded() waits for the first 2 checks",
+      "facts": [
+        "page ContactPage loaded-when \"Let's Build Something\"",
+        "page ContactPage check \"Let's Build Something\" spelled \"Let's Build Something\""
+      ],
+      "evidence": [
+        {
+          "url": "https://spiralmm.xyz/contact/",
+          "snapshot": "crawl/pages/contact.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/xyz/spiralmm/tests/pages/contact/ContactPage.java",
+          "line": 54,
+          "fact": "page ContactPage loaded-when \"Let's Build Something\"",
+          "why": "every page of ContactPage the crawl read showed it (1 page); isLoaded() waits for the first 2 checks"
+        },
+        {
+          "file": "src/main/java/xyz/spiralmm/tests/pages/contact/ContactElements.java",
+          "line": 18,
+          "fact": "page ContactPage check \"Let's Build Something\" spelled \"Let's Build Something\"",
+          "why": "every page of ContactPage the crawl read showed it (1 page)"
+        }
+      ]
+    },
+    "type:/careers/": {
+      "kind": "type",
+      "why": "no other page read is enough like it (the closest, /projects/, shares 42% of its layout and 7% of its headings) [rules: unlike-others]",
+      "facts": [
+        "page CareersPage",
+        "page CareersPage opens ()",
+        "page CareersPage url-shapes /careers/",
+        "page CareersPage doors click, read, verify",
+        "page CareersPage answers 404",
+        "page CareersPage settles 0",
+        "page CareersPage title is \"Spiral — Software for Every Idea\""
+      ],
+      "evidence": [
+        {
+          "url": "https://spiralmm.xyz/careers/",
+          "snapshot": "crawl/pages/careers.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/xyz/spiralmm/tests/pages/careers/CareersPage.java",
+          "line": 38,
+          "fact": "page CareersPage",
+          "why": "no other page read is enough like it (the closest, /projects/, shares 42% of its layout and 7% of its headings) [rules: unlike-others]"
+        },
+        {
+          "file": "src/main/java/xyz/spiralmm/tests/pages/careers/CareersPage.java",
+          "line": 59,
+          "fact": "page CareersPage opens ()",
+          "why": "no other page read is enough like it (the closest, /projects/, shares 42% of its layout and 7% of its headings) [rules: unlike-others]"
+        },
+        {
+          "file": "src/main/java/xyz/spiralmm/tests/pages/careers/CareersPage.java",
+          "line": 66,
+          "fact": "page CareersPage url-shapes /careers/",
+          "why": "no other page read is enough like it (the closest, /projects/, shares 42% of its layout and 7% of its headings) [rules: unlike-others]"
+        },
+        {
+          "file": "src/main/java/xyz/spiralmm/tests/pages/careers/CareersPage.java",
+          "line": 38,
+          "fact": "page CareersPage doors click, read, verify",
+          "why": "the doors its controls, links and forms give it, read and verify always, and any a person filled"
+        },
+        {
+          "file": "src/main/java/xyz/spiralmm/tests/pages/careers/CareersPage.java",
+          "line": 105,
+          "fact": "page CareersPage answers 404",
+          "why": "every page of it answered this error in the crawl while drawing a page of its own: a known defect (SITE-01)"
+        },
+        {
+          "file": "src/main/java/xyz/spiralmm/tests/pages/careers/CareersPage.java",
+          "line": 97,
+          "fact": "page CareersPage settles 0",
+          "why": "the median of its pages read, after their load event, the crawl's quiet windows taken out"
+        },
+        {
+          "file": "src/main/java/xyz/spiralmm/tests/pages/careers/CareersPage.java",
+          "line": 45,
+          "fact": "page CareersPage title is \"Spiral — Software for Every Idea\"",
+          "why": "every page read of it had this title"
+        }
+      ]
+    },
+    "structure:/careers/:main-heading": {
+      "kind": "structure",
+      "why": "its page read has one main heading (h1), whatever it says",
+      "facts": [
+        "page CareersPage structure MAIN_HEADING xpath //h1",
+        "page CareersPage loaded-when MAIN_HEADING"
+      ],
+      "evidence": [
+        {
+          "url": "https://spiralmm.xyz/careers/",
+          "snapshot": "crawl/pages/careers.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/xyz/spiralmm/tests/pages/careers/CareersElements.java",
+          "line": 33,
+          "fact": "page CareersPage structure MAIN_HEADING xpath //h1",
+          "why": "its page read has one main heading (h1), whatever it says"
+        },
+        {
+          "file": "src/main/java/xyz/spiralmm/tests/pages/careers/CareersPage.java",
+          "line": 49,
+          "fact": "page CareersPage loaded-when MAIN_HEADING",
+          "why": "its page read has one main heading (h1), whatever it says; structure before copy"
+        }
+      ]
+    },
+    "structure:/careers/:main-region": {
+      "kind": "structure",
+      "why": "its page read shows a main region",
+      "facts": [
+        "page CareersPage structure MAIN_REGION xpath //main | //*[@role='main']"
+      ],
+      "evidence": [
+        {
+          "url": "https://spiralmm.xyz/careers/",
+          "snapshot": "crawl/pages/careers.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/xyz/spiralmm/tests/pages/careers/CareersElements.java",
+          "line": 35,
+          "fact": "page CareersPage structure MAIN_REGION xpath //main | //*[@role='main']",
+          "why": "its page read shows a main region"
+        }
+      ]
+    },
+    "check:/careers/:Careers": {
+      "kind": "check",
+      "why": "every page of CareersPage the crawl read showed it (1 page); isLoaded() waits for the first 2 checks",
+      "facts": [
+        "page CareersPage loaded-when \"Careers\"",
+        "page CareersPage check \"Careers\" spelled \"Careers\""
+      ],
+      "evidence": [
+        {
+          "url": "https://spiralmm.xyz/careers/",
+          "snapshot": "crawl/pages/careers.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/xyz/spiralmm/tests/pages/careers/CareersPage.java",
+          "line": 49,
+          "fact": "page CareersPage loaded-when \"Careers\"",
+          "why": "every page of CareersPage the crawl read showed it (1 page); isLoaded() waits for the first 2 checks"
+        },
+        {
+          "file": "src/main/java/xyz/spiralmm/tests/pages/careers/CareersElements.java",
+          "line": 19,
+          "fact": "page CareersPage check \"Careers\" spelled \"Careers\"",
+          "why": "every page of CareersPage the crawl read showed it (1 page)"
+        }
+      ]
+    },
+    "check:/careers/:Product Owner": {
+      "kind": "check",
+      "why": "every page of CareersPage the crawl read showed it (1 page)",
+      "facts": [
+        "page CareersPage check \"Product Owner\" spelled \"Product Owner\""
+      ],
+      "evidence": [
+        {
+          "url": "https://spiralmm.xyz/careers/",
+          "snapshot": "crawl/pages/careers.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/xyz/spiralmm/tests/pages/careers/CareersElements.java",
+          "line": 21,
+          "fact": "page CareersPage check \"Product Owner\" spelled \"Product Owner\"",
+          "why": "every page of CareersPage the crawl read showed it (1 page)"
+        }
+      ]
+    },
+    "check:/careers/:UI/UX Designer": {
+      "kind": "check",
+      "why": "every page of CareersPage the crawl read showed it (1 page)",
+      "facts": [
+        "page CareersPage check \"UI/UX Designer\" spelled \"UI/UX Designer\""
+      ],
+      "evidence": [
+        {
+          "url": "https://spiralmm.xyz/careers/",
+          "snapshot": "crawl/pages/careers.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/xyz/spiralmm/tests/pages/careers/CareersElements.java",
+          "line": 23,
+          "fact": "page CareersPage check \"UI/UX Designer\" spelled \"UI/UX Designer\"",
+          "why": "every page of CareersPage the crawl read showed it (1 page)"
+        }
+      ]
+    },
+    "check:/careers/:React Native Developer": {
+      "kind": "check",
+      "why": "every page of CareersPage the crawl read showed it (1 page)",
+      "facts": [
+        "page CareersPage check \"React Native Developer\" spelled \"React Native Developer\""
+      ],
+      "evidence": [
+        {
+          "url": "https://spiralmm.xyz/careers/",
+          "snapshot": "crawl/pages/careers.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/xyz/spiralmm/tests/pages/careers/CareersElements.java",
+          "line": 25,
+          "fact": "page CareersPage check \"React Native Developer\" spelled \"React Native Developer\"",
+          "why": "every page of CareersPage the crawl read showed it (1 page)"
+        }
+      ]
+    },
+    "check:/careers/:Node.js Developer": {
+      "kind": "check",
+      "why": "every page of CareersPage the crawl read showed it (1 page)",
+      "facts": [
+        "page CareersPage check \"Node.js Developer\" spelled \"Node.js Developer\""
+      ],
+      "evidence": [
+        {
+          "url": "https://spiralmm.xyz/careers/",
+          "snapshot": "crawl/pages/careers.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/xyz/spiralmm/tests/pages/careers/CareersElements.java",
+          "line": 27,
+          "fact": "page CareersPage check \"Node.js Developer\" spelled \"Node.js Developer\"",
+          "why": "every page of CareersPage the crawl read showed it (1 page)"
+        }
+      ]
+    },
+    "check:/careers/:Next.js Frontend Developer": {
+      "kind": "check",
+      "why": "every page of CareersPage the crawl read showed it (1 page)",
+      "facts": [
+        "page CareersPage check \"Next.js Frontend Developer\" spelled \"Next.js Frontend Developer\""
+      ],
+      "evidence": [
+        {
+          "url": "https://spiralmm.xyz/careers/",
+          "snapshot": "crawl/pages/careers.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/xyz/spiralmm/tests/pages/careers/CareersElements.java",
+          "line": 29,
+          "fact": "page CareersPage check \"Next.js Frontend Developer\" spelled \"Next.js Frontend Developer\"",
+          "why": "every page of CareersPage the crawl read showed it (1 page)"
+        }
+      ]
+    },
+    "link:/careers/->/careers/*": {
+      "kind": "link",
+      "why": "seen on /careers/: \"Product Owner We're building three products at once — and honestly, we need som…\" (/careers/product-owner)",
+      "facts": [
+        "page CareersPage links-to CareerPage clicking getCareerLink",
+        "page CareersPage helper getCareerLink href \"/careers/\" + name match \"//a[@href=\" + literal(href) + \" or @href=\" + literal(decoded) + \"]\""
+      ],
+      "evidence": [
+        {
+          "url": "https://spiralmm.xyz/careers/",
+          "snapshot": "crawl/pages/careers.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/xyz/spiralmm/tests/pages/careers/actions/CareersClickActions.java",
+          "line": 25,
+          "fact": "page CareersPage links-to CareerPage clicking getCareerLink",
+          "why": "seen on /careers/: \"Product Owner We're building three products at once — and honestly, we need som…\" (/careers/product-owner)"
+        },
+        {
+          "file": "src/main/java/xyz/spiralmm/tests/pages/careers/CareersElements.java",
+          "line": 68,
+          "fact": "page CareersPage helper getCareerLink href \"/careers/\" + name match \"//a[@href=\" + literal(href) + \" or @href=\" + literal(decoded) + \"]\"",
+          "why": "seen on /careers/: \"Product Owner We're building three products at once — and honestly, we need som…\" (/careers/product-owner); its address holds name"
+        }
+      ]
+    },
+    "type:/careers/*": {
+      "kind": "type",
+      "why": "its 7 pages read look alike (layout 97% the same, headings 59%) and share the address pattern /careers/*; joined by: the headings agree, with some layout shared (11 comparisons); the layouts agree, with some headings shared (10 comparisons) [rules: family-by-address; headings-agree x11; layout-and-some-headings x10]",
+      "facts": [
+        "page CareerPage",
+        "page CareerPage opens (name)",
+        "page CareerPage url-shapes /careers/*",
+        "page CareerPage doors read, verify",
+        "page CareerPage answers 404",
+        "page CareerPage settles 0"
+      ],
+      "evidence": [
+        {
+          "url": "https://spiralmm.xyz/careers/ai-engineer-computer-vision/",
+          "snapshot": "crawl/pages/careers/ai-engineer-computer-vision.html"
+        },
+        {
+          "url": "https://spiralmm.xyz/careers/nodejs-developer/",
+          "snapshot": "crawl/pages/careers/nodejs-developer.html"
+        },
+        {
+          "url": "https://spiralmm.xyz/careers/uiux-designer/",
+          "snapshot": "crawl/pages/careers/uiux-designer.html"
+        },
+        {
+          "url": "https://spiralmm.xyz/careers/devops-engineer/",
+          "snapshot": "crawl/pages/careers/devops-engineer.html"
+        },
+        {
+          "url": "https://spiralmm.xyz/careers/product-owner/",
+          "snapshot": "crawl/pages/careers/product-owner.html"
+        },
+        {
+          "url": "https://spiralmm.xyz/careers/nextjs-frontend-developer/",
+          "snapshot": "crawl/pages/careers/nextjs-frontend-developer.html"
+        },
+        {
+          "url": "https://spiralmm.xyz/careers/react-native-developer/",
+          "snapshot": "crawl/pages/careers/react-native-developer.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/xyz/spiralmm/tests/pages/career/CareerPage.java",
+          "line": 38,
+          "fact": "page CareerPage",
+          "why": "its 7 pages read look alike (layout 97% the same, headings 59%) and share the address pattern /careers/*; joined by: the headings agree, with some layout shared (11 comparisons); the layouts agree, with some headings shared (10 comparisons) [rules: family-by-address; headings-agree x11; layout-and-some-headings x10]"
+        },
+        {
+          "file": "src/main/java/xyz/spiralmm/tests/pages/career/CareerPage.java",
+          "line": 78,
+          "fact": "page CareerPage opens (name)",
+          "why": "its 7 pages read look alike (layout 97% the same, headings 59%) and share the address pattern /careers/*; joined by: the headings agree, with some layout shared (11 comparisons); the layouts agree, with some headings shared (10 comparisons) [rules: family-by-address; headings-agree x11; layout-and-some-headings x10]"
+        },
+        {
+          "file": "src/main/java/xyz/spiralmm/tests/pages/career/CareerPage.java",
+          "line": 46,
+          "fact": "page CareerPage url-shapes /careers/*",
+          "why": "its 7 pages read look alike (layout 97% the same, headings 59%) and share the address pattern /careers/*; joined by: the headings agree, with some layout shared (11 comparisons); the layouts agree, with some headings shared (10 comparisons) [rules: family-by-address; headings-agree x11; layout-and-some-headings x10]"
+        },
+        {
+          "file": "src/main/java/xyz/spiralmm/tests/pages/career/CareerPage.java",
+          "line": 38,
+          "fact": "page CareerPage doors read, verify",
+          "why": "the doors its controls, links and forms give it, read and verify always, and any a person filled"
+        },
+        {
+          "file": "src/main/java/xyz/spiralmm/tests/pages/career/CareerPage.java",
+          "line": 123,
+          "fact": "page CareerPage answers 404",
+          "why": "every page of it answered this error in the crawl while drawing a page of its own: a known defect (SITE-01)"
+        },
+        {
+          "file": "src/main/java/xyz/spiralmm/tests/pages/career/CareerPage.java",
+          "line": 115,
+          "fact": "page CareerPage settles 0",
+          "why": "the median of its pages read, after their load event, the crawl's quiet windows taken out"
+        }
+      ]
+    },
+    "structure:/careers/*:main-heading": {
+      "kind": "structure",
+      "why": "each of its 7 pages read has one main heading (h1), whatever it says",
+      "facts": [
+        "page CareerPage structure MAIN_HEADING xpath //h1",
+        "page CareerPage loaded-when MAIN_HEADING"
+      ],
+      "evidence": [
+        {
+          "url": "https://spiralmm.xyz/careers/ai-engineer-computer-vision/",
+          "snapshot": "crawl/pages/careers/ai-engineer-computer-vision.html"
+        },
+        {
+          "url": "https://spiralmm.xyz/careers/nodejs-developer/",
+          "snapshot": "crawl/pages/careers/nodejs-developer.html"
+        },
+        {
+          "url": "https://spiralmm.xyz/careers/uiux-designer/",
+          "snapshot": "crawl/pages/careers/uiux-designer.html"
+        },
+        {
+          "url": "https://spiralmm.xyz/careers/devops-engineer/",
+          "snapshot": "crawl/pages/careers/devops-engineer.html"
+        },
+        {
+          "url": "https://spiralmm.xyz/careers/product-owner/",
+          "snapshot": "crawl/pages/careers/product-owner.html"
+        },
+        {
+          "url": "https://spiralmm.xyz/careers/nextjs-frontend-developer/",
+          "snapshot": "crawl/pages/careers/nextjs-frontend-developer.html"
+        },
+        {
+          "url": "https://spiralmm.xyz/careers/react-native-developer/",
+          "snapshot": "crawl/pages/careers/react-native-developer.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/xyz/spiralmm/tests/pages/career/CareerElements.java",
+          "line": 29,
+          "fact": "page CareerPage structure MAIN_HEADING xpath //h1",
+          "why": "each of its 7 pages read has one main heading (h1), whatever it says"
+        },
+        {
+          "file": "src/main/java/xyz/spiralmm/tests/pages/career/CareerPage.java",
+          "line": 65,
+          "fact": "page CareerPage loaded-when MAIN_HEADING",
+          "why": "each of its 7 pages read has one main heading (h1), whatever it says; structure before copy"
+        }
+      ]
+    },
+    "structure:/careers/*:main-region": {
+      "kind": "structure",
+      "why": "each of its 7 pages read shows a main region",
+      "facts": [
+        "page CareerPage structure MAIN_REGION xpath //main | //*[@role='main']"
+      ],
+      "evidence": [
+        {
+          "url": "https://spiralmm.xyz/careers/ai-engineer-computer-vision/",
+          "snapshot": "crawl/pages/careers/ai-engineer-computer-vision.html"
+        },
+        {
+          "url": "https://spiralmm.xyz/careers/nodejs-developer/",
+          "snapshot": "crawl/pages/careers/nodejs-developer.html"
+        },
+        {
+          "url": "https://spiralmm.xyz/careers/uiux-designer/",
+          "snapshot": "crawl/pages/careers/uiux-designer.html"
+        },
+        {
+          "url": "https://spiralmm.xyz/careers/devops-engineer/",
+          "snapshot": "crawl/pages/careers/devops-engineer.html"
+        },
+        {
+          "url": "https://spiralmm.xyz/careers/product-owner/",
+          "snapshot": "crawl/pages/careers/product-owner.html"
+        },
+        {
+          "url": "https://spiralmm.xyz/careers/nextjs-frontend-developer/",
+          "snapshot": "crawl/pages/careers/nextjs-frontend-developer.html"
+        },
+        {
+          "url": "https://spiralmm.xyz/careers/react-native-developer/",
+          "snapshot": "crawl/pages/careers/react-native-developer.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/xyz/spiralmm/tests/pages/career/CareerElements.java",
+          "line": 31,
+          "fact": "page CareerPage structure MAIN_REGION xpath //main | //*[@role='main']",
+          "why": "each of its 7 pages read shows a main region"
+        }
+      ]
+    },
+    "check:/careers/*:What we're looking for": {
+      "kind": "check",
+      "why": "every page of CareerPage the crawl read showed it (7 pages); isLoaded() waits for the first 2 checks",
+      "facts": [
+        "page CareerPage loaded-when \"What we're looking for\"",
+        "page CareerPage check \"What we're looking for\" spelled \"What we're looking for\""
+      ],
+      "evidence": [
+        {
+          "url": "https://spiralmm.xyz/careers/ai-engineer-computer-vision/",
+          "snapshot": "crawl/pages/careers/ai-engineer-computer-vision.html"
+        },
+        {
+          "url": "https://spiralmm.xyz/careers/nodejs-developer/",
+          "snapshot": "crawl/pages/careers/nodejs-developer.html"
+        },
+        {
+          "url": "https://spiralmm.xyz/careers/uiux-designer/",
+          "snapshot": "crawl/pages/careers/uiux-designer.html"
+        },
+        {
+          "url": "https://spiralmm.xyz/careers/devops-engineer/",
+          "snapshot": "crawl/pages/careers/devops-engineer.html"
+        },
+        {
+          "url": "https://spiralmm.xyz/careers/product-owner/",
+          "snapshot": "crawl/pages/careers/product-owner.html"
+        },
+        {
+          "url": "https://spiralmm.xyz/careers/nextjs-frontend-developer/",
+          "snapshot": "crawl/pages/careers/nextjs-frontend-developer.html"
+        },
+        {
+          "url": "https://spiralmm.xyz/careers/react-native-developer/",
+          "snapshot": "crawl/pages/careers/react-native-developer.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/xyz/spiralmm/tests/pages/career/CareerPage.java",
+          "line": 65,
+          "fact": "page CareerPage loaded-when \"What we're looking for\"",
+          "why": "every page of CareerPage the crawl read showed it (7 pages); isLoaded() waits for the first 2 checks"
+        },
+        {
+          "file": "src/main/java/xyz/spiralmm/tests/pages/career/CareerElements.java",
+          "line": 19,
+          "fact": "page CareerPage check \"What we're looking for\" spelled \"What we're looking for\"",
+          "why": "every page of CareerPage the crawl read showed it (7 pages)"
+        }
+      ]
+    },
+    "check:/careers/*:Project details": {
+      "kind": "check",
+      "why": "every page of CareerPage the crawl read showed it (7 pages)",
+      "facts": [
+        "page CareerPage check \"Project details\" spelled \"Project details\""
+      ],
+      "evidence": [
+        {
+          "url": "https://spiralmm.xyz/careers/ai-engineer-computer-vision/",
+          "snapshot": "crawl/pages/careers/ai-engineer-computer-vision.html"
+        },
+        {
+          "url": "https://spiralmm.xyz/careers/nodejs-developer/",
+          "snapshot": "crawl/pages/careers/nodejs-developer.html"
+        },
+        {
+          "url": "https://spiralmm.xyz/careers/uiux-designer/",
+          "snapshot": "crawl/pages/careers/uiux-designer.html"
+        },
+        {
+          "url": "https://spiralmm.xyz/careers/devops-engineer/",
+          "snapshot": "crawl/pages/careers/devops-engineer.html"
+        },
+        {
+          "url": "https://spiralmm.xyz/careers/product-owner/",
+          "snapshot": "crawl/pages/careers/product-owner.html"
+        },
+        {
+          "url": "https://spiralmm.xyz/careers/nextjs-frontend-developer/",
+          "snapshot": "crawl/pages/careers/nextjs-frontend-developer.html"
+        },
+        {
+          "url": "https://spiralmm.xyz/careers/react-native-developer/",
+          "snapshot": "crawl/pages/careers/react-native-developer.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/xyz/spiralmm/tests/pages/career/CareerElements.java",
+          "line": 21,
+          "fact": "page CareerPage check \"Project details\" spelled \"Project details\"",
+          "why": "every page of CareerPage the crawl read showed it (7 pages)"
+        }
+      ]
+    },
+    "check:/careers/*:Location": {
+      "kind": "check",
+      "why": "every page of CareerPage the crawl read showed it (7 pages)",
+      "facts": [
+        "page CareerPage check \"Location\" spelled \"Location\""
+      ],
+      "evidence": [
+        {
+          "url": "https://spiralmm.xyz/careers/ai-engineer-computer-vision/",
+          "snapshot": "crawl/pages/careers/ai-engineer-computer-vision.html"
+        },
+        {
+          "url": "https://spiralmm.xyz/careers/nodejs-developer/",
+          "snapshot": "crawl/pages/careers/nodejs-developer.html"
+        },
+        {
+          "url": "https://spiralmm.xyz/careers/uiux-designer/",
+          "snapshot": "crawl/pages/careers/uiux-designer.html"
+        },
+        {
+          "url": "https://spiralmm.xyz/careers/devops-engineer/",
+          "snapshot": "crawl/pages/careers/devops-engineer.html"
+        },
+        {
+          "url": "https://spiralmm.xyz/careers/product-owner/",
+          "snapshot": "crawl/pages/careers/product-owner.html"
+        },
+        {
+          "url": "https://spiralmm.xyz/careers/nextjs-frontend-developer/",
+          "snapshot": "crawl/pages/careers/nextjs-frontend-developer.html"
+        },
+        {
+          "url": "https://spiralmm.xyz/careers/react-native-developer/",
+          "snapshot": "crawl/pages/careers/react-native-developer.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/xyz/spiralmm/tests/pages/career/CareerElements.java",
+          "line": 23,
+          "fact": "page CareerPage check \"Location\" spelled \"Location\"",
+          "why": "every page of CareerPage the crawl read showed it (7 pages)"
+        }
+      ]
+    },
+    "check:/careers/*:Interested?": {
+      "kind": "check",
+      "why": "every page of CareerPage the crawl read showed it (7 pages)",
+      "facts": [
+        "page CareerPage check \"Interested?\" spelled \"Interested?\""
+      ],
+      "evidence": [
+        {
+          "url": "https://spiralmm.xyz/careers/ai-engineer-computer-vision/",
+          "snapshot": "crawl/pages/careers/ai-engineer-computer-vision.html"
+        },
+        {
+          "url": "https://spiralmm.xyz/careers/nodejs-developer/",
+          "snapshot": "crawl/pages/careers/nodejs-developer.html"
+        },
+        {
+          "url": "https://spiralmm.xyz/careers/uiux-designer/",
+          "snapshot": "crawl/pages/careers/uiux-designer.html"
+        },
+        {
+          "url": "https://spiralmm.xyz/careers/devops-engineer/",
+          "snapshot": "crawl/pages/careers/devops-engineer.html"
+        },
+        {
+          "url": "https://spiralmm.xyz/careers/product-owner/",
+          "snapshot": "crawl/pages/careers/product-owner.html"
+        },
+        {
+          "url": "https://spiralmm.xyz/careers/nextjs-frontend-developer/",
+          "snapshot": "crawl/pages/careers/nextjs-frontend-developer.html"
+        },
+        {
+          "url": "https://spiralmm.xyz/careers/react-native-developer/",
+          "snapshot": "crawl/pages/careers/react-native-developer.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/xyz/spiralmm/tests/pages/career/CareerElements.java",
+          "line": 25,
+          "fact": "page CareerPage check \"Interested?\" spelled \"Interested?\"",
+          "why": "every page of CareerPage the crawl read showed it (7 pages)"
+        }
+      ]
+    },
+    "type:/projects/": {
+      "kind": "type",
+      "why": "no other page read is enough like it (the closest, /careers/, shares 42% of its layout and 7% of its headings) [rules: unlike-others]",
+      "facts": [
+        "page ProjectsPage",
+        "page ProjectsPage opens ()",
+        "page ProjectsPage url-shapes /projects/",
+        "page ProjectsPage doors click, read, verify",
+        "page ProjectsPage answers 404",
+        "page ProjectsPage settles 0",
+        "page ProjectsPage title is \"Spiral — Software for Every Idea\""
+      ],
+      "evidence": [
+        {
+          "url": "https://spiralmm.xyz/projects/",
+          "snapshot": "crawl/pages/projects.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/xyz/spiralmm/tests/pages/projects/ProjectsPage.java",
+          "line": 37,
+          "fact": "page ProjectsPage",
+          "why": "no other page read is enough like it (the closest, /careers/, shares 42% of its layout and 7% of its headings) [rules: unlike-others]"
+        },
+        {
+          "file": "src/main/java/xyz/spiralmm/tests/pages/projects/ProjectsPage.java",
+          "line": 58,
+          "fact": "page ProjectsPage opens ()",
+          "why": "no other page read is enough like it (the closest, /careers/, shares 42% of its layout and 7% of its headings) [rules: unlike-others]"
+        },
+        {
+          "file": "src/main/java/xyz/spiralmm/tests/pages/projects/ProjectsPage.java",
+          "line": 65,
+          "fact": "page ProjectsPage url-shapes /projects/",
+          "why": "no other page read is enough like it (the closest, /careers/, shares 42% of its layout and 7% of its headings) [rules: unlike-others]"
+        },
+        {
+          "file": "src/main/java/xyz/spiralmm/tests/pages/projects/ProjectsPage.java",
+          "line": 37,
+          "fact": "page ProjectsPage doors click, read, verify",
+          "why": "the doors its controls, links and forms give it, read and verify always, and any a person filled"
+        },
+        {
+          "file": "src/main/java/xyz/spiralmm/tests/pages/projects/ProjectsPage.java",
+          "line": 104,
+          "fact": "page ProjectsPage answers 404",
+          "why": "every page of it answered this error in the crawl while drawing a page of its own: a known defect (SITE-01)"
+        },
+        {
+          "file": "src/main/java/xyz/spiralmm/tests/pages/projects/ProjectsPage.java",
+          "line": 96,
+          "fact": "page ProjectsPage settles 0",
+          "why": "the median of its pages read, after their load event, the crawl's quiet windows taken out"
+        },
+        {
+          "file": "src/main/java/xyz/spiralmm/tests/pages/projects/ProjectsPage.java",
+          "line": 44,
+          "fact": "page ProjectsPage title is \"Spiral — Software for Every Idea\"",
+          "why": "every page read of it had this title"
+        }
+      ]
+    },
+    "structure:/projects/:main-heading": {
+      "kind": "structure",
+      "why": "its page read has one main heading (h1), whatever it says",
+      "facts": [
+        "page ProjectsPage structure MAIN_HEADING xpath //h1",
+        "page ProjectsPage loaded-when MAIN_HEADING"
+      ],
+      "evidence": [
+        {
+          "url": "https://spiralmm.xyz/projects/",
+          "snapshot": "crawl/pages/projects.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/xyz/spiralmm/tests/pages/projects/ProjectsElements.java",
+          "line": 33,
+          "fact": "page ProjectsPage structure MAIN_HEADING xpath //h1",
+          "why": "its page read has one main heading (h1), whatever it says"
+        },
+        {
+          "file": "src/main/java/xyz/spiralmm/tests/pages/projects/ProjectsPage.java",
+          "line": 48,
+          "fact": "page ProjectsPage loaded-when MAIN_HEADING",
+          "why": "its page read has one main heading (h1), whatever it says; structure before copy"
+        }
+      ]
+    },
+    "structure:/projects/:main-region": {
+      "kind": "structure",
+      "why": "its page read shows a main region",
+      "facts": [
+        "page ProjectsPage structure MAIN_REGION xpath //main | //*[@role='main']"
+      ],
+      "evidence": [
+        {
+          "url": "https://spiralmm.xyz/projects/",
+          "snapshot": "crawl/pages/projects.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/xyz/spiralmm/tests/pages/projects/ProjectsElements.java",
+          "line": 35,
+          "fact": "page ProjectsPage structure MAIN_REGION xpath //main | //*[@role='main']",
+          "why": "its page read shows a main region"
+        }
+      ]
+    },
+    "check:/projects/:Projects": {
+      "kind": "check",
+      "why": "every page of ProjectsPage the crawl read showed it (1 page); isLoaded() waits for the first 2 checks",
+      "facts": [
+        "page ProjectsPage loaded-when \"Projects\"",
+        "page ProjectsPage check \"Projects\" spelled \"Projects\""
+      ],
+      "evidence": [
+        {
+          "url": "https://spiralmm.xyz/projects/",
+          "snapshot": "crawl/pages/projects.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/xyz/spiralmm/tests/pages/projects/ProjectsPage.java",
+          "line": 48,
+          "fact": "page ProjectsPage loaded-when \"Projects\"",
+          "why": "every page of ProjectsPage the crawl read showed it (1 page); isLoaded() waits for the first 2 checks"
+        },
+        {
+          "file": "src/main/java/xyz/spiralmm/tests/pages/projects/ProjectsElements.java",
+          "line": 19,
+          "fact": "page ProjectsPage check \"Projects\" spelled \"Projects\"",
+          "why": "every page of ProjectsPage the crawl read showed it (1 page)"
+        }
+      ]
+    },
+    "check:/projects/:Ongoing Projects": {
+      "kind": "check",
+      "why": "every page of ProjectsPage the crawl read showed it (1 page)",
+      "facts": [
+        "page ProjectsPage check \"Ongoing Projects\" spelled \"Ongoing Projects\""
+      ],
+      "evidence": [
+        {
+          "url": "https://spiralmm.xyz/projects/",
+          "snapshot": "crawl/pages/projects.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/xyz/spiralmm/tests/pages/projects/ProjectsElements.java",
+          "line": 21,
+          "fact": "page ProjectsPage check \"Ongoing Projects\" spelled \"Ongoing Projects\"",
+          "why": "every page of ProjectsPage the crawl read showed it (1 page)"
+        }
+      ]
+    },
+    "check:/projects/:Stakefair": {
+      "kind": "check",
+      "why": "every page of ProjectsPage the crawl read showed it (1 page)",
+      "facts": [
+        "page ProjectsPage check \"Stakefair\" spelled \"Stakefair\""
+      ],
+      "evidence": [
+        {
+          "url": "https://spiralmm.xyz/projects/",
+          "snapshot": "crawl/pages/projects.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/xyz/spiralmm/tests/pages/projects/ProjectsElements.java",
+          "line": 23,
+          "fact": "page ProjectsPage check \"Stakefair\" spelled \"Stakefair\"",
+          "why": "every page of ProjectsPage the crawl read showed it (1 page)"
+        }
+      ]
+    },
+    "check:/projects/:Flare": {
+      "kind": "check",
+      "why": "every page of ProjectsPage the crawl read showed it (1 page)",
+      "facts": [
+        "page ProjectsPage check \"Flare\" spelled \"Flare\""
+      ],
+      "evidence": [
+        {
+          "url": "https://spiralmm.xyz/projects/",
+          "snapshot": "crawl/pages/projects.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/xyz/spiralmm/tests/pages/projects/ProjectsElements.java",
+          "line": 25,
+          "fact": "page ProjectsPage check \"Flare\" spelled \"Flare\"",
+          "why": "every page of ProjectsPage the crawl read showed it (1 page)"
+        }
+      ]
+    },
+    "check:/projects/:SIV": {
+      "kind": "check",
+      "why": "every page of ProjectsPage the crawl read showed it (1 page)",
+      "facts": [
+        "page ProjectsPage check \"SIV\" spelled \"SIV\""
+      ],
+      "evidence": [
+        {
+          "url": "https://spiralmm.xyz/projects/",
+          "snapshot": "crawl/pages/projects.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/xyz/spiralmm/tests/pages/projects/ProjectsElements.java",
+          "line": 27,
+          "fact": "page ProjectsPage check \"SIV\" spelled \"SIV\"",
+          "why": "every page of ProjectsPage the crawl read showed it (1 page)"
+        }
+      ]
+    },
+    "check:/projects/:Qsure": {
+      "kind": "check",
+      "why": "every page of ProjectsPage the crawl read showed it (1 page)",
+      "facts": [
+        "page ProjectsPage check \"Qsure\" spelled \"Qsure\""
+      ],
+      "evidence": [
+        {
+          "url": "https://spiralmm.xyz/projects/",
+          "snapshot": "crawl/pages/projects.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/xyz/spiralmm/tests/pages/projects/ProjectsElements.java",
+          "line": 29,
+          "fact": "page ProjectsPage check \"Qsure\" spelled \"Qsure\"",
+          "why": "every page of ProjectsPage the crawl read showed it (1 page)"
+        }
+      ]
+    },
+    "link:/projects/->/projects/*": {
+      "kind": "link",
+      "why": "seen on /projects/: \"Preview SIV A members-only platform for premium content. Coming 2027\" (/projects/siv)",
+      "facts": [
+        "page ProjectsPage links-to ProjectPage clicking getProjectLink",
+        "page ProjectsPage helper getProjectLink href \"/projects/\" + name match \"//a[@href=\" + literal(href) + \" or @href=\" + literal(decoded) + \"]\""
+      ],
+      "evidence": [
+        {
+          "url": "https://spiralmm.xyz/projects/",
+          "snapshot": "crawl/pages/projects.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/xyz/spiralmm/tests/pages/projects/actions/ProjectsClickActions.java",
+          "line": 25,
+          "fact": "page ProjectsPage links-to ProjectPage clicking getProjectLink",
+          "why": "seen on /projects/: \"Preview SIV A members-only platform for premium content. Coming 2027\" (/projects/siv)"
+        },
+        {
+          "file": "src/main/java/xyz/spiralmm/tests/pages/projects/ProjectsElements.java",
+          "line": 68,
+          "fact": "page ProjectsPage helper getProjectLink href \"/projects/\" + name match \"//a[@href=\" + literal(href) + \" or @href=\" + literal(decoded) + \"]\"",
+          "why": "seen on /projects/: \"Preview SIV A members-only platform for premium content. Coming 2027\" (/projects/siv); its address holds name"
+        }
+      ]
+    },
+    "type:/projects/*": {
+      "kind": "type",
+      "why": "one page read, and 1 more address found like it (/projects/*): it stands for them [rules: family-by-pattern]",
+      "facts": [
+        "page ProjectPage",
+        "page ProjectPage opens (name)",
+        "page ProjectPage url-shapes /projects/*",
+        "page ProjectPage doors read, verify",
+        "page ProjectPage answers 404",
+        "page ProjectPage settles 0"
+      ],
+      "evidence": [
+        {
+          "url": "https://spiralmm.xyz/projects/siv/",
+          "snapshot": "crawl/pages/projects/siv.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/xyz/spiralmm/tests/pages/project/ProjectPage.java",
+          "line": 35,
+          "fact": "page ProjectPage",
+          "why": "one page read, and 1 more address found like it (/projects/*): it stands for them [rules: family-by-pattern]"
+        },
+        {
+          "file": "src/main/java/xyz/spiralmm/tests/pages/project/ProjectPage.java",
+          "line": 69,
+          "fact": "page ProjectPage opens (name)",
+          "why": "one page read, and 1 more address found like it (/projects/*): it stands for them [rules: family-by-pattern]"
+        },
+        {
+          "file": "src/main/java/xyz/spiralmm/tests/pages/project/ProjectPage.java",
+          "line": 43,
+          "fact": "page ProjectPage url-shapes /projects/*",
+          "why": "one page read, and 1 more address found like it (/projects/*): it stands for them [rules: family-by-pattern]"
+        },
+        {
+          "file": "src/main/java/xyz/spiralmm/tests/pages/project/ProjectPage.java",
+          "line": 35,
+          "fact": "page ProjectPage doors read, verify",
+          "why": "the doors its controls, links and forms give it, read and verify always, and any a person filled"
+        },
+        {
+          "file": "src/main/java/xyz/spiralmm/tests/pages/project/ProjectPage.java",
+          "line": 114,
+          "fact": "page ProjectPage answers 404",
+          "why": "every page of it answered this error in the crawl while drawing a page of its own: a known defect (SITE-01)"
+        },
+        {
+          "file": "src/main/java/xyz/spiralmm/tests/pages/project/ProjectPage.java",
+          "line": 106,
+          "fact": "page ProjectPage settles 0",
+          "why": "the median of its pages read, after their load event, the crawl's quiet windows taken out"
+        }
+      ]
+    },
+    "structure:/projects/*:main-heading": {
+      "kind": "structure",
+      "why": "its page read has one main heading (h1), whatever it says",
+      "facts": [
+        "page ProjectPage structure MAIN_HEADING xpath //h1",
+        "page ProjectPage loaded-when MAIN_HEADING"
+      ],
+      "evidence": [
+        {
+          "url": "https://spiralmm.xyz/projects/siv/",
+          "snapshot": "crawl/pages/projects/siv.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/xyz/spiralmm/tests/pages/project/ProjectElements.java",
+          "line": 32,
+          "fact": "page ProjectPage structure MAIN_HEADING xpath //h1",
+          "why": "its page read has one main heading (h1), whatever it says"
+        },
+        {
+          "file": "src/main/java/xyz/spiralmm/tests/pages/project/ProjectPage.java",
+          "line": 56,
+          "fact": "page ProjectPage loaded-when MAIN_HEADING",
+          "why": "its page read has one main heading (h1), whatever it says; structure before copy"
+        }
+      ]
+    },
+    "structure:/projects/*:main-region": {
+      "kind": "structure",
+      "why": "its page read shows a main region",
+      "facts": [
+        "page ProjectPage structure MAIN_REGION xpath //main | //*[@role='main']"
+      ],
+      "evidence": [
+        {
+          "url": "https://spiralmm.xyz/projects/siv/",
+          "snapshot": "crawl/pages/projects/siv.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/xyz/spiralmm/tests/pages/project/ProjectElements.java",
+          "line": 34,
+          "fact": "page ProjectPage structure MAIN_REGION xpath //main | //*[@role='main']",
+          "why": "its page read shows a main region"
+        }
+      ]
+    },
+    "check:/projects/*:Members Only, By Design.": {
+      "kind": "check",
+      "why": "every page of ProjectPage the crawl read showed it (1 page); isLoaded() waits for the first 2 checks",
+      "facts": [
+        "page ProjectPage loaded-when \"Members Only, By Design.\"",
+        "page ProjectPage check \"Members Only, By Design.\" spelled \"Members Only, By Design.\""
+      ],
+      "evidence": [
+        {
+          "url": "https://spiralmm.xyz/projects/siv/",
+          "snapshot": "crawl/pages/projects/siv.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/xyz/spiralmm/tests/pages/project/ProjectPage.java",
+          "line": 56,
+          "fact": "page ProjectPage loaded-when \"Members Only, By Design.\"",
+          "why": "every page of ProjectPage the crawl read showed it (1 page); isLoaded() waits for the first 2 checks"
+        },
+        {
+          "file": "src/main/java/xyz/spiralmm/tests/pages/project/ProjectElements.java",
+          "line": 18,
+          "fact": "page ProjectPage check \"Members Only, By Design.\" spelled \"Members Only, By Design.\"",
+          "why": "every page of ProjectPage the crawl read showed it (1 page)"
+        }
+      ]
+    },
+    "check:/projects/*:How it works": {
+      "kind": "check",
+      "why": "every page of ProjectPage the crawl read showed it (1 page)",
+      "facts": [
+        "page ProjectPage check \"How it works\" spelled \"How it works\""
+      ],
+      "evidence": [
+        {
+          "url": "https://spiralmm.xyz/projects/siv/",
+          "snapshot": "crawl/pages/projects/siv.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/xyz/spiralmm/tests/pages/project/ProjectElements.java",
+          "line": 20,
+          "fact": "page ProjectPage check \"How it works\" spelled \"How it works\"",
+          "why": "every page of ProjectPage the crawl read showed it (1 page)"
+        }
+      ]
+    },
+    "check:/projects/*:Creator sets up their page": {
+      "kind": "check",
+      "why": "every page of ProjectPage the crawl read showed it (1 page)",
+      "facts": [
+        "page ProjectPage check \"Creator sets up their page\" spelled \"Creator sets up their page\""
+      ],
+      "evidence": [
+        {
+          "url": "https://spiralmm.xyz/projects/siv/",
+          "snapshot": "crawl/pages/projects/siv.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/xyz/spiralmm/tests/pages/project/ProjectElements.java",
+          "line": 22,
+          "fact": "page ProjectPage check \"Creator sets up their page\" spelled \"Creator sets up their page\"",
+          "why": "every page of ProjectPage the crawl read showed it (1 page)"
+        }
+      ]
+    },
+    "check:/projects/*:Fans subscribe or unlock": {
+      "kind": "check",
+      "why": "every page of ProjectPage the crawl read showed it (1 page)",
+      "facts": [
+        "page ProjectPage check \"Fans subscribe or unlock\" spelled \"Fans subscribe or unlock\""
+      ],
+      "evidence": [
+        {
+          "url": "https://spiralmm.xyz/projects/siv/",
+          "snapshot": "crawl/pages/projects/siv.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/xyz/spiralmm/tests/pages/project/ProjectElements.java",
+          "line": 24,
+          "fact": "page ProjectPage check \"Fans subscribe or unlock\" spelled \"Fans subscribe or unlock\"",
+          "why": "every page of ProjectPage the crawl read showed it (1 page)"
+        }
+      ]
+    },
+    "check:/projects/*:Content is posted": {
+      "kind": "check",
+      "why": "every page of ProjectPage the crawl read showed it (1 page)",
+      "facts": [
+        "page ProjectPage check \"Content is posted\" spelled \"Content is posted\""
+      ],
+      "evidence": [
+        {
+          "url": "https://spiralmm.xyz/projects/siv/",
+          "snapshot": "crawl/pages/projects/siv.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/xyz/spiralmm/tests/pages/project/ProjectElements.java",
+          "line": 26,
+          "fact": "page ProjectPage check \"Content is posted\" spelled \"Content is posted\"",
+          "why": "every page of ProjectPage the crawl read showed it (1 page)"
+        }
+      ]
+    },
+    "check:/projects/*:Creator gets paid": {
+      "kind": "check",
+      "why": "every page of ProjectPage the crawl read showed it (1 page)",
+      "facts": [
+        "page ProjectPage check \"Creator gets paid\" spelled \"Creator gets paid\""
+      ],
+      "evidence": [
+        {
+          "url": "https://spiralmm.xyz/projects/siv/",
+          "snapshot": "crawl/pages/projects/siv.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/xyz/spiralmm/tests/pages/project/ProjectElements.java",
+          "line": 28,
+          "fact": "page ProjectPage check \"Creator gets paid\" spelled \"Creator gets paid\"",
+          "why": "every page of ProjectPage the crawl read showed it (1 page)"
+        }
+      ]
+    },
+    "run:timings": {
+      "kind": "run",
+      "why": "TODO.md item 13: the same rows in every framework",
+      "facts": [
+        "run timings columns test,page,path,ready_ms,first_byte_ms,dom_loaded_ms,load_ms,after_load_ms,crawl_after_load_ms,slow"
+      ],
+      "evidence": [],
+      "generated": [
+        {
+          "file": "src/main/java/xyz/spiralmm/tests/core/Timings.java",
+          "line": 32,
+          "fact": "run timings columns test,page,path,ready_ms,first_byte_ms,dom_loaded_ms,load_ms,after_load_ms,crawl_after_load_ms,slow",
+          "why": "TODO.md item 13: the same rows in every framework"
+        }
+      ]
+    },
+    "menu:header:/projects": {
+      "kind": "menu",
+      "why": "a header link seen on /",
+      "facts": [
+        "menu projects -> ProjectsPage clicks /projects"
+      ],
+      "evidence": [
+        {
+          "url": "https://spiralmm.xyz/",
+          "snapshot": "crawl/pages/index.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/xyz/spiralmm/tests/pages/header/actions/HeaderNavigableActions.java",
+          "line": 40,
+          "fact": "menu projects -> ProjectsPage clicks /projects",
+          "why": "a header link seen on /"
+        }
+      ]
+    },
+    "menu-link:header:/projects": {
+      "kind": "menu-link",
+      "why": "a header link seen on /; found by its address in the header",
+      "facts": [
+        "menu header PROJECTS_LINK at /projects xpath (//header|//nav|//*[@role='banner' or @role='navigation'])//a[@href='/projects']"
+      ],
+      "evidence": [
+        {
+          "url": "https://spiralmm.xyz/",
+          "snapshot": "crawl/pages/index.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/xyz/spiralmm/tests/pages/header/HeaderElements.java",
+          "line": 13,
+          "fact": "menu header PROJECTS_LINK at /projects xpath (//header|//nav|//*[@role='banner' or @role='navigation'])//a[@href='/projects']",
+          "why": "a header link seen on /; found by its address in the header"
+        }
+      ]
+    },
+    "menu:header:/careers": {
+      "kind": "menu",
+      "why": "a header link seen on /",
+      "facts": [
+        "menu careers -> CareersPage clicks /careers"
+      ],
+      "evidence": [
+        {
+          "url": "https://spiralmm.xyz/",
+          "snapshot": "crawl/pages/index.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/xyz/spiralmm/tests/pages/header/actions/HeaderNavigableActions.java",
+          "line": 47,
+          "fact": "menu careers -> CareersPage clicks /careers",
+          "why": "a header link seen on /"
+        }
+      ]
+    },
+    "menu-link:header:/careers": {
+      "kind": "menu-link",
+      "why": "a header link seen on /; found by its address in the header",
+      "facts": [
+        "menu header CAREERS_LINK at /careers xpath (//header|//nav|//*[@role='banner' or @role='navigation'])//a[@href='/careers']"
+      ],
+      "evidence": [
+        {
+          "url": "https://spiralmm.xyz/",
+          "snapshot": "crawl/pages/index.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/xyz/spiralmm/tests/pages/header/HeaderElements.java",
+          "line": 16,
+          "fact": "menu header CAREERS_LINK at /careers xpath (//header|//nav|//*[@role='banner' or @role='navigation'])//a[@href='/careers']",
+          "why": "a header link seen on /; found by its address in the header"
+        }
+      ]
+    },
+    "menu:header:/contact": {
+      "kind": "menu",
+      "why": "a header link seen on /",
+      "facts": [
+        "menu contact -> ContactPage clicks /contact"
+      ],
+      "evidence": [
+        {
+          "url": "https://spiralmm.xyz/",
+          "snapshot": "crawl/pages/index.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/xyz/spiralmm/tests/pages/header/actions/HeaderNavigableActions.java",
+          "line": 54,
+          "fact": "menu contact -> ContactPage clicks /contact",
+          "why": "a header link seen on /"
+        }
+      ]
+    },
+    "menu-link:header:/contact": {
+      "kind": "menu-link",
+      "why": "a header link seen on /; found by its address in the header",
+      "facts": [
+        "menu header START_A_PROJECT_LINK at /contact xpath (//header|//nav|//*[@role='banner' or @role='navigation'])//a[@href='/contact']"
+      ],
+      "evidence": [
+        {
+          "url": "https://spiralmm.xyz/",
+          "snapshot": "crawl/pages/index.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/xyz/spiralmm/tests/pages/header/HeaderElements.java",
+          "line": 19,
+          "fact": "menu header START_A_PROJECT_LINK at /contact xpath (//header|//nav|//*[@role='banner' or @role='navigation'])//a[@href='/contact']",
+          "why": "a header link seen on /; found by its address in the header"
+        }
+      ]
+    },
+    "menu:header:/": {
+      "kind": "menu",
+      "why": "a header link seen on /contact/",
+      "facts": [
+        "menu home -> HomePage clicks /"
+      ],
+      "evidence": [
+        {
+          "url": "https://spiralmm.xyz/contact/",
+          "snapshot": "crawl/pages/contact.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/xyz/spiralmm/tests/pages/header/actions/HeaderNavigableActions.java",
+          "line": 61,
+          "fact": "menu home -> HomePage clicks /",
+          "why": "a header link seen on /contact/"
+        }
+      ]
+    },
+    "menu-link:header:/": {
+      "kind": "menu-link",
+      "why": "a header link seen on /contact/; found by its address in the header",
+      "facts": [
+        "menu header SPIRAL_LINK at / xpath (//header|//nav|//*[@role='banner' or @role='navigation'])//a[@href='/']"
+      ],
+      "evidence": [
+        {
+          "url": "https://spiralmm.xyz/contact/",
+          "snapshot": "crawl/pages/contact.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/xyz/spiralmm/tests/pages/header/HeaderElements.java",
+          "line": 22,
+          "fact": "menu header SPIRAL_LINK at / xpath (//header|//nav|//*[@role='banner' or @role='navigation'])//a[@href='/']",
+          "why": "a header link seen on /contact/; found by its address in the header"
+        }
+      ]
+    },
+    "test:smoke:/": {
+      "kind": "test",
+      "why": "every page type gets a smoke test; it opens 1 of 1 crawled example",
+      "facts": [
+        "test smoke HomePage opens 1 of 1 proof headings"
+      ],
+      "evidence": [
+        {
+          "url": "https://spiralmm.xyz/",
+          "snapshot": "crawl/pages/index.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/test/java/xyz/spiralmm/tests/cases/GeneratedSmokeTest.java",
+          "line": 36,
+          "fact": "test smoke HomePage opens 1 of 1 proof headings",
+          "why": "every page type gets a smoke test; it opens 1 of 1 crawled example"
+        }
+      ]
+    },
+    "test:smoke:/contact/": {
+      "kind": "test",
+      "why": "every page type gets a smoke test; it opens 1 of 1 crawled example",
+      "facts": [
+        "test smoke ContactPage opens 1 of 1 proof headings"
+      ],
+      "evidence": [
+        {
+          "url": "https://spiralmm.xyz/contact/",
+          "snapshot": "crawl/pages/contact.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/test/java/xyz/spiralmm/tests/cases/GeneratedSmokeTest.java",
+          "line": 42,
+          "fact": "test smoke ContactPage opens 1 of 1 proof headings",
+          "why": "every page type gets a smoke test; it opens 1 of 1 crawled example"
+        }
+      ]
+    },
+    "test:smoke:/careers/": {
+      "kind": "test",
+      "why": "every page type gets a smoke test; it opens 1 of 1 crawled example",
+      "facts": [
+        "test smoke CareersPage opens 1 of 1 proof headings"
+      ],
+      "evidence": [
+        {
+          "url": "https://spiralmm.xyz/careers/",
+          "snapshot": "crawl/pages/careers.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/test/java/xyz/spiralmm/tests/cases/GeneratedSmokeTest.java",
+          "line": 48,
+          "fact": "test smoke CareersPage opens 1 of 1 proof headings",
+          "why": "every page type gets a smoke test; it opens 1 of 1 crawled example"
+        }
+      ]
+    },
+    "test:smoke:/careers/*": {
+      "kind": "test",
+      "why": "every page type gets a smoke test; it opens 3 of 7 crawled examples",
+      "facts": [
+        "test smoke CareerPage opens 3 of 7 proof headings"
+      ],
+      "evidence": [
+        {
+          "url": "https://spiralmm.xyz/careers/ai-engineer-computer-vision/",
+          "snapshot": "crawl/pages/careers/ai-engineer-computer-vision.html"
+        },
+        {
+          "url": "https://spiralmm.xyz/careers/nodejs-developer/",
+          "snapshot": "crawl/pages/careers/nodejs-developer.html"
+        },
+        {
+          "url": "https://spiralmm.xyz/careers/uiux-designer/",
+          "snapshot": "crawl/pages/careers/uiux-designer.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/test/java/xyz/spiralmm/tests/cases/GeneratedSmokeTest.java",
+          "line": 51,
+          "fact": "test smoke CareerPage opens 3 of 7 proof headings",
+          "why": "every page type gets a smoke test; it opens 3 of 7 crawled examples"
+        }
+      ]
+    },
+    "test:smoke:/projects/": {
+      "kind": "test",
+      "why": "every page type gets a smoke test; it opens 1 of 1 crawled example",
+      "facts": [
+        "test smoke ProjectsPage opens 1 of 1 proof headings"
+      ],
+      "evidence": [
+        {
+          "url": "https://spiralmm.xyz/projects/",
+          "snapshot": "crawl/pages/projects.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/test/java/xyz/spiralmm/tests/cases/GeneratedSmokeTest.java",
+          "line": 65,
+          "fact": "test smoke ProjectsPage opens 1 of 1 proof headings",
+          "why": "every page type gets a smoke test; it opens 1 of 1 crawled example"
+        }
+      ]
+    },
+    "test:smoke:/projects/*": {
+      "kind": "test",
+      "why": "every page type gets a smoke test; it opens 1 of 1 crawled example",
+      "facts": [
+        "test smoke ProjectPage opens 1 of 1 proof headings"
+      ],
+      "evidence": [
+        {
+          "url": "https://spiralmm.xyz/projects/siv/",
+          "snapshot": "crawl/pages/projects/siv.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/test/java/xyz/spiralmm/tests/cases/GeneratedSmokeTest.java",
+          "line": 68,
+          "fact": "test smoke ProjectPage opens 1 of 1 proof headings",
+          "why": "every page type gets a smoke test; it opens 1 of 1 crawled example"
+        }
+      ]
+    },
+    "test:navigation:/careers/#0": {
+      "kind": "test",
+      "why": "a link a visitor can click, seen on /careers/: \"Product Owner We're building three products at once — and honestly, we need som…\"",
+      "facts": [
+        "test navigation CareersPage() -> CareerPage(\"product-owner\") then loaded"
+      ],
+      "evidence": [
+        {
+          "url": "https://spiralmm.xyz/careers/",
+          "snapshot": "crawl/pages/careers.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/test/java/xyz/spiralmm/tests/cases/NavigationTest.java",
+          "line": 47,
+          "fact": "test navigation CareersPage() -> CareerPage(\"product-owner\") then loaded",
+          "why": "a link a visitor can click, seen on /careers/: \"Product Owner We're building three products at once — and honestly, we need som…\""
+        }
+      ]
+    },
+    "test:navigation:/projects/#0": {
+      "kind": "test",
+      "why": "a link a visitor can click, seen on /projects/: \"Preview SIV A members-only platform for premium content. Coming 2027\"",
+      "facts": [
+        "test navigation ProjectsPage() -> ProjectPage(\"siv\") then loaded"
+      ],
+      "evidence": [
+        {
+          "url": "https://spiralmm.xyz/projects/",
+          "snapshot": "crawl/pages/projects.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/test/java/xyz/spiralmm/tests/cases/NavigationTest.java",
+          "line": 53,
+          "fact": "test navigation ProjectsPage() -> ProjectPage(\"siv\") then loaded",
+          "why": "a link a visitor can click, seen on /projects/: \"Preview SIV A members-only platform for premium content. Coming 2027\""
+        }
+      ]
+    },
+    "test:menu:header:/projects": {
+      "kind": "test",
+      "why": "the header link \"Projects\", shown on the page: followed",
+      "facts": [
+        "test menu follow HomePage() projects then loaded"
+      ],
+      "evidence": [
+        {
+          "url": "https://spiralmm.xyz/",
+          "snapshot": "crawl/pages/index.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/test/java/xyz/spiralmm/tests/cases/NavigationTest.java",
+          "line": 23,
+          "fact": "test menu follow HomePage() projects then loaded",
+          "why": "the header link \"Projects\", shown on the page: followed"
+        }
+      ]
+    },
+    "test:menu:header:/careers": {
+      "kind": "test",
+      "why": "the header link \"Careers\", shown on the page: followed",
+      "facts": [
+        "test menu follow HomePage() careers then loaded"
+      ],
+      "evidence": [
+        {
+          "url": "https://spiralmm.xyz/",
+          "snapshot": "crawl/pages/index.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/test/java/xyz/spiralmm/tests/cases/NavigationTest.java",
+          "line": 29,
+          "fact": "test menu follow HomePage() careers then loaded",
+          "why": "the header link \"Careers\", shown on the page: followed"
+        }
+      ]
+    },
+    "test:menu:header:/contact": {
+      "kind": "test",
+      "why": "the header link \"Start a Project\", shown on the page: followed",
+      "facts": [
+        "test menu follow HomePage() contact then loaded"
+      ],
+      "evidence": [
+        {
+          "url": "https://spiralmm.xyz/",
+          "snapshot": "crawl/pages/index.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/test/java/xyz/spiralmm/tests/cases/NavigationTest.java",
+          "line": 35,
+          "fact": "test menu follow HomePage() contact then loaded",
+          "why": "the header link \"Start a Project\", shown on the page: followed"
+        }
+      ]
+    },
+    "test:menu:header:/": {
+      "kind": "test",
+      "why": "the header link \"Spiral 🇲🇲\", shown on the page: followed",
+      "facts": [
+        "test menu follow ContactPage() home then loaded"
+      ],
+      "evidence": [
+        {
+          "url": "https://spiralmm.xyz/contact/",
+          "snapshot": "crawl/pages/contact.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/test/java/xyz/spiralmm/tests/cases/NavigationTest.java",
+          "line": 41,
+          "fact": "test menu follow ContactPage() home then loaded",
+          "why": "the header link \"Spiral 🇲🇲\", shown on the page: followed"
+        }
+      ]
+    },
+    "test:form:/contact/:Let's Build Something": {
+      "kind": "test",
+      "why": "the \"Let's Build Something\" form the crawl saw: shown and empty; nothing typed or sent",
+      "facts": [
+        "test form ContactPage() empty NAME_INPUT, EMAIL_INPUT, MOBILE_INPUT, COMPANY_INPUT, MESSAGE_INPUT shows SEND_MESSAGE_BUTTON"
+      ],
+      "evidence": [
+        {
+          "url": "https://spiralmm.xyz/contact/",
+          "snapshot": "crawl/pages/contact.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/test/java/xyz/spiralmm/tests/cases/GeneratedSmokeTest.java",
+          "line": 82,
+          "fact": "test form ContactPage() empty NAME_INPUT, EMAIL_INPUT, MOBILE_INPUT, COMPANY_INPUT, MESSAGE_INPUT shows SEND_MESSAGE_BUTTON",
+          "why": "the \"Let's Build Something\" form the crawl saw: shown and empty; nothing typed or sent"
+        }
+      ]
+    },
+    "test:example:/contact/": {
+      "kind": "test",
+      "why": "the worked example: its form has the fewest fields of any page's; a plain test written as a person would, nothing sent",
+      "facts": [
+        "test example ContactPage() refuses none fills fillLetSBuildSomethingForm with LetSBuildSomething.sample() holds NAME_INPUT, EMAIL_INPUT, MOBILE_INPUT, COMPANY_INPUT, PROJECT_TYPE_SELECT, MESSAGE_INPUT"
+      ],
+      "evidence": [
+        {
+          "url": "https://spiralmm.xyz/contact/",
+          "snapshot": "crawl/pages/contact.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/test/java/xyz/spiralmm/tests/cases/ContactFormTest.java",
+          "line": 31,
+          "fact": "test example ContactPage() refuses none fills fillLetSBuildSomethingForm with LetSBuildSomething.sample() holds NAME_INPUT, EMAIL_INPUT, MOBILE_INPUT, COMPANY_INPUT, PROJECT_TYPE_SELECT, MESSAGE_INPUT",
+          "why": "the worked example: its form has the fewest fields of any page's; a plain test written as a person would, nothing sent"
+        }
+      ]
+    },
+    "test:one-heading:/": {
+      "kind": "test",
+      "why": "every page of it the crawl read had one main heading (h1)",
+      "facts": [
+        "test one-heading HomePage()"
+      ],
+      "evidence": [
+        {
+          "url": "https://spiralmm.xyz/",
+          "snapshot": "crawl/pages/index.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/test/java/xyz/spiralmm/tests/cases/SiteTest.java",
+          "line": 32,
+          "fact": "test one-heading HomePage()",
+          "why": "every page of it the crawl read had one main heading (h1)"
+        }
+      ]
+    },
+    "test:one-heading:/contact/": {
+      "kind": "test",
+      "why": "every page of it the crawl read had one main heading (h1)",
+      "facts": [
+        "test one-heading ContactPage()"
+      ],
+      "evidence": [
+        {
+          "url": "https://spiralmm.xyz/contact/",
+          "snapshot": "crawl/pages/contact.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/test/java/xyz/spiralmm/tests/cases/SiteTest.java",
+          "line": 40,
+          "fact": "test one-heading ContactPage()",
+          "why": "every page of it the crawl read had one main heading (h1)"
+        }
+      ]
+    },
+    "test:one-heading:/careers/": {
+      "kind": "test",
+      "why": "every page of it the crawl read had one main heading (h1)",
+      "facts": [
+        "test one-heading CareersPage()"
+      ],
+      "evidence": [
+        {
+          "url": "https://spiralmm.xyz/careers/",
+          "snapshot": "crawl/pages/careers.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/test/java/xyz/spiralmm/tests/cases/SiteTest.java",
+          "line": 48,
+          "fact": "test one-heading CareersPage()",
+          "why": "every page of it the crawl read had one main heading (h1)"
+        }
+      ]
+    },
+    "test:one-heading:/careers/*": {
+      "kind": "test",
+      "why": "every page of it the crawl read had one main heading (h1)",
+      "facts": [
+        "test one-heading CareerPage(\"ai-engineer-computer-vision\")"
+      ],
+      "evidence": [
+        {
+          "url": "https://spiralmm.xyz/careers/ai-engineer-computer-vision/",
+          "snapshot": "crawl/pages/careers/ai-engineer-computer-vision.html"
+        },
+        {
+          "url": "https://spiralmm.xyz/careers/nodejs-developer/",
+          "snapshot": "crawl/pages/careers/nodejs-developer.html"
+        },
+        {
+          "url": "https://spiralmm.xyz/careers/uiux-designer/",
+          "snapshot": "crawl/pages/careers/uiux-designer.html"
+        },
+        {
+          "url": "https://spiralmm.xyz/careers/devops-engineer/",
+          "snapshot": "crawl/pages/careers/devops-engineer.html"
+        },
+        {
+          "url": "https://spiralmm.xyz/careers/product-owner/",
+          "snapshot": "crawl/pages/careers/product-owner.html"
+        },
+        {
+          "url": "https://spiralmm.xyz/careers/nextjs-frontend-developer/",
+          "snapshot": "crawl/pages/careers/nextjs-frontend-developer.html"
+        },
+        {
+          "url": "https://spiralmm.xyz/careers/react-native-developer/",
+          "snapshot": "crawl/pages/careers/react-native-developer.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/test/java/xyz/spiralmm/tests/cases/SiteTest.java",
+          "line": 56,
+          "fact": "test one-heading CareerPage(\"ai-engineer-computer-vision\")",
+          "why": "every page of it the crawl read had one main heading (h1)"
+        }
+      ]
+    },
+    "test:one-heading:/projects/": {
+      "kind": "test",
+      "why": "every page of it the crawl read had one main heading (h1)",
+      "facts": [
+        "test one-heading ProjectsPage()"
+      ],
+      "evidence": [
+        {
+          "url": "https://spiralmm.xyz/projects/",
+          "snapshot": "crawl/pages/projects.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/test/java/xyz/spiralmm/tests/cases/SiteTest.java",
+          "line": 64,
+          "fact": "test one-heading ProjectsPage()",
+          "why": "every page of it the crawl read had one main heading (h1)"
+        }
+      ]
+    },
+    "test:one-heading:/projects/*": {
+      "kind": "test",
+      "why": "every page of it the crawl read had one main heading (h1)",
+      "facts": [
+        "test one-heading ProjectPage(\"siv\")"
+      ],
+      "evidence": [
+        {
+          "url": "https://spiralmm.xyz/projects/siv/",
+          "snapshot": "crawl/pages/projects/siv.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/test/java/xyz/spiralmm/tests/cases/SiteTest.java",
+          "line": 72,
+          "fact": "test one-heading ProjectPage(\"siv\")",
+          "why": "every page of it the crawl read had one main heading (h1)"
+        }
+      ]
+    },
+    "test:not-found:/suite-builder-no-such-page-a06118b3": {
+      "kind": "test",
+      "why": "an address that cannot exist, which the site answered 404 when the crawl asked",
+      "facts": [
+        "test not-found /suite-builder-no-such-page-a06118b3"
+      ],
+      "evidence": [],
+      "generated": [
+        {
+          "file": "src/test/java/xyz/spiralmm/tests/cases/GeneratedSmokeTest.java",
+          "line": 94,
+          "fact": "test not-found /suite-builder-no-such-page-a06118b3",
+          "why": "an address that cannot exist, which the site answered 404 when the crawl asked"
+        }
+      ]
+    },
+    "ci:github:quick": {
+      "kind": "ci",
+      "why": "on every push and pull request: the link report and every page type opening, in one browser",
+      "facts": [
+        "ci github quick http,smoke in chromium"
+      ],
+      "evidence": [],
+      "generated": [
+        {
+          "file": ".github/workflows/suite.yml",
+          "line": 29,
+          "fact": "ci github quick http,smoke in chromium",
+          "why": "on every push and pull request: the link report and every page type opening, in one browser"
+        }
+      ]
+    },
+    "ci:github:full": {
+      "kind": "ci",
+      "why": "each night and when started by hand: every test, in each browser",
+      "facts": [
+        "ci github full chromium,firefox nightly 23 3 * * *"
+      ],
+      "evidence": [],
+      "generated": [
+        {
+          "file": ".github/workflows/suite.yml",
+          "line": 53,
+          "fact": "ci github full chromium,firefox nightly 23 3 * * *",
+          "why": "each night and when started by hand: every test, in each browser"
+        }
+      ]
+    },
+    "ci:gitlab:quick": {
+      "kind": "ci",
+      "why": "on every push and pull request: the link report and every page type opening, in one browser",
+      "facts": [
+        "ci gitlab quick http,smoke in chromium"
+      ],
+      "evidence": [],
+      "generated": [
+        {
+          "file": ".gitlab-ci.yml",
+          "line": 16,
+          "fact": "ci gitlab quick http,smoke in chromium",
+          "why": "on every push and pull request: the link report and every page type opening, in one browser"
+        }
+      ]
+    },
+    "ci:gitlab:full": {
+      "kind": "ci",
+      "why": "each night and when started by hand: every test, in each browser",
+      "facts": [
+        "ci gitlab full chromium,firefox nightly 23 3 * * *"
+      ],
+      "evidence": [],
+      "generated": [
+        {
+          "file": ".gitlab-ci.yml",
+          "line": 37,
+          "fact": "ci gitlab full chromium,firefox nightly 23 3 * * *",
+          "why": "each night and when started by hand: every test, in each browser"
+        }
+      ]
+    },
+    "ci:azure:quick": {
+      "kind": "ci",
+      "why": "on every push and pull request: the link report and every page type opening, in one browser",
+      "facts": [
+        "ci azure quick http,smoke in chromium"
+      ],
+      "evidence": [],
+      "generated": [
+        {
+          "file": "azure-pipelines.yml",
+          "line": 30,
+          "fact": "ci azure quick http,smoke in chromium",
+          "why": "on every push and pull request: the link report and every page type opening, in one browser"
+        }
+      ]
+    },
+    "ci:azure:full": {
+      "kind": "ci",
+      "why": "each night and when started by hand: every test, in each browser",
+      "facts": [
+        "ci azure full chromium,firefox nightly 23 3 * * *"
+      ],
+      "evidence": [],
+      "generated": [
+        {
+          "file": "azure-pipelines.yml",
+          "line": 60,
+          "fact": "ci azure full chromium,firefox nightly 23 3 * * *",
+          "why": "each night and when started by hand: every test, in each browser"
+        }
+      ]
+    },
+    "test:link:/": {
+      "kind": "test",
+      "why": "the crawl requested it and it answered 200; the link report holds it to that",
+      "facts": [
+        "test link / was 200 from /, /contact/, /careers/"
+      ],
+      "evidence": [],
+      "generated": [
+        {
+          "file": "src/test/resources/link-report/links.tsv",
+          "line": 3,
+          "fact": "test link / was 200 from /, /contact/, /careers/",
+          "why": "the crawl requested it and it answered 200; the link report holds it to that"
+        }
+      ]
+    },
+    "test:link:/contact": {
+      "kind": "test",
+      "why": "the crawl requested it and it answered 404; the link report holds it to that",
+      "facts": [
+        "test link /contact was 404 from /, /contact/, /careers/"
+      ],
+      "evidence": [],
+      "generated": [
+        {
+          "file": "src/test/resources/link-report/links.tsv",
+          "line": 4,
+          "fact": "test link /contact was 404 from /, /contact/, /careers/",
+          "why": "the crawl requested it and it answered 404; the link report holds it to that"
+        }
+      ]
+    },
+    "test:link:/careers": {
+      "kind": "test",
+      "why": "the crawl requested it and it answered 404; the link report holds it to that",
+      "facts": [
+        "test link /careers was 404 from /, /contact/, /careers/"
+      ],
+      "evidence": [],
+      "generated": [
+        {
+          "file": "src/test/resources/link-report/links.tsv",
+          "line": 5,
+          "fact": "test link /careers was 404 from /, /contact/, /careers/",
+          "why": "the crawl requested it and it answered 404; the link report holds it to that"
+        }
+      ]
+    },
+    "test:link:/careers/ai-engineer-computer-vision": {
+      "kind": "test",
+      "why": "the crawl requested it and it answered 404; the link report holds it to that",
+      "facts": [
+        "test link /careers/ai-engineer-computer-vision was 404 from /careers/"
+      ],
+      "evidence": [],
+      "generated": [
+        {
+          "file": "src/test/resources/link-report/links.tsv",
+          "line": 6,
+          "fact": "test link /careers/ai-engineer-computer-vision was 404 from /careers/",
+          "why": "the crawl requested it and it answered 404; the link report holds it to that"
+        }
+      ]
+    },
+    "test:link:/careers/nodejs-developer": {
+      "kind": "test",
+      "why": "the crawl requested it and it answered 404; the link report holds it to that",
+      "facts": [
+        "test link /careers/nodejs-developer was 404 from /careers/"
+      ],
+      "evidence": [],
+      "generated": [
+        {
+          "file": "src/test/resources/link-report/links.tsv",
+          "line": 7,
+          "fact": "test link /careers/nodejs-developer was 404 from /careers/",
+          "why": "the crawl requested it and it answered 404; the link report holds it to that"
+        }
+      ]
+    },
+    "test:link:/careers/uiux-designer": {
+      "kind": "test",
+      "why": "the crawl requested it and it answered 404; the link report holds it to that",
+      "facts": [
+        "test link /careers/uiux-designer was 404 from /careers/"
+      ],
+      "evidence": [],
+      "generated": [
+        {
+          "file": "src/test/resources/link-report/links.tsv",
+          "line": 8,
+          "fact": "test link /careers/uiux-designer was 404 from /careers/",
+          "why": "the crawl requested it and it answered 404; the link report holds it to that"
+        }
+      ]
+    },
+    "test:link:/projects": {
+      "kind": "test",
+      "why": "the crawl requested it and it answered 404; the link report holds it to that",
+      "facts": [
+        "test link /projects was 404 from /, /contact/, /careers/"
+      ],
+      "evidence": [],
+      "generated": [
+        {
+          "file": "src/test/resources/link-report/links.tsv",
+          "line": 9,
+          "fact": "test link /projects was 404 from /, /contact/, /careers/",
+          "why": "the crawl requested it and it answered 404; the link report holds it to that"
+        }
+      ]
+    },
+    "test:link:/projects/siv": {
+      "kind": "test",
+      "why": "the crawl requested it and it answered 404; the link report holds it to that",
+      "facts": [
+        "test link /projects/siv was 404 from /projects/"
+      ],
+      "evidence": [],
+      "generated": [
+        {
+          "file": "src/test/resources/link-report/links.tsv",
+          "line": 10,
+          "fact": "test link /projects/siv was 404 from /projects/",
+          "why": "the crawl requested it and it answered 404; the link report holds it to that"
+        }
+      ]
+    },
+    "test:link:/careers/devops-engineer": {
+      "kind": "test",
+      "why": "the crawl requested it and it answered 404; the link report holds it to that",
+      "facts": [
+        "test link /careers/devops-engineer was 404 from /careers/"
+      ],
+      "evidence": [],
+      "generated": [
+        {
+          "file": "src/test/resources/link-report/links.tsv",
+          "line": 11,
+          "fact": "test link /careers/devops-engineer was 404 from /careers/",
+          "why": "the crawl requested it and it answered 404; the link report holds it to that"
+        }
+      ]
+    },
+    "test:link:/careers/product-owner": {
+      "kind": "test",
+      "why": "the crawl requested it and it answered 404; the link report holds it to that",
+      "facts": [
+        "test link /careers/product-owner was 404 from /careers/"
+      ],
+      "evidence": [],
+      "generated": [
+        {
+          "file": "src/test/resources/link-report/links.tsv",
+          "line": 12,
+          "fact": "test link /careers/product-owner was 404 from /careers/",
+          "why": "the crawl requested it and it answered 404; the link report holds it to that"
+        }
+      ]
+    },
+    "test:link:/careers/nextjs-frontend-developer": {
+      "kind": "test",
+      "why": "the crawl requested it and it answered 404; the link report holds it to that",
+      "facts": [
+        "test link /careers/nextjs-frontend-developer was 404 from /careers/"
+      ],
+      "evidence": [],
+      "generated": [
+        {
+          "file": "src/test/resources/link-report/links.tsv",
+          "line": 13,
+          "fact": "test link /careers/nextjs-frontend-developer was 404 from /careers/",
+          "why": "the crawl requested it and it answered 404; the link report holds it to that"
+        }
+      ]
+    },
+    "test:link:/careers/react-native-developer": {
+      "kind": "test",
+      "why": "the crawl requested it and it answered 404; the link report holds it to that",
+      "facts": [
+        "test link /careers/react-native-developer was 404 from /careers/"
+      ],
+      "evidence": [],
+      "generated": [
+        {
+          "file": "src/test/resources/link-report/links.tsv",
+          "line": 14,
+          "fact": "test link /careers/react-native-developer was 404 from /careers/",
+          "why": "the crawl requested it and it answered 404; the link report holds it to that"
+        }
+      ]
+    }
+  }
+}

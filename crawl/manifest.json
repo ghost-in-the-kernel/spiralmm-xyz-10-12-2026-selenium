@@ -1,0 +1,34 @@
+{
+  "tool": "suite-builder",
+  "version": "1.39.0",
+  "build": {
+    "commit": "f8b0a5749aceb6370b7ef97c134dab32f28439e6",
+    "branch": "main"
+  },
+  "framework": "selenium",
+  "generatedAt": "2026-10-12T13:10:21.350Z",
+  "command": "suite-builder build spiralmm.xyz --cypress --selenium --playwright",
+  "templates": "crawl/spiralmm.xyz.templates.json",
+  "crawl": "crawl/spiralmm.xyz.crawl.json",
+  "crawlFileSaved": "2026-10-12T13:10:21.274Z",
+  "accounts": [
+    {
+      "role": "user",
+      "file": "secrets/user.login",
+      "environment": [
+        "SUITE_USER_USERNAME",
+        "SUITE_USER_PASSWORD"
+      ],
+      "docked": "<Suite Builder's secrets folder, DOCK.md's last line>/<site>/user.login"
+    },
+    {
+      "role": "admin",
+      "file": "secrets/admin.login",
+      "environment": [
+        "SUITE_ADMIN_USERNAME",
+        "SUITE_ADMIN_PASSWORD"
+      ],
+      "docked": "<Suite Builder's secrets folder, DOCK.md's last line>/<site>/admin.login"
+    }
+  ]
+}

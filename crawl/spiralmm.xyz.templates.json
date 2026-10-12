@@ -1,0 +1,659 @@
+{
+  "tool": "suite-builder",
+  "kind": "templates",
+  "version": 2,
+  "startUrl": "https://spiralmm.xyz/",
+  "origin": "https://spiralmm.xyz",
+  "pagesRead": 12,
+  "menu": [
+    {
+      "to": "https://spiralmm.xyz/projects",
+      "href": "/projects",
+      "text": "Projects",
+      "region": "header",
+      "seenOn": "https://spiralmm.xyz/",
+      "template": "projects"
+    },
+    {
+      "to": "https://spiralmm.xyz/careers",
+      "href": "/careers",
+      "text": "Careers",
+      "region": "header",
+      "seenOn": "https://spiralmm.xyz/",
+      "template": "careers"
+    },
+    {
+      "to": "https://spiralmm.xyz/contact",
+      "href": "/contact",
+      "text": "Start a Project",
+      "region": "header",
+      "seenOn": "https://spiralmm.xyz/",
+      "template": "contact"
+    },
+    {
+      "to": "https://spiralmm.xyz/",
+      "href": "/",
+      "text": "Spiral 🇲🇲",
+      "region": "header",
+      "seenOn": "https://spiralmm.xyz/contact/",
+      "template": "home"
+    }
+  ],
+  "templates": [
+    {
+      "id": "home",
+      "name": "HomePage",
+      "urlPatterns": [
+        "/"
+      ],
+      "pages": [
+        "https://spiralmm.xyz/"
+      ],
+      "repeated": false,
+      "knownUrls": 1,
+      "titlePattern": "Spiral — Software for Every Idea",
+      "sharedHeadings": [
+        "Software for the people.",
+        "What we're building",
+        "Qsure",
+        "Stakefair",
+        "Flare",
+        "Our Mission",
+        "Artist Profiles",
+        "Filmography",
+        "Booking Software",
+        "Shopping Apps",
+        "Dating Apps",
+        "Exclusive Content Apps",
+        "Map & Terrain Apps",
+        "Surveillance Tools",
+        "And So Much More",
+        "Open Source"
+      ],
+      "inMenu": true,
+      "linksTo": [],
+      "why": {
+        "rule": "start-page",
+        "says": "the start page: always a page type of its own, since every test starts there"
+      }
+    },
+    {
+      "id": "contact",
+      "name": "ContactPage",
+      "urlPatterns": [
+        "/*"
+      ],
+      "pages": [
+        "https://spiralmm.xyz/contact/"
+      ],
+      "repeated": false,
+      "knownUrls": 1,
+      "titlePattern": "Spiral — Software for Every Idea",
+      "sharedHeadings": [
+        "Let's Build Something",
+        "Name*",
+        "Email*",
+        "Mobile",
+        "Company",
+        "Project Type*",
+        "Message*"
+      ],
+      "inMenu": true,
+      "linksTo": [],
+      "controls": [
+        {
+          "kind": "text field",
+          "words": [
+            "Name*",
+            "Your name"
+          ],
+          "region": "main",
+          "form": "Let's Build Something",
+          "noValidate": true,
+          "xpath": "//input[@id='name']",
+          "stability": "Strong",
+          "pages": 1,
+          "seenOn": "https://spiralmm.xyz/contact/"
+        },
+        {
+          "kind": "email field",
+          "words": [
+            "Email*",
+            "you@company.com"
+          ],
+          "region": "main",
+          "form": "Let's Build Something",
+          "noValidate": true,
+          "xpath": "//input[@id='email']",
+          "stability": "Strong",
+          "pages": 1,
+          "seenOn": "https://spiralmm.xyz/contact/"
+        },
+        {
+          "kind": "tel field",
+          "words": [
+            "Mobile",
+            "+1 (555) 000-0000"
+          ],
+          "region": "main",
+          "form": "Let's Build Something",
+          "noValidate": true,
+          "xpath": "//input[@id='mobile']",
+          "stability": "Strong",
+          "pages": 1,
+          "seenOn": "https://spiralmm.xyz/contact/"
+        },
+        {
+          "kind": "text field",
+          "words": [
+            "Company",
+            "Optional"
+          ],
+          "region": "main",
+          "form": "Let's Build Something",
+          "noValidate": true,
+          "xpath": "//input[@id='company']",
+          "stability": "Strong",
+          "pages": 1,
+          "seenOn": "https://spiralmm.xyz/contact/"
+        },
+        {
+          "kind": "dropdown",
+          "words": [
+            "Project Type*"
+          ],
+          "region": "main",
+          "form": "Let's Build Something",
+          "options": [
+            "Artist Profile / Filmography",
+            "Booking Software",
+            "Shopping App",
+            "Dating App",
+            "Exclusive Content App"
+          ],
+          "noValidate": true,
+          "xpath": "//select[@id='projectType']",
+          "stability": "Strong",
+          "pages": 1,
+          "seenOn": "https://spiralmm.xyz/contact/"
+        },
+        {
+          "kind": "text area",
+          "words": [
+            "Message*",
+            "Tell us what you're building…"
+          ],
+          "region": "main",
+          "form": "Let's Build Something",
+          "noValidate": true,
+          "xpath": "//textarea[@id='message']",
+          "stability": "Strong",
+          "pages": 1,
+          "seenOn": "https://spiralmm.xyz/contact/"
+        },
+        {
+          "kind": "button",
+          "words": [
+            "Send Message"
+          ],
+          "region": "main",
+          "form": "Let's Build Something",
+          "noValidate": true,
+          "xpath": "//button[normalize-space()='Send Message']",
+          "stability": "OK",
+          "pages": 1,
+          "seenOn": "https://spiralmm.xyz/contact/"
+        }
+      ],
+      "why": {
+        "rule": "unlike-others",
+        "says": "no other page read is enough like it (the closest, /careers/, shares 37% of its layout and 0% of its headings)"
+      }
+    },
+    {
+      "id": "careers",
+      "name": "CareersPage",
+      "urlPatterns": [
+        "/*"
+      ],
+      "pages": [
+        "https://spiralmm.xyz/careers/"
+      ],
+      "repeated": false,
+      "knownUrls": 1,
+      "titlePattern": "Spiral — Software for Every Idea",
+      "sharedHeadings": [
+        "Careers",
+        "Product Owner",
+        "UI/UX Designer",
+        "React Native Developer",
+        "Node.js Developer",
+        "Next.js Frontend Developer",
+        "DevOps Engineer",
+        "AI Engineer (Computer Vision)"
+      ],
+      "inMenu": true,
+      "linksTo": [
+        {
+          "template": "career",
+          "count": 7,
+          "example": {
+            "from": "https://spiralmm.xyz/careers/",
+            "to": "https://spiralmm.xyz/careers/product-owner",
+            "href": "/careers/product-owner",
+            "text": "Product Owner We're building three products at once — and honestly, we need som…"
+          }
+        }
+      ],
+      "why": {
+        "rule": "unlike-others",
+        "says": "no other page read is enough like it (the closest, /projects/, shares 42% of its layout and 7% of its headings)"
+      }
+    },
+    {
+      "id": "career",
+      "name": "CareerPage",
+      "urlPatterns": [
+        "/careers/*"
+      ],
+      "pages": [
+        "https://spiralmm.xyz/careers/ai-engineer-computer-vision/",
+        "https://spiralmm.xyz/careers/nodejs-developer/",
+        "https://spiralmm.xyz/careers/uiux-designer/",
+        "https://spiralmm.xyz/careers/devops-engineer/",
+        "https://spiralmm.xyz/careers/product-owner/",
+        "https://spiralmm.xyz/careers/nextjs-frontend-developer/",
+        "https://spiralmm.xyz/careers/react-native-developer/"
+      ],
+      "repeated": true,
+      "knownUrls": 14,
+      "titlePattern": null,
+      "sharedHeadings": [
+        "What we're looking for",
+        "Project details",
+        "Location",
+        "Interested?"
+      ],
+      "inMenu": false,
+      "linksTo": [],
+      "why": {
+        "rule": "family-by-address",
+        "says": "its 7 pages read look alike (layout 97% the same, headings 59%) and share the address pattern /careers/*; joined by: the headings agree, with some layout shared (11 comparisons); the layouts agree, with some headings shared (10 comparisons)",
+        "joinedBy": [
+          {
+            "rule": "headings-agree",
+            "pairs": 11
+          },
+          {
+            "rule": "layout-and-some-headings",
+            "pairs": 10
+          }
+        ]
+      }
+    },
+    {
+      "id": "projects",
+      "name": "ProjectsPage",
+      "urlPatterns": [
+        "/*"
+      ],
+      "pages": [
+        "https://spiralmm.xyz/projects/"
+      ],
+      "repeated": false,
+      "knownUrls": 1,
+      "titlePattern": "Spiral — Software for Every Idea",
+      "sharedHeadings": [
+        "Projects",
+        "Ongoing Projects",
+        "Stakefair",
+        "Flare",
+        "SIV",
+        "Qsure",
+        "Markerless Motion Capture"
+      ],
+      "inMenu": true,
+      "linksTo": [
+        {
+          "template": "project",
+          "count": 1,
+          "example": {
+            "from": "https://spiralmm.xyz/projects/",
+            "to": "https://spiralmm.xyz/projects/siv",
+            "href": "/projects/siv",
+            "text": "Preview SIV A members-only platform for premium content. Coming 2027"
+          }
+        }
+      ],
+      "why": {
+        "rule": "unlike-others",
+        "says": "no other page read is enough like it (the closest, /careers/, shares 42% of its layout and 7% of its headings)"
+      }
+    },
+    {
+      "id": "project",
+      "name": "ProjectPage",
+      "urlPatterns": [
+        "/projects/*"
+      ],
+      "pages": [
+        "https://spiralmm.xyz/projects/siv/"
+      ],
+      "repeated": true,
+      "knownUrls": 2,
+      "titlePattern": null,
+      "sharedHeadings": [
+        "Members Only, By Design.",
+        "How it works",
+        "Creator sets up their page",
+        "Fans subscribe or unlock",
+        "Content is posted",
+        "Creator gets paid",
+        "What's in the first release",
+        "Creator Profiles",
+        "Subscriptions & Instant Unlock",
+        "Feed, Pay-Per-View & Messaging",
+        "Payments & Payouts",
+        "Discovery"
+      ],
+      "inMenu": false,
+      "linksTo": [],
+      "why": {
+        "rule": "family-by-pattern",
+        "says": "one page read, and 1 more address found like it (/projects/*): it stands for them"
+      }
+    }
+  ],
+  "skipped": [],
+  "userAgent": "Mozilla/5.0 (compatible; SuiteBuilder/1.0; +https://github.com/Ghost-in-the-Kernel-Labs/Ghost-in-the-Kernel-Labs-suite-builder-docs)",
+  "findings": [
+    {
+      "code": "SITE-01",
+      "severity": "major",
+      "title": "11 pages show real content but answer 404: the site is served through its error page",
+      "where": [
+        {
+          "url": "https://spiralmm.xyz/contact/",
+          "says": "answered 404, drew \"Let's Build Something\""
+        },
+        {
+          "url": "https://spiralmm.xyz/careers/",
+          "says": "answered 404, drew \"Careers\""
+        },
+        {
+          "url": "https://spiralmm.xyz/careers/ai-engineer-computer-vision/",
+          "says": "answered 404, drew \"AI Engineer (Computer Vision)\""
+        },
+        {
+          "url": "https://spiralmm.xyz/careers/nodejs-developer/",
+          "says": "answered 404, drew \"Node.js Developer\""
+        },
+        {
+          "url": "https://spiralmm.xyz/careers/uiux-designer/",
+          "says": "answered 404, drew \"UI/UX Designer\""
+        },
+        {
+          "url": "https://spiralmm.xyz/projects/",
+          "says": "answered 404, drew \"Projects\""
+        },
+        {
+          "url": "https://spiralmm.xyz/projects/siv/",
+          "says": "answered 404, drew \"Members Only, By Design.\""
+        },
+        {
+          "url": "https://spiralmm.xyz/careers/devops-engineer/",
+          "says": "answered 404, drew \"DevOps Engineer\""
+        },
+        {
+          "url": "https://spiralmm.xyz/careers/product-owner/",
+          "says": "answered 404, drew \"Product Owner\""
+        },
+        {
+          "url": "https://spiralmm.xyz/careers/nextjs-frontend-developer/",
+          "says": "answered 404, drew \"Next.js Frontend Developer\""
+        },
+        {
+          "url": "https://spiralmm.xyz/careers/react-native-developer/",
+          "says": "answered 404, drew \"React Native Developer\""
+        }
+      ],
+      "why": "A visitor sees each page, but search engines, link checkers and monitoring trust the status: they treat these pages as missing, so they may never appear in search results, and every check calls them broken.",
+      "fix": "Serve each page with status 200: a single-page app behind a CDN usually needs its error response (the one that returns index.html) set to 200, or each route pre-rendered as its own file."
+    },
+    {
+      "code": "SITE-06",
+      "severity": "major",
+      "title": "1 of the 13 addresses spiralmm.xyz points to does not answer: about 1 connection in 13 can fail",
+      "where": [
+        {
+          "url": "https://spiralmm.xyz",
+          "says": "192.64.119.6 (IPv4): no answer in 5 s; the others answered"
+        }
+      ],
+      "why": "Each new visit picks one of the addresses. On one that does not answer, the page hangs and fails after a long wait. Chrome often tries the next address, so the site looks fine from a browser; scripts, some phones, monitoring and test tools do not.",
+      "fix": "Remove the address that does not answer from the domain's DNS records (often a registrar's parking or redirect record left beside the hosting's), or make it serve the site."
+    },
+    {
+      "code": "SITE-03",
+      "severity": "minor",
+      "title": "11 of the site's own links redirect before they arrive (each only to add or drop a trailing slash)",
+      "where": [
+        {
+          "url": "https://spiralmm.xyz/contact",
+          "says": "301 to /contact/"
+        },
+        {
+          "url": "https://spiralmm.xyz/careers",
+          "says": "301 to /careers/"
+        },
+        {
+          "url": "https://spiralmm.xyz/careers/ai-engineer-computer-vision",
+          "says": "301 to /careers/ai-engineer-computer-vision/"
+        },
+        {
+          "url": "https://spiralmm.xyz/careers/nodejs-developer",
+          "says": "301 to /careers/nodejs-developer/"
+        },
+        {
+          "url": "https://spiralmm.xyz/careers/uiux-designer",
+          "says": "301 to /careers/uiux-designer/"
+        },
+        {
+          "url": "https://spiralmm.xyz/projects",
+          "says": "301 to /projects/"
+        },
+        {
+          "url": "https://spiralmm.xyz/projects/siv",
+          "says": "301 to /projects/siv/"
+        },
+        {
+          "url": "https://spiralmm.xyz/careers/devops-engineer",
+          "says": "301 to /careers/devops-engineer/"
+        },
+        {
+          "url": "https://spiralmm.xyz/careers/product-owner",
+          "says": "301 to /careers/product-owner/"
+        },
+        {
+          "url": "https://spiralmm.xyz/careers/nextjs-frontend-developer",
+          "says": "301 to /careers/nextjs-frontend-developer/"
+        },
+        {
+          "url": "https://spiralmm.xyz/careers/react-native-developer",
+          "says": "301 to /careers/react-native-developer/"
+        }
+      ],
+      "why": "Every click on one of these links costs an extra round trip before the page starts loading, and search engines see one page at two addresses.",
+      "fix": "Link to each page's final address (with or without its trailing slash, as the server serves it)."
+    },
+    {
+      "code": "SITE-04",
+      "severity": "minor",
+      "title": "12 different pages share one title",
+      "where": [
+        {
+          "url": "https://spiralmm.xyz/",
+          "says": "titled \"Spiral — Software for Every Idea\", shows \"Software for the people.\""
+        },
+        {
+          "url": "https://spiralmm.xyz/contact/",
+          "says": "titled \"Spiral — Software for Every Idea\", shows \"Let's Build Something\""
+        },
+        {
+          "url": "https://spiralmm.xyz/careers/",
+          "says": "titled \"Spiral — Software for Every Idea\", shows \"Careers\""
+        },
+        {
+          "url": "https://spiralmm.xyz/careers/ai-engineer-computer-vision/",
+          "says": "titled \"Spiral — Software for Every Idea\", shows \"AI Engineer (Computer Vision)\""
+        },
+        {
+          "url": "https://spiralmm.xyz/careers/nodejs-developer/",
+          "says": "titled \"Spiral — Software for Every Idea\", shows \"Node.js Developer\""
+        },
+        {
+          "url": "https://spiralmm.xyz/careers/uiux-designer/",
+          "says": "titled \"Spiral — Software for Every Idea\", shows \"UI/UX Designer\""
+        },
+        {
+          "url": "https://spiralmm.xyz/projects/",
+          "says": "titled \"Spiral — Software for Every Idea\", shows \"Projects\""
+        },
+        {
+          "url": "https://spiralmm.xyz/projects/siv/",
+          "says": "titled \"Spiral — Software for Every Idea\", shows \"Members Only, By Design.\""
+        },
+        {
+          "url": "https://spiralmm.xyz/careers/devops-engineer/",
+          "says": "titled \"Spiral — Software for Every Idea\", shows \"DevOps Engineer\""
+        },
+        {
+          "url": "https://spiralmm.xyz/careers/product-owner/",
+          "says": "titled \"Spiral — Software for Every Idea\", shows \"Product Owner\""
+        },
+        {
+          "url": "https://spiralmm.xyz/careers/nextjs-frontend-developer/",
+          "says": "titled \"Spiral — Software for Every Idea\", shows \"Next.js Frontend Developer\""
+        },
+        {
+          "url": "https://spiralmm.xyz/careers/react-native-developer/",
+          "says": "titled \"Spiral — Software for Every Idea\", shows \"React Native Developer\""
+        }
+      ],
+      "why": "Search results, bookmarks and browser tabs show the title: pages that share one can't be told apart, and a page without one shows its address.",
+      "fix": "Give each page a title of its own that names what it shows (in a single-page app, set it on each route)."
+    },
+    {
+      "code": "SITE-24",
+      "severity": "minor",
+      "title": "4 security headers no page sends",
+      "where": [
+        {
+          "url": "https://spiralmm.xyz/",
+          "says": "no page of the site sends Strict-Transport-Security (browsers keep to https)"
+        },
+        {
+          "url": "https://spiralmm.xyz/",
+          "says": "no page of the site sends Content-Security-Policy (which scripts may run)"
+        },
+        {
+          "url": "https://spiralmm.xyz/",
+          "says": "no page of the site sends X-Frame-Options or frame-ancestors (another site cannot frame it to trick a click)"
+        },
+        {
+          "url": "https://spiralmm.xyz/",
+          "says": "no page of the site sends X-Content-Type-Options: nosniff"
+        }
+      ],
+      "why": "Each header closes a door attackers use (a downgrade to http, a script slipped in, the site framed in another to trick a click). Security reviews and compliance checklists ask for them, and they cost a line of server configuration.",
+      "fix": "Add the missing headers in the web server or the CDN (one setting each), starting with Strict-Transport-Security."
+    },
+    {
+      "code": "SITE-25",
+      "severity": "minor",
+      "title": "The server says which software and version it runs (AmazonS3)",
+      "where": [
+        {
+          "url": "https://spiralmm.xyz/",
+          "says": "server: AmazonS3"
+        }
+      ],
+      "why": "A version number tells an attacker which known holes to try, without having to look; it helps no visitor.",
+      "fix": "Turn off the version in the server's configuration (nginx: server_tokens off; Apache: ServerTokens Prod; PHP: expose_php = Off)."
+    },
+    {
+      "code": "SITE-28",
+      "severity": "minor",
+      "title": "The site has no sitemap search engines can read",
+      "where": [
+        {
+          "url": "https://spiralmm.xyz/sitemap.xml",
+          "says": "answered 404"
+        }
+      ],
+      "why": "A sitemap tells search engines every page to index, and how fresh each is; without one they find pages only by following links, and one listing wrong addresses spends their visits on errors.",
+      "fix": "Publish /sitemap.xml listing each page's final address (most site builders and CMSs have a setting or plugin for it), and name it in robots.txt (Sitemap: ...)."
+    },
+    {
+      "code": "SITE-29",
+      "severity": "minor",
+      "title": "The site has no security.txt: someone who finds a hole has no way to report it",
+      "where": [
+        {
+          "url": "https://spiralmm.xyz/.well-known/security.txt",
+          "says": "answered 404"
+        }
+      ],
+      "why": "Researchers who find a security problem look for /.well-known/security.txt to know whom to tell (RFC 9116); without it they may not report it, or report it publicly.",
+      "fix": "Publish /.well-known/security.txt with a Contact line (an email address or a form) and an Expires line."
+    },
+    {
+      "code": "SITE-31",
+      "severity": "minor",
+      "title": "The site answers at two names, spiralmm.xyz and www.spiralmm.xyz, neither sending visitors to the other",
+      "where": [
+        {
+          "url": "https://www.spiralmm.xyz/",
+          "says": "answered 200 itself"
+        }
+      ],
+      "why": "Search engines see every page twice, at two addresses, and split its ranking between them; links and shares point at both.",
+      "fix": "Pick one name and redirect the other to it with a 301 (one setting in most hosts and CDNs): https://www.spiralmm.xyz/ to https://spiralmm.xyz/, say."
+    }
+  ],
+  "siteControls": [
+    {
+      "kind": "button",
+      "words": [
+        "Our Mission"
+      ],
+      "region": "header",
+      "xpath": "//button[normalize-space()='Our Mission']",
+      "stability": "OK",
+      "pages": 11,
+      "seenOn": "https://spiralmm.xyz/"
+    },
+    {
+      "kind": "button",
+      "words": [
+        "Open Source"
+      ],
+      "region": "header",
+      "xpath": "//button[normalize-space()='Open Source']",
+      "stability": "OK",
+      "pages": 11,
+      "seenOn": "https://spiralmm.xyz/"
+    },
+    {
+      "kind": "button",
+      "words": [
+        "About"
+      ],
+      "region": "header",
+      "xpath": "//button[normalize-space()='About']",
+      "stability": "OK",
+      "pages": 11,
+      "seenOn": "https://spiralmm.xyz/"
+    }
+  ]
+}
