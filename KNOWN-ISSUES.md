@@ -12,7 +12,7 @@ not change the test to make it pass. Report it, and note it here.
 
 **Likely fix:** Serve each page with status 200: a single-page app behind a CDN usually needs its error response (the one that returns index.html) set to 200, or each route pre-rendered as its own file.
 
-**In this suite:** each of these pages is a page type all the same. Opening one passes while it answers as in the crawl (the run notes the known defect), and the run says so once a page answers 200: then take it out of here.
+**In this suite:** each of these pages is a page type all the same, and the defect is filed as a bug, bugs/open/SITE-01.md. While it is open, the status a page answers does not count (the run notes the known bug) and the rest of each test runs; the run says so once a page answers 200. A rebuild from a crawl that no longer finds it closes the bug; to close it yourself, move its file to bugs/closed/, and the status counts again, until a rebuild that still finds it files it again.
 
 - /contact/: answered 404, drew "Let's Build Something"
 - /careers/: answered 404, drew "Careers"
@@ -26,15 +26,13 @@ not change the test to make it pass. Report it, and note it here.
 - /careers/nextjs-frontend-developer/: answered 404, drew "Next.js Frontend Developer"
 - /careers/react-native-developer/: answered 404, drew "React Native Developer"
 
-### MAJOR SITE-06: 1 of the 13 addresses spiralmm.xyz points to does not answer: about 1 connection in 13 can fail
+### MAJOR SITE-33: 1 link to another site leads nowhere: the page is gone
 
-**Why it matters:** Each new visit picks one of the addresses. On one that does not answer, the page hangs and fails after a long wait. Chrome often tries the next address, so the site looks fine from a browser; scripts, some phones, monitoring and test tools do not.
+**Why it matters:** Sites move and close: a visitor who follows one of these links meets an error page, or nothing at all, on someone else's site, and leaves thinking less of this one.
 
-**Likely fix:** Remove the address that does not answer from the domain's DNS records (often a registrar's parking or redirect record left beside the hosting's), or make it serve the site.
+**Likely fix:** Point each link at where the page lives now, or take it out. The suite's link report asks every one again on each run, and fails when one that answered stops.
 
-**In this suite:** a test that lands on the address that does not answer fails on a timeout naming it, and is tried once more (usually on another address). Until the DNS is fixed, point the run at a name that avoids it (baseUrl, or BASE_URL; a www name often has records of its own).
-
-- /: 192.64.119.6 (IPv4): no answer in 5 s; the others answered
+- /: its name no longer resolves: the site is gone; linked from /, /projects/
 
 ### MINOR SITE-03: 11 of the site's own links redirect before they arrive (each only to add or drop a trailing slash)
 
@@ -108,11 +106,11 @@ not change the test to make it pass. Report it, and note it here.
 
 - /.well-known/security.txt: answered 404
 
-### MINOR SITE-31: The site answers at two names, spiralmm.xyz and www.spiralmm.xyz, neither sending visitors to the other
+### MINOR SITE-31: The site answers at two names, spiralmm.com and www.spiralmm.com, neither sending visitors to the other
 
 **Why it matters:** Search engines see every page twice, at two addresses, and split its ranking between them; links and shares point at both.
 
-**Likely fix:** Pick one name and redirect the other to it with a 301 (one setting in most hosts and CDNs): https://www.spiralmm.xyz/ to https://spiralmm.xyz/, say.
+**Likely fix:** Pick one name and redirect the other to it with a 301 (one setting in most hosts and CDNs): https://www.spiralmm.com/ to https://spiralmm.com/, say.
 
 - /: answered 200 itself
 

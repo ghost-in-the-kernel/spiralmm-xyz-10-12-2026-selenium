@@ -4,5 +4,8 @@ orphaned/
 saved-pages/
 crawl/pages/
 .git/
+secrets/*.login
+jira-loop/reported.json
+.claude/
 # ==== YOURS (ignore): safe to edit; regenerating keeps what is between these lines ====
 # ==== END YOURS (ignore) ====

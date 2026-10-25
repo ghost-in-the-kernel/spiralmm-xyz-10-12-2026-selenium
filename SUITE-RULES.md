@@ -39,11 +39,12 @@ Each rule has a **tier**:
 | SR-20 | hard | Account files stay out of git | An account in git is an account everyone with the repository has, and every copy of it handed on; a suite travels to dev teams, pipelines and tracker apps. |
 | SR-21 | story | A done story's notes name every criterion, by its number | A criterion's number is its test's name (&lt;id>-&lt;n>): a list edited after its tests were written moves every number after the edit, so a test checks one criterion under another's number, and a criterion left out of the notes is a part of the story nobody checks, or says is unchecked (trial 7: 3 of 3 list edits renumbered tested stories). |
 | SR-22 | hard | One element, one name | Every test then reaches one element two ways, and a locator fixed under one name is still broken under the other; two stories written apart (two branches) each add their own name for the same button and merge without a conflict. |
+| SR-23 | story | A done story's test passed in its latest recorded run | A story is done when its test has passed, not when its file exists: a story moved to stories/done/ by hand, or whose test has failed since, claims coverage nobody has seen. |
 
 Every rule in full (what it checks, exactly, how to fix a failure, a wrong and a right example):
 [ai/rules-in-full.md](ai/rules-in-full.md).
 
 The rules files (SuiteRules.java, SuiteRulesTest.java, this file and `src/test/resources/suite-rules/fingerprints.txt`) are generated
 with the suite. A change to one is a change outside a YOURS block: regenerating overwrites it, SR-16
-reports it, and `suite verify spiralmm-xyz-selenium-tests` finds it by comparing every generated file with what
+reports it, and `suite verify spiralmm-com-selenium-tests` finds it by comparing every generated file with what
 Suite Builder generates. To change a rule, change Suite Builder.

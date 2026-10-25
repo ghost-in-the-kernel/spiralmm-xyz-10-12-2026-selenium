@@ -34,7 +34,7 @@ public final class Pack {
     static final List<String[]> LEAVES_OUT = List.of(
             new String[] {".git/", "the repository: the receiver keeps their own"},
             new String[] {"target/", "Maven builds it again, and a run's evidence stays with whoever ran it"},
-            new String[] {"node_modules/", "npm install brings it back"},
+            new String[] {"node_modules/", "npm ci brings it back"},
             new String[] {"cypress/failures/", "a run's evidence stays with whoever ran it"},
             new String[] {"cypress/screenshots/", "a run's evidence stays with whoever ran it"},
             new String[] {"cypress/videos/", "a run's evidence stays with whoever ran it"},

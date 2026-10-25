@@ -29,12 +29,13 @@ written for whoever fixes a failure, person or AI.
 | [SR-20](#sr-20--account-files-stay-out-of-git) | Account files stay out of git |
 | [SR-21](#sr-21--a-done-storys-notes-name-every-criterion-by-its-number) | A done story's notes name every criterion, by its number |
 | [SR-22](#sr-22--one-element-one-name) | One element, one name |
+| [SR-23](#sr-23--a-done-storys-test-passed-in-its-latest-recorded-run) | A done story's test passed in its latest recorded run |
 
 A **story** is a test carrying `@Story` or extending `StoryTest`. The story rules hold for stories
 only; a test of your own that is not one is held to the hard rules (it checks something, and the
 generated files around it stay as generated).
 
-Run just the rules: `mvn test -Dgroups=rules` (in spiralmm-xyz-selenium-tests).
+Run just the rules: `mvn test -Dgroups=rules` (in spiralmm-com-selenium-tests).
 
 ## SR-01 · A story is in cases/
 
@@ -390,3 +391,11 @@ new HomePage(driver).open()
 **Why.** Every test then reaches one element two ways, and a locator fixed under one name is still broken under the other; two stories written apart (two branches) each add their own name for the same button and merge without a conflict.
 
 **How to fix it.** Keep one name, delete the other constant, and point every use of it at the one kept (search the tests and pages for its name). Before adding an element, search the Elements for its locator (ai/recipes/add-an-element.md).
+
+## SR-23 · A done story's test passed in its latest recorded run
+
+**What it checks.** For each story in stories/done/, in runs/index.jsonl (one line a run, which Suite Builder's suite test appends): the latest run in which a story class of it ran has every test of that class passed, and the suite's rules passed in that same run (its own SR-23 left out: it cannot pass before the run that shows the story passing). A story with no run in the index fails. Which crawl the run was made from is information only: a recrawl never undoes a done story.
+
+**Why.** A story is done when its test has passed, not when its file exists: a story moved to stories/done/ by hand, or whose test has failed since, claims coverage nobody has seen. A run only counts if the rules held in it, since a test passing beside broken rules says little.
+
+**How to fix it.** Run the whole suite with Suite Builder (suite test &lt;project>, in the suite-builder folder, never from here) so the run is recorded; fix the story's test if it failed, and the other rules if they were broken in that run. A story that is not finished goes back to stories/new/. Never edit runs/index.jsonl: it is the record of what ran.

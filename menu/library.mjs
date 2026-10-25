@@ -18,7 +18,7 @@ import { dirname, extname, join, relative, resolve, sep } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
-const SITE = "spiralmm.xyz";
+const SITE = "spiralmm.com";
 const FRAMEWORK = "Selenium";
 /** java (Maven, JUnit tags) or cypress (npm, tags in the specs). */
 const KIND = "java";
@@ -277,7 +277,7 @@ function checked(what) {
   const cmd = listed ? commandFor(what) : null;
   if (!cmd || !/^[\w#,.:/=-]+$/.test(cmd.slice(1).join(''))) return 'Nothing to run.';
   if (KIND === 'cypress' && !existsSync(join(ROOT, 'node_modules')))
-    return 'First, once: npm install, in this folder (it downloads what the tests need).';
+    return 'First, once: npm ci, then npx cypress install, in this folder (they download what the tests need).';
   return cmd;
 }
 
@@ -467,10 +467,25 @@ const server = createServer((req, res) => {
     return;
   }
   if (req.method === 'POST') {
+    // A request's body is small JSON from this page: one too big, or that is no JSON, is refused, never the server's end.
     let body = '';
-    req.on('data', (c) => (body += c));
+    req.on('data', (c) => {
+      body += c;
+      if (body.length > 65536) {
+        res.writeHead(413);
+        res.end();
+        req.destroy();
+      }
+    });
     req.on('end', () => {
-      const asked = body ? JSON.parse(body) : {};
+      if (res.writableEnded) return;
+      let asked;
+      try {
+        asked = body ? JSON.parse(body) : {};
+      } catch {
+        res.writeHead(400);
+        return res.end('Not JSON.');
+      }
       if (url.pathname === '/api/run') return json({ error: start(asked.what ?? {}, String(asked.label ?? 'tests')) });
       if (url.pathname === '/api/latest')
         return json(

@@ -1,0 +1,3977 @@
+{
+  "tool": "suite-builder",
+  "reportVersion": 6,
+  "startUrl": "https://spiralmm.com/",
+  "origin": "https://spiralmm.com",
+  "options": {
+    "maxPages": 300,
+    "delayMs": 1000,
+    "userAgent": "Mozilla/5.0 (compatible; SuiteBuilder/1.0; +https://github.com/Ghost-in-the-Kernel-Labs/Ghost-in-the-Kernel-Labs-suite-builder-docs)",
+    "maxConsecutiveErrors": 3,
+    "include": [],
+    "exclude": []
+  },
+  "adsBlocked": true,
+  "robots": {
+    "url": "https://spiralmm.com/robots.txt",
+    "status": 404,
+    "source": "none",
+    "crawlDelaySeconds": null
+  },
+  "notFound": {
+    "url": "https://spiralmm.com/suite-builder-no-such-page-11979f65",
+    "status": 404
+  },
+  "site": {
+    "certificate": {
+      "validTo": "2027-05-06",
+      "daysLeft": 192,
+      "names": [
+        "*.spiralmm.com",
+        "spiralmm.com"
+      ],
+      "matches": true,
+      "trusted": true
+    },
+    "http": {
+      "url": "http://spiralmm.com/",
+      "status": 301,
+      "to": "https://spiralmm.com/"
+    },
+    "twin": {
+      "url": "https://www.spiralmm.com/",
+      "status": 200
+    },
+    "sitemap": {
+      "url": "https://spiralmm.com/sitemap.xml",
+      "status": 404
+    },
+    "securityTxt": {
+      "url": "https://spiralmm.com/.well-known/security.txt",
+      "status": 404
+    },
+    "images": {
+      "asked": 8,
+      "seen": 8
+    },
+    "external": {
+      "seen": 8,
+      "answers": [
+        {
+          "url": "https://www.facebook.com/share/1GLATiU4Ap/",
+          "status": 200,
+          "to": "https://www.facebook.com/people/Spiral-Myanmar/61592555653486/?rdid=L6eWCdYU2ZTkMu2h&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1GLATiU4Ap%2F"
+        },
+        {
+          "url": "https://www.linkedin.com/company/spiralmm/",
+          "status": 200
+        },
+        {
+          "url": "https://instagram.com/",
+          "status": 200,
+          "to": "https://www.instagram.com/"
+        },
+        {
+          "url": "https://x.com/",
+          "status": 200
+        },
+        {
+          "url": "https://qsuremm.xyz/",
+          "status": null,
+          "failed": "no-such-name"
+        },
+        {
+          "url": "https://home.stakefairmm.xyz/",
+          "status": 200
+        },
+        {
+          "url": "https://flaremm.xyz/",
+          "status": 200
+        },
+        {
+          "url": "https://github.com/Spiral-Myanmar",
+          "status": 200
+        }
+      ]
+    }
+  },
+  "addresses": [
+    {
+      "address": "108.139.10.67",
+      "family": 4,
+      "answered": true
+    },
+    {
+      "address": "108.139.10.24",
+      "family": 4,
+      "answered": true
+    },
+    {
+      "address": "108.139.10.71",
+      "family": 4,
+      "answered": true
+    },
+    {
+      "address": "108.139.10.19",
+      "family": 4,
+      "answered": true
+    },
+    {
+      "address": "2600:9000:2864:bc00:10:f569:2bc0:93a1",
+      "family": 6,
+      "answered": false,
+      "error": "ENETUNREACH"
+    },
+    {
+      "address": "2600:9000:2864:8e00:10:f569:2bc0:93a1",
+      "family": 6,
+      "answered": false,
+      "error": "ENETUNREACH"
+    },
+    {
+      "address": "2600:9000:2864:9400:10:f569:2bc0:93a1",
+      "family": 6,
+      "answered": false,
+      "error": "ENETUNREACH"
+    },
+    {
+      "address": "2600:9000:2864:7a00:10:f569:2bc0:93a1",
+      "family": 6,
+      "answered": false,
+      "error": "ENETUNREACH"
+    },
+    {
+      "address": "2600:9000:2864:d200:10:f569:2bc0:93a1",
+      "family": 6,
+      "answered": false,
+      "error": "ENETUNREACH"
+    },
+    {
+      "address": "2600:9000:2864:c400:10:f569:2bc0:93a1",
+      "family": 6,
+      "answered": false,
+      "error": "ENETUNREACH"
+    },
+    {
+      "address": "2600:9000:2864:6c00:10:f569:2bc0:93a1",
+      "family": 6,
+      "answered": false,
+      "error": "ENETUNREACH"
+    },
+    {
+      "address": "2600:9000:2864:9000:10:f569:2bc0:93a1",
+      "family": 6,
+      "answered": false,
+      "error": "ENETUNREACH"
+    }
+  ],
+  "stopReason": "complete",
+  "discovery": {
+    "newAt": [
+      1,
+      2,
+      3,
+      4,
+      7,
+      8
+    ]
+  },
+  "pages": [
+    {
+      "url": "https://spiralmm.com/",
+      "finalUrl": "https://spiralmm.com/",
+      "status": 200,
+      "redirects": [],
+      "title": "Spiral — Software for Every Idea",
+      "contentType": "text/html",
+      "depth": 0,
+      "fingerprint": {
+        "hash": "a894933a22cd1ec5",
+        "paths": [
+          "div",
+          "div/footer.bg-bg",
+          "div/footer.bg-bg/div.border-border.border-t.flex",
+          "div/footer.bg-bg/div.border-border.border-t.flex/a.flex.items-center",
+          "div/footer.bg-bg/div.border-border.border-t.flex/a.flex.items-center/img",
+          "div/footer.bg-bg/div.border-border.border-t.flex/a.flex.items-center/span.font-black.text-ink.text-lg",
+          "div/footer.bg-bg/div.border-border.border-t.flex/nav.flex.flex-wrap.items-center",
+          "div/footer.bg-bg/div.border-border.border-t.flex/nav.flex.flex-wrap.items-center/a.font-semibold.text-sm.transition-colors",
+          "div/footer.bg-bg/div.border-border.border-t.flex/p.text-muted.text-sm",
+          "div/header.backdrop-blur-md.sticky",
+          "div/header.backdrop-blur-md.sticky/div.flex.items-center.justify-between",
+          "div/header.backdrop-blur-md.sticky/div.flex.items-center.justify-between/a.flex.items-center",
+          "div/header.backdrop-blur-md.sticky/div.flex.items-center.justify-between/a.flex.items-center/img",
+          "div/header.backdrop-blur-md.sticky/div.flex.items-center.justify-between/a.flex.items-center/span.font-black.text-ink.text-xl",
+          "div/header.backdrop-blur-md.sticky/div.flex.items-center.justify-between/a.flex.items-center/span.leading-none.text-base",
+          "div/header.backdrop-blur-md.sticky/div.flex.items-center.justify-between/div.flex.items-center",
+          "div/header.backdrop-blur-md.sticky/div.flex.items-center.justify-between/div.flex.items-center/a.bg-ink.font-bold.rounded-full",
+          "div/header.backdrop-blur-md.sticky/div.flex.items-center.justify-between/div.flex.items-center/button.flex.items-center.justify-center",
+          "div/header.backdrop-blur-md.sticky/div.flex.items-center.justify-between/div.flex.items-center/button.flex.items-center.justify-center/svg.lucide.lucide-menu",
+          "div/header.backdrop-blur-md.sticky/div.flex.items-center.justify-between/nav.hidden.items-center",
+          "div/header.backdrop-blur-md.sticky/div.flex.items-center.justify-between/nav.hidden.items-center/a.font-semibold.transition-colors",
+          "div/header.backdrop-blur-md.sticky/div.flex.items-center.justify-between/nav.hidden.items-center/button.font-semibold.transition-colors",
+          "div/main",
+          "div/main/section.bg-bg",
+          "div/main/section.bg-bg/div.bg-ink.ease-out.mx-auto",
+          "div/main/section.bg-bg/div.bg-ink.ease-out.mx-auto/a.bg-white.font-bold.inline-flex",
+          "div/main/section.bg-bg/div.bg-ink.ease-out.mx-auto/a.bg-white.font-bold.inline-flex/svg",
+          "div/main/section.bg-bg/div.bg-ink.ease-out.mx-auto/div.font-black.text-white.tracking-tighter",
+          "div/main/section.bg-bg/div.bg-ink.ease-out.mx-auto/div.font-black.text-white.tracking-tighter/p",
+          "div/main/section.bg-bg/div.bg-ink.ease-out.mx-auto/h2.font-bold.text-sm.uppercase",
+          "div/main/section.bg-bg/div.bg-ink.ease-out.mx-auto/p.leading-relaxed.max-w-xl.text-lg",
+          "div/main/section.bg-bg/div.bg-ink.ease-out.mx-auto/p.leading-relaxed.max-w-xl.text-lg/span.text-accent",
+          "div/main/section.bg-bg/div.ease-out.mx-auto.transition-all",
+          "div/main/section.bg-bg/div.ease-out.mx-auto.transition-all/div.flex.flex-wrap",
+          "div/main/section.bg-bg/div.ease-out.mx-auto.transition-all/div.flex.flex-wrap/a.bg-bg-soft.font-bold.rounded-full",
+          "div/main/section.bg-bg/div.ease-out.mx-auto.transition-all/div.flex.flex-wrap/a.bg-ink.font-bold.rounded-full",
+          "div/main/section.bg-bg/div.ease-out.mx-auto.transition-all/h1.font-black.text-ink.tracking-tighter",
+          "div/main/section.bg-bg/div.ease-out.mx-auto.transition-all/h1.font-black.text-ink.tracking-tighter/span.text-accent",
+          "div/main/section.bg-bg/div.ease-out.mx-auto.transition-all/p.leading-relaxed.max-w-md.text-lg",
+          "div/main/section.bg-bg/div.mx-auto",
+          "div/main/section.bg-bg/div.mx-auto/div.ease-out.transition-all",
+          "div/main/section.bg-bg/div.mx-auto/div.ease-out.transition-all/div.font-black.tracking-tighter",
+          "div/main/section.bg-bg/div.mx-auto/div.ease-out.transition-all/div.font-black.tracking-tighter/p.text-ink",
+          "div/main/section.bg-bg/div.mx-auto/div.ease-out.transition-all/div.font-black.tracking-tighter/p.text-ink/span.text-accent",
+          "div/main/section.bg-bg/div.mx-auto/div.ease-out.transition-all/h2.font-black.text-ink.tracking-tighter",
+          "div/main/section.bg-bg/div.mx-auto/div.ease-out.transition-all/h2.font-bold.text-muted.text-sm",
+          "div/main/section.bg-bg/div.mx-auto/div.ease-out.transition-all/p.leading-relaxed.max-w-xl.text-lg",
+          "div/main/section.bg-bg/div.mx-auto/div.grid",
+          "div/main/section.bg-bg/div.mx-auto/div.grid/div.border-border.border-t.ease-out",
+          "div/main/section.bg-bg/div.mx-auto/div.grid/div.border-border.border-t.ease-out/h3.font-bold.text-ink.text-xl",
+          "div/main/section.bg-bg/div.mx-auto/div.grid/div.border-border.border-t.ease-out/p.leading-relaxed.text-muted",
+          "div/main/section.bg-bg/div.mx-auto/div.grid/div.border-border.border-t.ease-out/svg.lucide.lucide-calendar.text-ink",
+          "div/main/section.bg-bg/div.mx-auto/div.grid/div.border-border.border-t.ease-out/svg.lucide.lucide-eye.text-ink",
+          "div/main/section.bg-bg/div.mx-auto/div.grid/div.border-border.border-t.ease-out/svg.lucide.lucide-film.text-ink",
+          "div/main/section.bg-bg/div.mx-auto/div.grid/div.border-border.border-t.ease-out/svg.lucide.lucide-heart.text-ink",
+          "div/main/section.bg-bg/div.mx-auto/div.grid/div.border-border.border-t.ease-out/svg.lucide.lucide-lock.text-ink",
+          "div/main/section.bg-bg/div.mx-auto/div.grid/div.border-border.border-t.ease-out/svg.lucide.lucide-map.text-ink",
+          "div/main/section.bg-bg/div.mx-auto/div.grid/div.border-border.border-t.ease-out/svg.lucide.lucide-palette.text-ink",
+          "div/main/section.bg-bg/div.mx-auto/div.grid/div.border-border.border-t.ease-out/svg.lucide.lucide-shopping-cart.text-ink",
+          "div/main/section.bg-bg/div.mx-auto/div.grid/div.border-border.border-t.ease-out/svg.lucide.lucide-sparkles.text-ink",
+          "div/main/section.bg-bg/div.mx-auto/div.grid/div.ease-out.transition-all",
+          "div/main/section.bg-bg/div.mx-auto/div.grid/div.ease-out.transition-all/a.block.group",
+          "div/main/section.bg-bg/div.mx-auto/div.grid/div.ease-out.transition-all/a.block.group/div.flex.items-center",
+          "div/main/section.bg-bg/div.mx-auto/div.grid/div.ease-out.transition-all/a.block.group/div.flex.items-center/h3.font-black.text-ink.tracking-tighter",
+          "div/main/section.bg-bg/div.mx-auto/div.grid/div.ease-out.transition-all/a.block.group/div.flex.items-center/img.object-contain.rounded-xl",
+          "div/main/section.bg-bg/div.mx-auto/div.grid/div.ease-out.transition-all/a.block.group/div.flex.justify-center.overflow-hidden",
+          "div/main/section.bg-bg/div.mx-auto/div.grid/div.ease-out.transition-all/a.block.group/div.flex.justify-center.overflow-hidden/div.bg-ink.border-ink.overflow-hidden",
+          "div/main/section.bg-bg/div.mx-auto/div.grid/div.ease-out.transition-all/a.block.group/div.flex.justify-center.overflow-hidden/div.bg-ink.border-ink.overflow-hidden/img.block.w-full",
+          "div/main/section.bg-bg/div.mx-auto/div.grid/div.ease-out.transition-all/a.block.group/div.flex.justify-center.overflow-hidden/span.absolute.bg-ink.flex",
+          "div/main/section.bg-bg/div.mx-auto/div.grid/div.ease-out.transition-all/a.block.group/div.flex.justify-center.overflow-hidden/span.absolute.bg-ink.flex/svg.lucide.lucide-arrow-up-right",
+          "div/main/section.bg-bg/div.mx-auto/div.grid/div.ease-out.transition-all/a.block.group/p.leading-relaxed.text-muted",
+          "div/main/section.bg-bg/div.mx-auto/div.grid/div.ease-out.transition-all/div.bg-bg-soft",
+          "div/main/section.bg-bg/div.mx-auto/div.grid/div.ease-out.transition-all/div.bg-bg-soft/div",
+          "div/main/section.bg-bg/div.mx-auto/div.grid/div.ease-out.transition-all/div.bg-bg-soft/div.flex.items-center",
+          "div/main/section.bg-bg/div.mx-auto/div.grid/div.ease-out.transition-all/div.bg-bg-soft/div.flex.items-center/a.bg-ink.flex.items-center",
+          "div/main/section.bg-bg/div.mx-auto/div.grid/div.ease-out.transition-all/div.bg-bg-soft/div.flex.items-center/a.bg-ink.flex.items-center/svg",
+          "div/main/section.bg-bg/div.mx-auto/div.grid/div.ease-out.transition-all/div.bg-bg-soft/div/a.flex.items-center.text-ink",
+          "div/main/section.bg-bg/div.mx-auto/div.grid/div.ease-out.transition-all/div.bg-bg-soft/div/a.flex.items-center.text-ink/span.font-bold.text-lg.tracking-tight",
+          "div/main/section.bg-bg/div.mx-auto/div.grid/div.ease-out.transition-all/div.bg-bg-soft/div/a.flex.items-center.text-ink/svg.lucide.lucide-mail",
+          "div/main/section.bg-bg/div.mx-auto/div.grid/div.ease-out.transition-all/div.bg-bg-soft/div/a.flex.items-center.text-ink/svg.lucide.lucide-phone",
+          "div/main/section.bg-bg/div.mx-auto/div.grid/div.ease-out.transition-all/div.bg-bg-soft/h3.font-bold.text-muted.text-sm",
+          "div/main/section.bg-bg/div.mx-auto/div.grid/div.ease-out.transition-all/div.flex.flex-wrap",
+          "div/main/section.bg-bg/div.mx-auto/div.grid/div.ease-out.transition-all/div.flex.flex-wrap/div",
+          "div/main/section.bg-bg/div.mx-auto/div.grid/div.ease-out.transition-all/div.flex.flex-wrap/div/div.font-black.text-ink.tracking-tighter",
+          "div/main/section.bg-bg/div.mx-auto/div.grid/div.ease-out.transition-all/div.flex.flex-wrap/div/div.font-medium.text-muted.text-sm",
+          "div/main/section.bg-bg/div.mx-auto/div.grid/div.ease-out.transition-all/div.font-black.leading-tight.text-ink",
+          "div/main/section.bg-bg/div.mx-auto/div.grid/div.ease-out.transition-all/div.font-black.leading-tight.text-ink/p",
+          "div/main/section.bg-bg/div.mx-auto/div.grid/div.ease-out.transition-all/div.font-black.leading-tight.text-ink/p/span.text-muted",
+          "div/main/section.bg-bg/div.mx-auto/div.grid/div.ease-out.transition-all/h2.font-bold.text-muted.text-sm",
+          "div/main/section.bg-bg/div.mx-auto/div.grid/div.ease-out.transition-all/p.leading-relaxed.text-lg.text-muted",
+          "div/main/section.bg-bg/div.mx-auto/div.grid/div.ease-out.transition-all/p.leading-relaxed.text-lg.text-muted/span.text-accent"
+        ]
+      },
+      "settled": {
+        "ms": 1200,
+        "networkQuiet": true,
+        "domQuiet": true
+      },
+      "declared": [
+        "website"
+      ],
+      "headings": [
+        "Software for the people.",
+        "What we're building",
+        "Qsure",
+        "Stakefair",
+        "Flare",
+        "Our Mission",
+        "Artist Profiles",
+        "Filmography",
+        "Booking Software",
+        "Shopping Apps",
+        "Dating Apps",
+        "Exclusive Content Apps",
+        "Map & Terrain Apps",
+        "Surveillance Tools",
+        "And So Much More",
+        "Open Source",
+        "About Spiral",
+        "Company Info"
+      ],
+      "skippedHeadings": [
+        "About Spiral",
+        "Company Info"
+      ],
+      "structure": {
+        "h1": [
+          "Software for the people."
+        ],
+        "main": true
+      },
+      "controls": [
+        {
+          "kind": "button",
+          "words": [
+            "Our Mission"
+          ],
+          "region": "header",
+          "xpath": "//button[normalize-space()='Our Mission']",
+          "stability": "OK"
+        },
+        {
+          "kind": "button",
+          "words": [
+            "Open Source"
+          ],
+          "region": "header",
+          "xpath": "//button[normalize-space()='Open Source']",
+          "stability": "OK"
+        },
+        {
+          "kind": "button",
+          "words": [
+            "About"
+          ],
+          "region": "header",
+          "xpath": "//button[normalize-space()='About']",
+          "stability": "OK"
+        }
+      ],
+      "snapshot": "pages/index.html",
+      "markup": {
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1.0",
+        "description": "Spiral builds mobile, web, and AI software — from artist profiles to booking systems to surveillance tools. Tell us what you're building.",
+        "copyright": {
+          "year": 2026,
+          "seen": 2026
+        }
+      },
+      "seen": [
+        {
+          "role": "link",
+          "name": "Spiral home",
+          "url": "/"
+        },
+        {
+          "role": "button",
+          "name": "Our Mission"
+        },
+        {
+          "role": "button",
+          "name": "Open Source"
+        },
+        {
+          "role": "link",
+          "name": "Projects",
+          "url": "/projects"
+        },
+        {
+          "role": "link",
+          "name": "Careers",
+          "url": "/careers"
+        },
+        {
+          "role": "button",
+          "name": "About"
+        },
+        {
+          "role": "link",
+          "name": "Start a Project",
+          "url": "/contact"
+        },
+        {
+          "role": "link",
+          "name": "See our work",
+          "url": "/projects"
+        },
+        {
+          "role": "link",
+          "name": "Visit Qsure",
+          "url": "https://qsuremm.xyz/",
+          "where": {
+            "in": "page",
+            "tag": "a"
+          }
+        },
+        {
+          "role": "link",
+          "name": "Visit Stakefair",
+          "url": "https://home.stakefairmm.xyz/",
+          "where": {
+            "in": "page",
+            "tag": "a"
+          }
+        },
+        {
+          "role": "link",
+          "name": "Visit Flare",
+          "url": "https://flaremm.xyz/",
+          "where": {
+            "in": "page",
+            "tag": "a"
+          }
+        },
+        {
+          "role": "link",
+          "name": "View on GitHub",
+          "url": "https://github.com/Spiral-Myanmar"
+        },
+        {
+          "role": "link",
+          "name": "hello@spiralmm.xyz",
+          "url": "mailto:hello@spiral.com"
+        },
+        {
+          "role": "link",
+          "name": "+9595192942",
+          "url": "tel:+9595192942"
+        },
+        {
+          "role": "link",
+          "name": "Facebook",
+          "url": "https://www.facebook.com/share/1GLATiU4Ap/"
+        },
+        {
+          "role": "link",
+          "name": "LinkedIn",
+          "url": "https://www.linkedin.com/company/spiralmm/"
+        },
+        {
+          "role": "link",
+          "name": "Instagram",
+          "url": "https://instagram.com/"
+        },
+        {
+          "role": "link",
+          "name": "X",
+          "url": "https://x.com/"
+        }
+      ],
+      "load": {
+        "loadMs": 2900,
+        "headers": {
+          "server": "AmazonS3"
+        }
+      },
+      "late": {
+        "afterMs": 2000,
+        "seen": []
+      },
+      "secondLook": {
+        "headings": [
+          "Software for the people."
+        ]
+      }
+    },
+    {
+      "url": "https://spiralmm.com/contact",
+      "finalUrl": "https://spiralmm.com/contact/",
+      "status": 404,
+      "redirects": [
+        {
+          "url": "https://spiralmm.com/contact",
+          "status": 301
+        }
+      ],
+      "title": "Spiral — Software for Every Idea",
+      "contentType": "text/html",
+      "depth": 1,
+      "fingerprint": {
+        "hash": "9f061889474a4987",
+        "paths": [
+          "div",
+          "div/footer.bg-bg",
+          "div/footer.bg-bg/div.border-border.border-t.flex",
+          "div/footer.bg-bg/div.border-border.border-t.flex/a.flex.items-center",
+          "div/footer.bg-bg/div.border-border.border-t.flex/a.flex.items-center/img",
+          "div/footer.bg-bg/div.border-border.border-t.flex/a.flex.items-center/span.font-black.text-ink.text-lg",
+          "div/footer.bg-bg/div.border-border.border-t.flex/nav.flex.flex-wrap.items-center",
+          "div/footer.bg-bg/div.border-border.border-t.flex/nav.flex.flex-wrap.items-center/a.font-semibold.text-sm.transition-colors",
+          "div/footer.bg-bg/div.border-border.border-t.flex/p.text-muted.text-sm",
+          "div/header.backdrop-blur-md.sticky",
+          "div/header.backdrop-blur-md.sticky/div.flex.items-center.justify-between",
+          "div/header.backdrop-blur-md.sticky/div.flex.items-center.justify-between/a.flex.items-center",
+          "div/header.backdrop-blur-md.sticky/div.flex.items-center.justify-between/a.flex.items-center/img",
+          "div/header.backdrop-blur-md.sticky/div.flex.items-center.justify-between/a.flex.items-center/span.font-black.text-ink.text-xl",
+          "div/header.backdrop-blur-md.sticky/div.flex.items-center.justify-between/a.flex.items-center/span.leading-none.text-base",
+          "div/header.backdrop-blur-md.sticky/div.flex.items-center.justify-between/div.flex.items-center",
+          "div/header.backdrop-blur-md.sticky/div.flex.items-center.justify-between/div.flex.items-center/a.bg-ink.font-bold.rounded-full",
+          "div/header.backdrop-blur-md.sticky/div.flex.items-center.justify-between/div.flex.items-center/button.flex.items-center.justify-center",
+          "div/header.backdrop-blur-md.sticky/div.flex.items-center.justify-between/div.flex.items-center/button.flex.items-center.justify-center/svg.lucide.lucide-menu",
+          "div/header.backdrop-blur-md.sticky/div.flex.items-center.justify-between/nav.hidden.items-center",
+          "div/header.backdrop-blur-md.sticky/div.flex.items-center.justify-between/nav.hidden.items-center/a.font-semibold.transition-colors",
+          "div/header.backdrop-blur-md.sticky/div.flex.items-center.justify-between/nav.hidden.items-center/button.font-semibold.transition-colors",
+          "div/main.bg-bg",
+          "div/main.bg-bg/div.mx-auto",
+          "div/main.bg-bg/div.mx-auto/div",
+          "div/main.bg-bg/div.mx-auto/div/h1.font-black.text-ink.tracking-tighter",
+          "div/main.bg-bg/div.mx-auto/div/p.leading-relaxed.max-w-md.text-lg",
+          "div/main.bg-bg/div.mx-auto/form",
+          "div/main.bg-bg/div.mx-auto/form/button.bg-ink.font-bold.rounded-full",
+          "div/main.bg-bg/div.mx-auto/form/div",
+          "div/main.bg-bg/div.mx-auto/form/div/div.relative",
+          "div/main.bg-bg/div.mx-auto/form/div/div.relative/input.bg-bg-soft.outline-none.text-ink",
+          "div/main.bg-bg/div.mx-auto/form/div/div.relative/svg.absolute.lucide.lucide-mail",
+          "div/main.bg-bg/div.mx-auto/form/div/div.relative/svg.absolute.lucide.lucide-phone",
+          "div/main.bg-bg/div.mx-auto/form/div/input.bg-bg-soft.outline-none.text-ink",
+          "div/main.bg-bg/div.mx-auto/form/div/label.block.font-bold.text-ink",
+          "div/main.bg-bg/div.mx-auto/form/div/label.block.font-bold.text-ink/span.text-accent",
+          "div/main.bg-bg/div.mx-auto/form/div/select.bg-bg-soft.outline-none.text-ink",
+          "div/main.bg-bg/div.mx-auto/form/div/select.bg-bg-soft.outline-none.text-ink/option",
+          "div/main.bg-bg/div.mx-auto/form/div/select.bg-bg-soft.outline-none.text-ink/option.text-ink",
+          "div/main.bg-bg/div.mx-auto/form/div/textarea.bg-bg-soft.outline-none.resize-y"
+        ]
+      },
+      "settled": {
+        "ms": 1100,
+        "networkQuiet": true,
+        "domQuiet": true
+      },
+      "declared": [
+        "website"
+      ],
+      "headings": [
+        "Let's Build Something",
+        "Name*",
+        "Email*",
+        "Mobile",
+        "Company",
+        "Project Type*",
+        "Message*"
+      ],
+      "structure": {
+        "h1": [
+          "Let's Build Something"
+        ],
+        "main": true
+      },
+      "controls": [
+        {
+          "kind": "button",
+          "words": [
+            "Our Mission"
+          ],
+          "region": "header",
+          "xpath": "//button[normalize-space()='Our Mission']",
+          "stability": "OK"
+        },
+        {
+          "kind": "button",
+          "words": [
+            "Open Source"
+          ],
+          "region": "header",
+          "xpath": "//button[normalize-space()='Open Source']",
+          "stability": "OK"
+        },
+        {
+          "kind": "button",
+          "words": [
+            "About"
+          ],
+          "region": "header",
+          "xpath": "//button[normalize-space()='About']",
+          "stability": "OK"
+        },
+        {
+          "kind": "text field",
+          "words": [
+            "Name*",
+            "Your name"
+          ],
+          "region": "main",
+          "form": "Let's Build Something",
+          "noValidate": true,
+          "xpath": "//input[@id='name']",
+          "stability": "Strong"
+        },
+        {
+          "kind": "email field",
+          "words": [
+            "Email*",
+            "you@company.com"
+          ],
+          "region": "main",
+          "form": "Let's Build Something",
+          "noValidate": true,
+          "xpath": "//input[@id='email']",
+          "stability": "Strong"
+        },
+        {
+          "kind": "tel field",
+          "words": [
+            "Mobile",
+            "+1 (555) 000-0000"
+          ],
+          "region": "main",
+          "form": "Let's Build Something",
+          "noValidate": true,
+          "xpath": "//input[@id='mobile']",
+          "stability": "Strong"
+        },
+        {
+          "kind": "text field",
+          "words": [
+            "Company",
+            "Optional"
+          ],
+          "region": "main",
+          "form": "Let's Build Something",
+          "noValidate": true,
+          "xpath": "//input[@id='company']",
+          "stability": "Strong"
+        },
+        {
+          "kind": "dropdown",
+          "words": [
+            "Project Type*"
+          ],
+          "region": "main",
+          "form": "Let's Build Something",
+          "options": [
+            "Artist Profile / Filmography",
+            "Booking Software",
+            "Shopping App",
+            "Dating App",
+            "Exclusive Content App"
+          ],
+          "noValidate": true,
+          "xpath": "//select[@id='projectType']",
+          "stability": "Strong"
+        },
+        {
+          "kind": "text area",
+          "words": [
+            "Message*",
+            "Tell us what you're building…"
+          ],
+          "region": "main",
+          "form": "Let's Build Something",
+          "noValidate": true,
+          "xpath": "//textarea[@id='message']",
+          "stability": "Strong"
+        },
+        {
+          "kind": "button",
+          "words": [
+            "Send Message"
+          ],
+          "region": "main",
+          "form": "Let's Build Something",
+          "noValidate": true,
+          "xpath": "//button[normalize-space()='Send Message']",
+          "stability": "OK"
+        }
+      ],
+      "snapshot": "pages/contact.html",
+      "markup": {
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1.0",
+        "description": "Spiral builds mobile, web, and AI software — from artist profiles to booking systems to surveillance tools. Tell us what you're building.",
+        "copyright": {
+          "year": 2026,
+          "seen": 2026
+        }
+      },
+      "seen": [
+        {
+          "role": "link",
+          "name": "Spiral home",
+          "url": "/"
+        },
+        {
+          "role": "button",
+          "name": "Our Mission"
+        },
+        {
+          "role": "button",
+          "name": "Open Source"
+        },
+        {
+          "role": "link",
+          "name": "Projects",
+          "url": "/projects"
+        },
+        {
+          "role": "link",
+          "name": "Careers",
+          "url": "/careers"
+        },
+        {
+          "role": "button",
+          "name": "About"
+        },
+        {
+          "role": "link",
+          "name": "Start a Project",
+          "url": "/contact"
+        },
+        {
+          "role": "textbox",
+          "name": "Name*"
+        },
+        {
+          "role": "textbox",
+          "name": "Email*"
+        },
+        {
+          "role": "textbox",
+          "name": "Mobile"
+        },
+        {
+          "role": "textbox",
+          "name": "Company"
+        },
+        {
+          "role": "combobox",
+          "name": "Project Type*"
+        },
+        {
+          "role": "textbox",
+          "name": "Message*"
+        },
+        {
+          "role": "button",
+          "name": "Send Message"
+        },
+        {
+          "role": "link",
+          "name": "LinkedIn",
+          "url": "https://www.linkedin.com/company/spiralmm/"
+        },
+        {
+          "role": "link",
+          "name": "Facebook",
+          "url": "https://www.facebook.com/share/1GLATiU4Ap/"
+        },
+        {
+          "role": "link",
+          "name": "Instagram",
+          "url": "https://instagram.com/"
+        },
+        {
+          "role": "link",
+          "name": "X",
+          "url": "https://x.com/"
+        }
+      ],
+      "load": {
+        "headers": {
+          "server": "AmazonS3"
+        }
+      }
+    },
+    {
+      "url": "https://spiralmm.com/careers",
+      "finalUrl": "https://spiralmm.com/careers/",
+      "status": 404,
+      "redirects": [
+        {
+          "url": "https://spiralmm.com/careers",
+          "status": 301
+        }
+      ],
+      "title": "Spiral — Software for Every Idea",
+      "contentType": "text/html",
+      "depth": 1,
+      "fingerprint": {
+        "hash": "0fa6559d1841b657",
+        "paths": [
+          "div",
+          "div/footer.bg-bg",
+          "div/footer.bg-bg/div.border-border.border-t.flex",
+          "div/footer.bg-bg/div.border-border.border-t.flex/a.flex.items-center",
+          "div/footer.bg-bg/div.border-border.border-t.flex/a.flex.items-center/img",
+          "div/footer.bg-bg/div.border-border.border-t.flex/a.flex.items-center/span.font-black.text-ink.text-lg",
+          "div/footer.bg-bg/div.border-border.border-t.flex/nav.flex.flex-wrap.items-center",
+          "div/footer.bg-bg/div.border-border.border-t.flex/nav.flex.flex-wrap.items-center/a.font-semibold.text-sm.transition-colors",
+          "div/footer.bg-bg/div.border-border.border-t.flex/p.text-muted.text-sm",
+          "div/header.backdrop-blur-md.sticky",
+          "div/header.backdrop-blur-md.sticky/div.flex.items-center.justify-between",
+          "div/header.backdrop-blur-md.sticky/div.flex.items-center.justify-between/a.flex.items-center",
+          "div/header.backdrop-blur-md.sticky/div.flex.items-center.justify-between/a.flex.items-center/img",
+          "div/header.backdrop-blur-md.sticky/div.flex.items-center.justify-between/a.flex.items-center/span.font-black.text-ink.text-xl",
+          "div/header.backdrop-blur-md.sticky/div.flex.items-center.justify-between/a.flex.items-center/span.leading-none.text-base",
+          "div/header.backdrop-blur-md.sticky/div.flex.items-center.justify-between/div.flex.items-center",
+          "div/header.backdrop-blur-md.sticky/div.flex.items-center.justify-between/div.flex.items-center/a.bg-ink.font-bold.rounded-full",
+          "div/header.backdrop-blur-md.sticky/div.flex.items-center.justify-between/div.flex.items-center/button.flex.items-center.justify-center",
+          "div/header.backdrop-blur-md.sticky/div.flex.items-center.justify-between/div.flex.items-center/button.flex.items-center.justify-center/svg.lucide.lucide-menu",
+          "div/header.backdrop-blur-md.sticky/div.flex.items-center.justify-between/nav.hidden.items-center",
+          "div/header.backdrop-blur-md.sticky/div.flex.items-center.justify-between/nav.hidden.items-center/a.font-semibold.transition-colors",
+          "div/header.backdrop-blur-md.sticky/div.flex.items-center.justify-between/nav.hidden.items-center/button.font-semibold.transition-colors",
+          "div/main",
+          "div/main/section.bg-bg",
+          "div/main/section.bg-bg/div.ease-out.mx-auto.transition-all",
+          "div/main/section.bg-bg/div.ease-out.mx-auto.transition-all/h1.font-black.text-ink.tracking-tighter",
+          "div/main/section.bg-bg/div.ease-out.mx-auto.transition-all/p.leading-relaxed.max-w-md.text-lg",
+          "div/main/section.bg-bg/div.mx-auto",
+          "div/main/section.bg-bg/div.mx-auto/ul.border-b.border-border.flex",
+          "div/main/section.bg-bg/div.mx-auto/ul.border-b.border-border.flex/li.ease-out.transition-all",
+          "div/main/section.bg-bg/div.mx-auto/ul.border-b.border-border.flex/li.ease-out.transition-all/a.border-border.border-t.flex",
+          "div/main/section.bg-bg/div.mx-auto/ul.border-b.border-border.flex/li.ease-out.transition-all/a.border-border.border-t.flex/div",
+          "div/main/section.bg-bg/div.mx-auto/ul.border-b.border-border.flex/li.ease-out.transition-all/a.border-border.border-t.flex/div/div.flex.flex-wrap.font-semibold",
+          "div/main/section.bg-bg/div.mx-auto/ul.border-b.border-border.flex/li.ease-out.transition-all/a.border-border.border-t.flex/div/div.flex.flex-wrap.font-semibold/span.inline-flex.items-center",
+          "div/main/section.bg-bg/div.mx-auto/ul.border-b.border-border.flex/li.ease-out.transition-all/a.border-border.border-t.flex/div/div.flex.flex-wrap.font-semibold/span.inline-flex.items-center/svg.lucide.lucide-briefcase",
+          "div/main/section.bg-bg/div.mx-auto/ul.border-b.border-border.flex/li.ease-out.transition-all/a.border-border.border-t.flex/div/div.flex.flex-wrap.font-semibold/span.inline-flex.items-center/svg.lucide.lucide-map-pin",
+          "div/main/section.bg-bg/div.mx-auto/ul.border-b.border-border.flex/li.ease-out.transition-all/a.border-border.border-t.flex/div/h2.font-black.text-ink.tracking-tighter",
+          "div/main/section.bg-bg/div.mx-auto/ul.border-b.border-border.flex/li.ease-out.transition-all/a.border-border.border-t.flex/div/p.leading-relaxed.max-w-xl.text-muted",
+          "div/main/section.bg-bg/div.mx-auto/ul.border-b.border-border.flex/li.ease-out.transition-all/a.border-border.border-t.flex/span.bg-ink.font-bold.inline-flex",
+          "div/main/section.bg-bg/div.mx-auto/ul.border-b.border-border.flex/li.ease-out.transition-all/a.border-border.border-t.flex/span.bg-ink.font-bold.inline-flex/svg.lucide.lucide-arrow-right.transition-transform"
+        ]
+      },
+      "settled": {
+        "ms": 1000,
+        "networkQuiet": true,
+        "domQuiet": true
+      },
+      "declared": [
+        "website"
+      ],
+      "headings": [
+        "Careers",
+        "Product Owner",
+        "UI/UX Designer",
+        "React Native Developer",
+        "Node.js Developer",
+        "Next.js Frontend Developer",
+        "DevOps Engineer",
+        "AI Engineer (Computer Vision)"
+      ],
+      "structure": {
+        "h1": [
+          "Careers"
+        ],
+        "main": true
+      },
+      "controls": [
+        {
+          "kind": "button",
+          "words": [
+            "Our Mission"
+          ],
+          "region": "header",
+          "xpath": "//button[normalize-space()='Our Mission']",
+          "stability": "OK"
+        },
+        {
+          "kind": "button",
+          "words": [
+            "Open Source"
+          ],
+          "region": "header",
+          "xpath": "//button[normalize-space()='Open Source']",
+          "stability": "OK"
+        },
+        {
+          "kind": "button",
+          "words": [
+            "About"
+          ],
+          "region": "header",
+          "xpath": "//button[normalize-space()='About']",
+          "stability": "OK"
+        }
+      ],
+      "snapshot": "pages/careers.html",
+      "markup": {
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1.0",
+        "description": "Spiral builds mobile, web, and AI software — from artist profiles to booking systems to surveillance tools. Tell us what you're building.",
+        "copyright": {
+          "year": 2026,
+          "seen": 2026
+        }
+      },
+      "seen": [
+        {
+          "role": "link",
+          "name": "Spiral home",
+          "url": "/"
+        },
+        {
+          "role": "button",
+          "name": "Our Mission"
+        },
+        {
+          "role": "button",
+          "name": "Open Source"
+        },
+        {
+          "role": "link",
+          "name": "Projects",
+          "url": "/projects"
+        },
+        {
+          "role": "link",
+          "name": "Careers",
+          "url": "/careers"
+        },
+        {
+          "role": "button",
+          "name": "About"
+        },
+        {
+          "role": "link",
+          "name": "Start a Project",
+          "url": "/contact"
+        },
+        {
+          "role": "link",
+          "name": "Product Owner We're building three products at once — and honestly, we need someone to help us keep them all on track. Full-time / Contract Remote View role",
+          "url": "/careers/product-owner"
+        },
+        {
+          "role": "link",
+          "name": "UI/UX Designer Shape the app experiences of three distinct mobile products from the ground up. Project-Based / Contract Remote View role",
+          "url": "/careers/uiux-designer"
+        },
+        {
+          "role": "link",
+          "name": "React Native Developer Bring three distinct mobile products to life across iOS and Android. Full-time / Contract Remote View role",
+          "url": "/careers/react-native-developer"
+        },
+        {
+          "role": "link",
+          "name": "Node.js Developer Build the backend systems powering three distinct mobile products from the ground up. Project-Based / Contract Remote View role",
+          "url": "/careers/nodejs-developer"
+        },
+        {
+          "role": "link",
+          "name": "Next.js Frontend Developer Build the admin panels that power and manage three distinct mobile products. Project-Based / Contract Remote View role",
+          "url": "/careers/nextjs-frontend-developer"
+        },
+        {
+          "role": "link",
+          "name": "DevOps Engineer Architect and own the infrastructure powering three distinct mobile products. Project-Based / Contract Remote View role",
+          "url": "/careers/devops-engineer"
+        },
+        {
+          "role": "link",
+          "name": "AI Engineer (Computer Vision) Build next-gen markerless motion capture — turning raw video into clean 3D animation. Computer Vision · R&D Remote View role",
+          "url": "/careers/ai-engineer-computer-vision"
+        },
+        {
+          "role": "link",
+          "name": "LinkedIn",
+          "url": "https://www.linkedin.com/company/spiralmm/"
+        },
+        {
+          "role": "link",
+          "name": "Facebook",
+          "url": "https://www.facebook.com/share/1GLATiU4Ap/"
+        },
+        {
+          "role": "link",
+          "name": "Instagram",
+          "url": "https://instagram.com/"
+        },
+        {
+          "role": "link",
+          "name": "X",
+          "url": "https://x.com/"
+        }
+      ],
+      "load": {
+        "headers": {
+          "server": "AmazonS3"
+        }
+      }
+    },
+    {
+      "url": "https://spiralmm.com/careers/ai-engineer-computer-vision",
+      "finalUrl": "https://spiralmm.com/careers/ai-engineer-computer-vision/",
+      "status": 404,
+      "redirects": [
+        {
+          "url": "https://spiralmm.com/careers/ai-engineer-computer-vision",
+          "status": 301
+        }
+      ],
+      "title": "Spiral — Software for Every Idea",
+      "contentType": "text/html",
+      "depth": 2,
+      "fingerprint": {
+        "hash": "52c4c74cd69664c5",
+        "paths": [
+          "div",
+          "div/footer.bg-bg",
+          "div/footer.bg-bg/div.border-border.border-t.flex",
+          "div/footer.bg-bg/div.border-border.border-t.flex/a.flex.items-center",
+          "div/footer.bg-bg/div.border-border.border-t.flex/a.flex.items-center/img",
+          "div/footer.bg-bg/div.border-border.border-t.flex/a.flex.items-center/span.font-black.text-ink.text-lg",
+          "div/footer.bg-bg/div.border-border.border-t.flex/nav.flex.flex-wrap.items-center",
+          "div/footer.bg-bg/div.border-border.border-t.flex/nav.flex.flex-wrap.items-center/a.font-semibold.text-sm.transition-colors",
+          "div/footer.bg-bg/div.border-border.border-t.flex/p.text-muted.text-sm",
+          "div/header.backdrop-blur-md.sticky",
+          "div/header.backdrop-blur-md.sticky/div.flex.items-center.justify-between",
+          "div/header.backdrop-blur-md.sticky/div.flex.items-center.justify-between/a.flex.items-center",
+          "div/header.backdrop-blur-md.sticky/div.flex.items-center.justify-between/a.flex.items-center/img",
+          "div/header.backdrop-blur-md.sticky/div.flex.items-center.justify-between/a.flex.items-center/span.font-black.text-ink.text-xl",
+          "div/header.backdrop-blur-md.sticky/div.flex.items-center.justify-between/a.flex.items-center/span.leading-none.text-base",
+          "div/header.backdrop-blur-md.sticky/div.flex.items-center.justify-between/div.flex.items-center",
+          "div/header.backdrop-blur-md.sticky/div.flex.items-center.justify-between/div.flex.items-center/a.bg-ink.font-bold.rounded-full",
+          "div/header.backdrop-blur-md.sticky/div.flex.items-center.justify-between/div.flex.items-center/button.flex.items-center.justify-center",
+          "div/header.backdrop-blur-md.sticky/div.flex.items-center.justify-between/div.flex.items-center/button.flex.items-center.justify-center/svg.lucide.lucide-menu",
+          "div/header.backdrop-blur-md.sticky/div.flex.items-center.justify-between/nav.hidden.items-center",
+          "div/header.backdrop-blur-md.sticky/div.flex.items-center.justify-between/nav.hidden.items-center/a.font-semibold.transition-colors",
+          "div/header.backdrop-blur-md.sticky/div.flex.items-center.justify-between/nav.hidden.items-center/button.font-semibold.transition-colors",
+          "div/main",
+          "div/main/section.bg-bg",
+          "div/main/section.bg-bg/div.border-border.border-t.flex",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/div.bg-ink",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/div.bg-ink/a.bg-white.font-bold.inline-flex",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/div.bg-ink/a.bg-white.font-bold.inline-flex/svg.lucide.lucide-mail",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/div.bg-ink/div.flex.flex-wrap",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/div.bg-ink/div.flex.flex-wrap/span.font-medium.rounded-full.text-xs",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/div.bg-ink/h2.font-black.text-white.tracking-tighter",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/div.bg-ink/p.max-w-md",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/div.bg-ink/p.max-w-md/a.font-semibold.text-white.underline",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/dl.bg-bg-soft.overflow-hidden",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/dl.bg-bg-soft.overflow-hidden/div.border-bg.border-t.flex",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/dl.bg-bg-soft.overflow-hidden/div.border-bg.border-t.flex/dd.font-medium.text-ink",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/dl.bg-bg-soft.overflow-hidden/div.border-bg.border-t.flex/dt.font-semibold.text-muted.text-sm",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/dl.bg-bg-soft.overflow-hidden/div.flex.flex-col",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/dl.bg-bg-soft.overflow-hidden/div.flex.flex-col/dd.font-medium.text-ink",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/dl.bg-bg-soft.overflow-hidden/div.flex.flex-col/dt.font-semibold.text-muted.text-sm",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/h2.font-black.text-ink.tracking-tighter",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/p.leading-relaxed.text-muted",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/ul.flex.flex-col",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/ul.flex.flex-col/li.flex.items-start",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/ul.flex.flex-col/li.flex.items-start/span.bg-ink.flex.items-center",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/ul.flex.flex-col/li.flex.items-start/span.bg-ink.flex.items-center/svg.lucide.lucide-check.text-white",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/ul.flex.flex-col/li.flex.items-start/span.leading-relaxed.text-ink",
+          "div/main/section.bg-bg/div.mx-auto",
+          "div/main/section.bg-bg/div.mx-auto/div.ease-out.transition-all",
+          "div/main/section.bg-bg/div.mx-auto/div.ease-out.transition-all/a.bg-ink.font-bold.inline-flex",
+          "div/main/section.bg-bg/div.mx-auto/div.ease-out.transition-all/a.bg-ink.font-bold.inline-flex/svg.lucide.lucide-mail",
+          "div/main/section.bg-bg/div.mx-auto/div.ease-out.transition-all/a.font-bold.inline-flex.items-center",
+          "div/main/section.bg-bg/div.mx-auto/div.ease-out.transition-all/a.font-bold.inline-flex.items-center/svg.lucide.lucide-arrow-left",
+          "div/main/section.bg-bg/div.mx-auto/div.ease-out.transition-all/div.flex.flex-wrap.font-semibold",
+          "div/main/section.bg-bg/div.mx-auto/div.ease-out.transition-all/div.flex.flex-wrap.font-semibold/span.inline-flex.items-center",
+          "div/main/section.bg-bg/div.mx-auto/div.ease-out.transition-all/div.flex.flex-wrap.font-semibold/span.inline-flex.items-center/svg.lucide.lucide-briefcase",
+          "div/main/section.bg-bg/div.mx-auto/div.ease-out.transition-all/div.flex.flex-wrap.font-semibold/span.inline-flex.items-center/svg.lucide.lucide-map-pin",
+          "div/main/section.bg-bg/div.mx-auto/div.ease-out.transition-all/h1.font-black.text-ink.tracking-tighter",
+          "div/main/section.bg-bg/div.mx-auto/div.ease-out.transition-all/p.leading-relaxed.text-lg.text-muted"
+        ]
+      },
+      "settled": {
+        "ms": 1000,
+        "networkQuiet": true,
+        "domQuiet": true
+      },
+      "declared": [
+        "website"
+      ],
+      "headings": [
+        "AI Engineer (Computer Vision)",
+        "What you'll work on",
+        "What we're looking for",
+        "Why join us",
+        "Project details",
+        "Focus",
+        "Team",
+        "Location",
+        "Interested?"
+      ],
+      "structure": {
+        "h1": [
+          "AI Engineer (Computer Vision)"
+        ],
+        "main": true
+      },
+      "controls": [
+        {
+          "kind": "button",
+          "words": [
+            "Our Mission"
+          ],
+          "region": "header",
+          "xpath": "//button[normalize-space()='Our Mission']",
+          "stability": "OK"
+        },
+        {
+          "kind": "button",
+          "words": [
+            "Open Source"
+          ],
+          "region": "header",
+          "xpath": "//button[normalize-space()='Open Source']",
+          "stability": "OK"
+        },
+        {
+          "kind": "button",
+          "words": [
+            "About"
+          ],
+          "region": "header",
+          "xpath": "//button[normalize-space()='About']",
+          "stability": "OK"
+        }
+      ],
+      "snapshot": "pages/careers/ai-engineer-computer-vision.html",
+      "markup": {
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1.0",
+        "description": "Spiral builds mobile, web, and AI software — from artist profiles to booking systems to surveillance tools. Tell us what you're building.",
+        "copyright": {
+          "year": 2026,
+          "seen": 2026
+        }
+      },
+      "seen": [
+        {
+          "role": "link",
+          "name": "Spiral home",
+          "url": "/"
+        },
+        {
+          "role": "button",
+          "name": "Our Mission"
+        },
+        {
+          "role": "button",
+          "name": "Open Source"
+        },
+        {
+          "role": "link",
+          "name": "Projects",
+          "url": "/projects"
+        },
+        {
+          "role": "link",
+          "name": "Careers",
+          "url": "/careers"
+        },
+        {
+          "role": "button",
+          "name": "About"
+        },
+        {
+          "role": "link",
+          "name": "Start a Project",
+          "url": "/contact"
+        },
+        {
+          "role": "link",
+          "name": "All roles",
+          "url": "/careers"
+        },
+        {
+          "role": "link",
+          "name": "Apply for this role",
+          "url": "mailto:spiralmyanmar@gmail.com?subject=Application%3A%20AI%20Engineer%20(Computer%20Vision)"
+        },
+        {
+          "role": "link",
+          "name": "spiralmyanmar@gmail.com",
+          "url": "mailto:spiralmyanmar@gmail.com?subject=Application%3A%20AI%20Engineer%20(Computer%20Vision)"
+        },
+        {
+          "role": "link",
+          "name": "LinkedIn",
+          "url": "https://www.linkedin.com/company/spiralmm/"
+        },
+        {
+          "role": "link",
+          "name": "Facebook",
+          "url": "https://www.facebook.com/share/1GLATiU4Ap/"
+        },
+        {
+          "role": "link",
+          "name": "Instagram",
+          "url": "https://instagram.com/"
+        },
+        {
+          "role": "link",
+          "name": "X",
+          "url": "https://x.com/"
+        }
+      ],
+      "load": {
+        "headers": {
+          "server": "AmazonS3"
+        }
+      }
+    },
+    {
+      "url": "https://spiralmm.com/careers/nodejs-developer",
+      "finalUrl": "https://spiralmm.com/careers/nodejs-developer/",
+      "status": 404,
+      "redirects": [
+        {
+          "url": "https://spiralmm.com/careers/nodejs-developer",
+          "status": 301
+        }
+      ],
+      "title": "Spiral — Software for Every Idea",
+      "contentType": "text/html",
+      "depth": 2,
+      "fingerprint": {
+        "hash": "5cdeae66a6265b86",
+        "paths": [
+          "div",
+          "div/footer.bg-bg",
+          "div/footer.bg-bg/div.border-border.border-t.flex",
+          "div/footer.bg-bg/div.border-border.border-t.flex/a.flex.items-center",
+          "div/footer.bg-bg/div.border-border.border-t.flex/a.flex.items-center/img",
+          "div/footer.bg-bg/div.border-border.border-t.flex/a.flex.items-center/span.font-black.text-ink.text-lg",
+          "div/footer.bg-bg/div.border-border.border-t.flex/nav.flex.flex-wrap.items-center",
+          "div/footer.bg-bg/div.border-border.border-t.flex/nav.flex.flex-wrap.items-center/a.font-semibold.text-sm.transition-colors",
+          "div/footer.bg-bg/div.border-border.border-t.flex/p.text-muted.text-sm",
+          "div/header.backdrop-blur-md.sticky",
+          "div/header.backdrop-blur-md.sticky/div.flex.items-center.justify-between",
+          "div/header.backdrop-blur-md.sticky/div.flex.items-center.justify-between/a.flex.items-center",
+          "div/header.backdrop-blur-md.sticky/div.flex.items-center.justify-between/a.flex.items-center/img",
+          "div/header.backdrop-blur-md.sticky/div.flex.items-center.justify-between/a.flex.items-center/span.font-black.text-ink.text-xl",
+          "div/header.backdrop-blur-md.sticky/div.flex.items-center.justify-between/a.flex.items-center/span.leading-none.text-base",
+          "div/header.backdrop-blur-md.sticky/div.flex.items-center.justify-between/div.flex.items-center",
+          "div/header.backdrop-blur-md.sticky/div.flex.items-center.justify-between/div.flex.items-center/a.bg-ink.font-bold.rounded-full",
+          "div/header.backdrop-blur-md.sticky/div.flex.items-center.justify-between/div.flex.items-center/button.flex.items-center.justify-center",
+          "div/header.backdrop-blur-md.sticky/div.flex.items-center.justify-between/div.flex.items-center/button.flex.items-center.justify-center/svg.lucide.lucide-menu",
+          "div/header.backdrop-blur-md.sticky/div.flex.items-center.justify-between/nav.hidden.items-center",
+          "div/header.backdrop-blur-md.sticky/div.flex.items-center.justify-between/nav.hidden.items-center/a.font-semibold.transition-colors",
+          "div/header.backdrop-blur-md.sticky/div.flex.items-center.justify-between/nav.hidden.items-center/button.font-semibold.transition-colors",
+          "div/main",
+          "div/main/section.bg-bg",
+          "div/main/section.bg-bg/div.border-border.border-t.flex",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/div.bg-ink",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/div.bg-ink/a.bg-white.font-bold.inline-flex",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/div.bg-ink/a.bg-white.font-bold.inline-flex/svg.lucide.lucide-mail",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/div.bg-ink/div.flex.flex-wrap",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/div.bg-ink/div.flex.flex-wrap/span.font-medium.rounded-full.text-xs",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/div.bg-ink/h2.font-black.text-white.tracking-tighter",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/div.bg-ink/p.max-w-md",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/div.bg-ink/p.max-w-md/a.font-semibold.text-white.underline",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/div.flex.flex-col",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/div.flex.flex-col/div.bg-bg-soft",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/div.flex.flex-col/div.bg-bg-soft/div.flex.items-center",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/div.flex.flex-col/div.bg-bg-soft/div.flex.items-center/h3.font-bold.text-ink.text-lg",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/div.flex.flex-col/div.bg-bg-soft/div.flex.items-center/span",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/div.flex.flex-col/div.bg-bg-soft/p.leading-relaxed.text-muted",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/dl.bg-bg-soft.overflow-hidden",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/dl.bg-bg-soft.overflow-hidden/div.border-bg.border-t.flex",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/dl.bg-bg-soft.overflow-hidden/div.border-bg.border-t.flex/dd.font-medium.text-ink",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/dl.bg-bg-soft.overflow-hidden/div.border-bg.border-t.flex/dt.font-semibold.text-muted.text-sm",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/dl.bg-bg-soft.overflow-hidden/div.flex.flex-col",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/dl.bg-bg-soft.overflow-hidden/div.flex.flex-col/dd.font-medium.text-ink",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/dl.bg-bg-soft.overflow-hidden/div.flex.flex-col/dt.font-semibold.text-muted.text-sm",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/h2.font-black.text-ink.tracking-tighter",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/ul.flex.flex-col",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/ul.flex.flex-col/li.flex.items-start",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/ul.flex.flex-col/li.flex.items-start/span.bg-ink.flex.items-center",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/ul.flex.flex-col/li.flex.items-start/span.bg-ink.flex.items-center/svg.lucide.lucide-check.text-white",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/ul.flex.flex-col/li.flex.items-start/span.leading-relaxed.text-ink",
+          "div/main/section.bg-bg/div.mx-auto",
+          "div/main/section.bg-bg/div.mx-auto/div.ease-out.transition-all",
+          "div/main/section.bg-bg/div.mx-auto/div.ease-out.transition-all/a.bg-ink.font-bold.inline-flex",
+          "div/main/section.bg-bg/div.mx-auto/div.ease-out.transition-all/a.bg-ink.font-bold.inline-flex/svg.lucide.lucide-mail",
+          "div/main/section.bg-bg/div.mx-auto/div.ease-out.transition-all/a.font-bold.inline-flex.items-center",
+          "div/main/section.bg-bg/div.mx-auto/div.ease-out.transition-all/a.font-bold.inline-flex.items-center/svg.lucide.lucide-arrow-left",
+          "div/main/section.bg-bg/div.mx-auto/div.ease-out.transition-all/div.flex.flex-wrap.font-semibold",
+          "div/main/section.bg-bg/div.mx-auto/div.ease-out.transition-all/div.flex.flex-wrap.font-semibold/span.inline-flex.items-center",
+          "div/main/section.bg-bg/div.mx-auto/div.ease-out.transition-all/div.flex.flex-wrap.font-semibold/span.inline-flex.items-center/svg.lucide.lucide-briefcase",
+          "div/main/section.bg-bg/div.mx-auto/div.ease-out.transition-all/div.flex.flex-wrap.font-semibold/span.inline-flex.items-center/svg.lucide.lucide-map-pin",
+          "div/main/section.bg-bg/div.mx-auto/div.ease-out.transition-all/h1.font-black.text-ink.tracking-tighter",
+          "div/main/section.bg-bg/div.mx-auto/div.ease-out.transition-all/p.leading-relaxed.text-lg.text-muted"
+        ]
+      },
+      "settled": {
+        "ms": 1000,
+        "networkQuiet": true,
+        "domQuiet": true
+      },
+      "declared": [
+        "website"
+      ],
+      "headings": [
+        "Node.js Developer",
+        "The Products",
+        "Stakefair",
+        "Flare",
+        "SIV",
+        "What you'll do",
+        "What we're looking for",
+        "Project details",
+        "Type",
+        "Scope",
+        "Location",
+        "Interested?"
+      ],
+      "structure": {
+        "h1": [
+          "Node.js Developer"
+        ],
+        "main": true
+      },
+      "controls": [
+        {
+          "kind": "button",
+          "words": [
+            "Our Mission"
+          ],
+          "region": "header",
+          "xpath": "//button[normalize-space()='Our Mission']",
+          "stability": "OK"
+        },
+        {
+          "kind": "button",
+          "words": [
+            "Open Source"
+          ],
+          "region": "header",
+          "xpath": "//button[normalize-space()='Open Source']",
+          "stability": "OK"
+        },
+        {
+          "kind": "button",
+          "words": [
+            "About"
+          ],
+          "region": "header",
+          "xpath": "//button[normalize-space()='About']",
+          "stability": "OK"
+        }
+      ],
+      "snapshot": "pages/careers/nodejs-developer.html",
+      "markup": {
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1.0",
+        "description": "Spiral builds mobile, web, and AI software — from artist profiles to booking systems to surveillance tools. Tell us what you're building.",
+        "copyright": {
+          "year": 2026,
+          "seen": 2026
+        }
+      },
+      "seen": [
+        {
+          "role": "link",
+          "name": "Spiral home",
+          "url": "/"
+        },
+        {
+          "role": "button",
+          "name": "Our Mission"
+        },
+        {
+          "role": "button",
+          "name": "Open Source"
+        },
+        {
+          "role": "link",
+          "name": "Projects",
+          "url": "/projects"
+        },
+        {
+          "role": "link",
+          "name": "Careers",
+          "url": "/careers"
+        },
+        {
+          "role": "button",
+          "name": "About"
+        },
+        {
+          "role": "link",
+          "name": "Start a Project",
+          "url": "/contact"
+        },
+        {
+          "role": "link",
+          "name": "All roles",
+          "url": "/careers"
+        },
+        {
+          "role": "link",
+          "name": "Apply for this role",
+          "url": "mailto:spiralmyanmar@gmail.com?subject=Application%3A%20Node.js%20Developer"
+        },
+        {
+          "role": "link",
+          "name": "spiralmyanmar@gmail.com",
+          "url": "mailto:spiralmyanmar@gmail.com?subject=Application%3A%20Node.js%20Developer"
+        },
+        {
+          "role": "link",
+          "name": "LinkedIn",
+          "url": "https://www.linkedin.com/company/spiralmm/"
+        },
+        {
+          "role": "link",
+          "name": "Facebook",
+          "url": "https://www.facebook.com/share/1GLATiU4Ap/"
+        },
+        {
+          "role": "link",
+          "name": "Instagram",
+          "url": "https://instagram.com/"
+        },
+        {
+          "role": "link",
+          "name": "X",
+          "url": "https://x.com/"
+        }
+      ],
+      "load": {
+        "headers": {
+          "server": "AmazonS3"
+        }
+      }
+    },
+    {
+      "url": "https://spiralmm.com/careers/uiux-designer",
+      "finalUrl": "https://spiralmm.com/careers/uiux-designer/",
+      "status": 404,
+      "redirects": [
+        {
+          "url": "https://spiralmm.com/careers/uiux-designer",
+          "status": 301
+        }
+      ],
+      "title": "Spiral — Software for Every Idea",
+      "contentType": "text/html",
+      "depth": 2,
+      "fingerprint": {
+        "hash": "5cdeae66a6265b86",
+        "paths": [
+          "div",
+          "div/footer.bg-bg",
+          "div/footer.bg-bg/div.border-border.border-t.flex",
+          "div/footer.bg-bg/div.border-border.border-t.flex/a.flex.items-center",
+          "div/footer.bg-bg/div.border-border.border-t.flex/a.flex.items-center/img",
+          "div/footer.bg-bg/div.border-border.border-t.flex/a.flex.items-center/span.font-black.text-ink.text-lg",
+          "div/footer.bg-bg/div.border-border.border-t.flex/nav.flex.flex-wrap.items-center",
+          "div/footer.bg-bg/div.border-border.border-t.flex/nav.flex.flex-wrap.items-center/a.font-semibold.text-sm.transition-colors",
+          "div/footer.bg-bg/div.border-border.border-t.flex/p.text-muted.text-sm",
+          "div/header.backdrop-blur-md.sticky",
+          "div/header.backdrop-blur-md.sticky/div.flex.items-center.justify-between",
+          "div/header.backdrop-blur-md.sticky/div.flex.items-center.justify-between/a.flex.items-center",
+          "div/header.backdrop-blur-md.sticky/div.flex.items-center.justify-between/a.flex.items-center/img",
+          "div/header.backdrop-blur-md.sticky/div.flex.items-center.justify-between/a.flex.items-center/span.font-black.text-ink.text-xl",
+          "div/header.backdrop-blur-md.sticky/div.flex.items-center.justify-between/a.flex.items-center/span.leading-none.text-base",
+          "div/header.backdrop-blur-md.sticky/div.flex.items-center.justify-between/div.flex.items-center",
+          "div/header.backdrop-blur-md.sticky/div.flex.items-center.justify-between/div.flex.items-center/a.bg-ink.font-bold.rounded-full",
+          "div/header.backdrop-blur-md.sticky/div.flex.items-center.justify-between/div.flex.items-center/button.flex.items-center.justify-center",
+          "div/header.backdrop-blur-md.sticky/div.flex.items-center.justify-between/div.flex.items-center/button.flex.items-center.justify-center/svg.lucide.lucide-menu",
+          "div/header.backdrop-blur-md.sticky/div.flex.items-center.justify-between/nav.hidden.items-center",
+          "div/header.backdrop-blur-md.sticky/div.flex.items-center.justify-between/nav.hidden.items-center/a.font-semibold.transition-colors",
+          "div/header.backdrop-blur-md.sticky/div.flex.items-center.justify-between/nav.hidden.items-center/button.font-semibold.transition-colors",
+          "div/main",
+          "div/main/section.bg-bg",
+          "div/main/section.bg-bg/div.border-border.border-t.flex",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/div.bg-ink",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/div.bg-ink/a.bg-white.font-bold.inline-flex",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/div.bg-ink/a.bg-white.font-bold.inline-flex/svg.lucide.lucide-mail",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/div.bg-ink/div.flex.flex-wrap",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/div.bg-ink/div.flex.flex-wrap/span.font-medium.rounded-full.text-xs",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/div.bg-ink/h2.font-black.text-white.tracking-tighter",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/div.bg-ink/p.max-w-md",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/div.bg-ink/p.max-w-md/a.font-semibold.text-white.underline",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/div.flex.flex-col",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/div.flex.flex-col/div.bg-bg-soft",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/div.flex.flex-col/div.bg-bg-soft/div.flex.items-center",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/div.flex.flex-col/div.bg-bg-soft/div.flex.items-center/h3.font-bold.text-ink.text-lg",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/div.flex.flex-col/div.bg-bg-soft/div.flex.items-center/span",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/div.flex.flex-col/div.bg-bg-soft/p.leading-relaxed.text-muted",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/dl.bg-bg-soft.overflow-hidden",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/dl.bg-bg-soft.overflow-hidden/div.border-bg.border-t.flex",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/dl.bg-bg-soft.overflow-hidden/div.border-bg.border-t.flex/dd.font-medium.text-ink",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/dl.bg-bg-soft.overflow-hidden/div.border-bg.border-t.flex/dt.font-semibold.text-muted.text-sm",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/dl.bg-bg-soft.overflow-hidden/div.flex.flex-col",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/dl.bg-bg-soft.overflow-hidden/div.flex.flex-col/dd.font-medium.text-ink",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/dl.bg-bg-soft.overflow-hidden/div.flex.flex-col/dt.font-semibold.text-muted.text-sm",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/h2.font-black.text-ink.tracking-tighter",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/ul.flex.flex-col",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/ul.flex.flex-col/li.flex.items-start",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/ul.flex.flex-col/li.flex.items-start/span.bg-ink.flex.items-center",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/ul.flex.flex-col/li.flex.items-start/span.bg-ink.flex.items-center/svg.lucide.lucide-check.text-white",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/ul.flex.flex-col/li.flex.items-start/span.leading-relaxed.text-ink",
+          "div/main/section.bg-bg/div.mx-auto",
+          "div/main/section.bg-bg/div.mx-auto/div.ease-out.transition-all",
+          "div/main/section.bg-bg/div.mx-auto/div.ease-out.transition-all/a.bg-ink.font-bold.inline-flex",
+          "div/main/section.bg-bg/div.mx-auto/div.ease-out.transition-all/a.bg-ink.font-bold.inline-flex/svg.lucide.lucide-mail",
+          "div/main/section.bg-bg/div.mx-auto/div.ease-out.transition-all/a.font-bold.inline-flex.items-center",
+          "div/main/section.bg-bg/div.mx-auto/div.ease-out.transition-all/a.font-bold.inline-flex.items-center/svg.lucide.lucide-arrow-left",
+          "div/main/section.bg-bg/div.mx-auto/div.ease-out.transition-all/div.flex.flex-wrap.font-semibold",
+          "div/main/section.bg-bg/div.mx-auto/div.ease-out.transition-all/div.flex.flex-wrap.font-semibold/span.inline-flex.items-center",
+          "div/main/section.bg-bg/div.mx-auto/div.ease-out.transition-all/div.flex.flex-wrap.font-semibold/span.inline-flex.items-center/svg.lucide.lucide-briefcase",
+          "div/main/section.bg-bg/div.mx-auto/div.ease-out.transition-all/div.flex.flex-wrap.font-semibold/span.inline-flex.items-center/svg.lucide.lucide-map-pin",
+          "div/main/section.bg-bg/div.mx-auto/div.ease-out.transition-all/h1.font-black.text-ink.tracking-tighter",
+          "div/main/section.bg-bg/div.mx-auto/div.ease-out.transition-all/p.leading-relaxed.text-lg.text-muted"
+        ]
+      },
+      "settled": {
+        "ms": 1000,
+        "networkQuiet": true,
+        "domQuiet": true
+      },
+      "declared": [
+        "website"
+      ],
+      "headings": [
+        "UI/UX Designer",
+        "The Products",
+        "Stakefair",
+        "Flare",
+        "SIV",
+        "What you'll do",
+        "What we're looking for",
+        "Project details",
+        "Type",
+        "Scope",
+        "Location",
+        "Interested?"
+      ],
+      "structure": {
+        "h1": [
+          "UI/UX Designer"
+        ],
+        "main": true
+      },
+      "controls": [
+        {
+          "kind": "button",
+          "words": [
+            "Our Mission"
+          ],
+          "region": "header",
+          "xpath": "//button[normalize-space()='Our Mission']",
+          "stability": "OK"
+        },
+        {
+          "kind": "button",
+          "words": [
+            "Open Source"
+          ],
+          "region": "header",
+          "xpath": "//button[normalize-space()='Open Source']",
+          "stability": "OK"
+        },
+        {
+          "kind": "button",
+          "words": [
+            "About"
+          ],
+          "region": "header",
+          "xpath": "//button[normalize-space()='About']",
+          "stability": "OK"
+        }
+      ],
+      "snapshot": "pages/careers/uiux-designer.html",
+      "markup": {
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1.0",
+        "description": "Spiral builds mobile, web, and AI software — from artist profiles to booking systems to surveillance tools. Tell us what you're building.",
+        "copyright": {
+          "year": 2026,
+          "seen": 2026
+        }
+      },
+      "seen": [
+        {
+          "role": "link",
+          "name": "Spiral home",
+          "url": "/"
+        },
+        {
+          "role": "button",
+          "name": "Our Mission"
+        },
+        {
+          "role": "button",
+          "name": "Open Source"
+        },
+        {
+          "role": "link",
+          "name": "Projects",
+          "url": "/projects"
+        },
+        {
+          "role": "link",
+          "name": "Careers",
+          "url": "/careers"
+        },
+        {
+          "role": "button",
+          "name": "About"
+        },
+        {
+          "role": "link",
+          "name": "Start a Project",
+          "url": "/contact"
+        },
+        {
+          "role": "link",
+          "name": "All roles",
+          "url": "/careers"
+        },
+        {
+          "role": "link",
+          "name": "Apply for this role",
+          "url": "mailto:spiralmyanmar@gmail.com?subject=Application%3A%20UI%2FUX%20Designer"
+        },
+        {
+          "role": "link",
+          "name": "spiralmyanmar@gmail.com",
+          "url": "mailto:spiralmyanmar@gmail.com?subject=Application%3A%20UI%2FUX%20Designer"
+        },
+        {
+          "role": "link",
+          "name": "LinkedIn",
+          "url": "https://www.linkedin.com/company/spiralmm/"
+        },
+        {
+          "role": "link",
+          "name": "Facebook",
+          "url": "https://www.facebook.com/share/1GLATiU4Ap/"
+        },
+        {
+          "role": "link",
+          "name": "Instagram",
+          "url": "https://instagram.com/"
+        },
+        {
+          "role": "link",
+          "name": "X",
+          "url": "https://x.com/"
+        }
+      ],
+      "load": {
+        "headers": {
+          "server": "AmazonS3"
+        }
+      }
+    },
+    {
+      "url": "https://spiralmm.com/projects",
+      "finalUrl": "https://spiralmm.com/projects/",
+      "status": 404,
+      "redirects": [
+        {
+          "url": "https://spiralmm.com/projects",
+          "status": 301
+        }
+      ],
+      "title": "Spiral — Software for Every Idea",
+      "contentType": "text/html",
+      "depth": 1,
+      "fingerprint": {
+        "hash": "20b8284e731fa464",
+        "paths": [
+          "div",
+          "div/footer.bg-bg",
+          "div/footer.bg-bg/div.border-border.border-t.flex",
+          "div/footer.bg-bg/div.border-border.border-t.flex/a.flex.items-center",
+          "div/footer.bg-bg/div.border-border.border-t.flex/a.flex.items-center/img",
+          "div/footer.bg-bg/div.border-border.border-t.flex/a.flex.items-center/span.font-black.text-ink.text-lg",
+          "div/footer.bg-bg/div.border-border.border-t.flex/nav.flex.flex-wrap.items-center",
+          "div/footer.bg-bg/div.border-border.border-t.flex/nav.flex.flex-wrap.items-center/a.font-semibold.text-sm.transition-colors",
+          "div/footer.bg-bg/div.border-border.border-t.flex/p.text-muted.text-sm",
+          "div/header.backdrop-blur-md.sticky",
+          "div/header.backdrop-blur-md.sticky/div.flex.items-center.justify-between",
+          "div/header.backdrop-blur-md.sticky/div.flex.items-center.justify-between/a.flex.items-center",
+          "div/header.backdrop-blur-md.sticky/div.flex.items-center.justify-between/a.flex.items-center/img",
+          "div/header.backdrop-blur-md.sticky/div.flex.items-center.justify-between/a.flex.items-center/span.font-black.text-ink.text-xl",
+          "div/header.backdrop-blur-md.sticky/div.flex.items-center.justify-between/a.flex.items-center/span.leading-none.text-base",
+          "div/header.backdrop-blur-md.sticky/div.flex.items-center.justify-between/div.flex.items-center",
+          "div/header.backdrop-blur-md.sticky/div.flex.items-center.justify-between/div.flex.items-center/a.bg-ink.font-bold.rounded-full",
+          "div/header.backdrop-blur-md.sticky/div.flex.items-center.justify-between/div.flex.items-center/button.flex.items-center.justify-center",
+          "div/header.backdrop-blur-md.sticky/div.flex.items-center.justify-between/div.flex.items-center/button.flex.items-center.justify-center/svg.lucide.lucide-menu",
+          "div/header.backdrop-blur-md.sticky/div.flex.items-center.justify-between/nav.hidden.items-center",
+          "div/header.backdrop-blur-md.sticky/div.flex.items-center.justify-between/nav.hidden.items-center/a.font-semibold.transition-colors",
+          "div/header.backdrop-blur-md.sticky/div.flex.items-center.justify-between/nav.hidden.items-center/button.font-semibold.transition-colors",
+          "div/main",
+          "div/main/section.bg-bg",
+          "div/main/section.bg-bg/div.ease-out.mx-auto.transition-all",
+          "div/main/section.bg-bg/div.ease-out.mx-auto.transition-all/h1.font-black.text-ink.tracking-tighter",
+          "div/main/section.bg-bg/div.ease-out.mx-auto.transition-all/p.leading-relaxed.max-w-md.text-lg",
+          "div/main/section.bg-bg/div.mx-auto",
+          "div/main/section.bg-bg/div.mx-auto/div.ease-out.transition-all",
+          "div/main/section.bg-bg/div.mx-auto/div.ease-out.transition-all/h2.font-black.text-ink.tracking-tighter",
+          "div/main/section.bg-bg/div.mx-auto/div.ease-out.transition-all/p.leading-relaxed.max-w-xl.text-lg",
+          "div/main/section.bg-bg/div.mx-auto/div.grid",
+          "div/main/section.bg-bg/div.mx-auto/div.grid/div.ease-out.group.transition-all",
+          "div/main/section.bg-bg/div.mx-auto/div.grid/div.ease-out.group.transition-all/a.block",
+          "div/main/section.bg-bg/div.mx-auto/div.grid/div.ease-out.group.transition-all/a.block/div",
+          "div/main/section.bg-bg/div.mx-auto/div.grid/div.ease-out.group.transition-all/a.block/div.bg-bg-soft.flex.items-center",
+          "div/main/section.bg-bg/div.mx-auto/div.grid/div.ease-out.group.transition-all/a.block/div.bg-bg-soft.flex.items-center/img.object-contain.pointer-events-none.select-none",
+          "div/main/section.bg-bg/div.mx-auto/div.grid/div.ease-out.group.transition-all/a.block/div.bg-bg-soft.flex.items-center/span.absolute.bg-bg.font-bold",
+          "div/main/section.bg-bg/div.mx-auto/div.grid/div.ease-out.group.transition-all/a.block/div.bg-bg-soft.flex.items-center/span.absolute.bg-bg.font-bold/svg.lucide.lucide-eye",
+          "div/main/section.bg-bg/div.mx-auto/div.grid/div.ease-out.group.transition-all/a.block/div.bg-bg-soft.flex.items-center/span.absolute.bg-ink.flex",
+          "div/main/section.bg-bg/div.mx-auto/div.grid/div.ease-out.group.transition-all/a.block/div.bg-bg-soft.flex.items-center/span.absolute.bg-ink.flex/svg.lucide.lucide-arrow-right",
+          "div/main/section.bg-bg/div.mx-auto/div.grid/div.ease-out.group.transition-all/a.block/div.bg-bg-soft.flex.items-center/svg.lucide.lucide-crown.pointer-events-none",
+          "div/main/section.bg-bg/div.mx-auto/div.grid/div.ease-out.group.transition-all/a.block/div/h3.font-bold.text-ink.text-xl",
+          "div/main/section.bg-bg/div.mx-auto/div.grid/div.ease-out.group.transition-all/a.block/div/p.leading-relaxed.text-muted",
+          "div/main/section.bg-bg/div.mx-auto/div.grid/div.ease-out.group.transition-all/a.block/div/span.font-semibold.inline-flex.items-center",
+          "div/main/section.bg-bg/div.mx-auto/div.grid/div.ease-out.group.transition-all/a.block/div/span.font-semibold.inline-flex.items-center/span.bg-accent.rounded-full",
+          "div/main/section.bg-bg/div.mx-auto/div.grid/div.ease-out.group.transition-all/div",
+          "div/main/section.bg-bg/div.mx-auto/div.grid/div.ease-out.group.transition-all/div.bg-bg-soft.flex.items-center",
+          "div/main/section.bg-bg/div.mx-auto/div.grid/div.ease-out.group.transition-all/div.bg-bg-soft.flex.items-center/span.absolute.bg-bg.font-bold",
+          "div/main/section.bg-bg/div.mx-auto/div.grid/div.ease-out.group.transition-all/div.bg-bg-soft.flex.items-center/span.absolute.bg-bg.font-bold/svg.lucide.lucide-flask-conical",
+          "div/main/section.bg-bg/div.mx-auto/div.grid/div.ease-out.group.transition-all/div.bg-bg-soft.flex.items-center/svg.lucide.lucide-scan-line.pointer-events-none",
+          "div/main/section.bg-bg/div.mx-auto/div.grid/div.ease-out.group.transition-all/div/h3.font-bold.text-ink.text-xl",
+          "div/main/section.bg-bg/div.mx-auto/div.grid/div.ease-out.group.transition-all/div/p.leading-relaxed.text-muted",
+          "div/main/section.bg-bg/div.mx-auto/div.grid/div.ease-out.group.transition-all/div/span.font-semibold.inline-flex.items-center",
+          "div/main/section.bg-bg/div.mx-auto/div.grid/div.ease-out.group.transition-all/div/span.font-semibold.inline-flex.items-center/span.rounded-full"
+        ]
+      },
+      "settled": {
+        "ms": 1000,
+        "networkQuiet": true,
+        "domQuiet": true
+      },
+      "declared": [
+        "website"
+      ],
+      "headings": [
+        "Projects",
+        "Ongoing Projects",
+        "Stakefair",
+        "Flare",
+        "SIV",
+        "Qsure",
+        "Markerless Motion Capture"
+      ],
+      "structure": {
+        "h1": [
+          "Projects"
+        ],
+        "main": true
+      },
+      "controls": [
+        {
+          "kind": "button",
+          "words": [
+            "Our Mission"
+          ],
+          "region": "header",
+          "xpath": "//button[normalize-space()='Our Mission']",
+          "stability": "OK"
+        },
+        {
+          "kind": "button",
+          "words": [
+            "Open Source"
+          ],
+          "region": "header",
+          "xpath": "//button[normalize-space()='Open Source']",
+          "stability": "OK"
+        },
+        {
+          "kind": "button",
+          "words": [
+            "About"
+          ],
+          "region": "header",
+          "xpath": "//button[normalize-space()='About']",
+          "stability": "OK"
+        }
+      ],
+      "snapshot": "pages/projects.html",
+      "markup": {
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1.0",
+        "description": "Spiral builds mobile, web, and AI software — from artist profiles to booking systems to surveillance tools. Tell us what you're building.",
+        "copyright": {
+          "year": 2026,
+          "seen": 2026
+        }
+      },
+      "seen": [
+        {
+          "role": "link",
+          "name": "Spiral home",
+          "url": "/"
+        },
+        {
+          "role": "button",
+          "name": "Our Mission"
+        },
+        {
+          "role": "button",
+          "name": "Open Source"
+        },
+        {
+          "role": "link",
+          "name": "Projects",
+          "url": "/projects"
+        },
+        {
+          "role": "link",
+          "name": "Careers",
+          "url": "/careers"
+        },
+        {
+          "role": "button",
+          "name": "About"
+        },
+        {
+          "role": "link",
+          "name": "Start a Project",
+          "url": "/contact"
+        },
+        {
+          "role": "link",
+          "name": "Visit Stakefair",
+          "url": "https://home.stakefairmm.xyz/",
+          "where": {
+            "in": "page",
+            "tag": "a"
+          }
+        },
+        {
+          "role": "link",
+          "name": "Visit Flare",
+          "url": "https://flaremm.xyz/",
+          "where": {
+            "in": "page",
+            "tag": "a"
+          }
+        },
+        {
+          "role": "link",
+          "name": "Preview SIV",
+          "url": "/projects/siv"
+        },
+        {
+          "role": "link",
+          "name": "Visit Qsure",
+          "url": "https://qsuremm.xyz/",
+          "where": {
+            "in": "page",
+            "tag": "a"
+          }
+        },
+        {
+          "role": "link",
+          "name": "LinkedIn",
+          "url": "https://www.linkedin.com/company/spiralmm/"
+        },
+        {
+          "role": "link",
+          "name": "Facebook",
+          "url": "https://www.facebook.com/share/1GLATiU4Ap/"
+        },
+        {
+          "role": "link",
+          "name": "Instagram",
+          "url": "https://instagram.com/"
+        },
+        {
+          "role": "link",
+          "name": "X",
+          "url": "https://x.com/"
+        }
+      ],
+      "load": {
+        "headers": {
+          "server": "AmazonS3"
+        }
+      }
+    },
+    {
+      "url": "https://spiralmm.com/projects/siv",
+      "finalUrl": "https://spiralmm.com/projects/siv/",
+      "status": 404,
+      "redirects": [
+        {
+          "url": "https://spiralmm.com/projects/siv",
+          "status": 301
+        }
+      ],
+      "title": "Spiral — Software for Every Idea",
+      "contentType": "text/html",
+      "depth": 2,
+      "fingerprint": {
+        "hash": "2a9375262f386282",
+        "paths": [
+          "div",
+          "div/div.bg-siv-black.font-sans.min-h-screen",
+          "div/div.bg-siv-black.font-sans.min-h-screen/footer.bg-siv-black.border-t",
+          "div/div.bg-siv-black.font-sans.min-h-screen/footer.bg-siv-black.border-t/div.flex.flex-col.items-center",
+          "div/div.bg-siv-black.font-sans.min-h-screen/footer.bg-siv-black.border-t/div.flex.flex-col.items-center/a.font-medium.text-xs.transition-colors",
+          "div/div.bg-siv-black.font-sans.min-h-screen/footer.bg-siv-black.border-t/div.flex.flex-col.items-center/p.leading-relaxed.max-w-sm.text-xs",
+          "div/div.bg-siv-black.font-sans.min-h-screen/footer.bg-siv-black.border-t/div.flex.flex-col.items-center/span.flex-col.inline-flex.items-center",
+          "div/div.bg-siv-black.font-sans.min-h-screen/footer.bg-siv-black.border-t/div.flex.flex-col.items-center/span.flex-col.inline-flex.items-center/span.bg-siv-maroon.h-px",
+          "div/div.bg-siv-black.font-sans.min-h-screen/footer.bg-siv-black.border-t/div.flex.flex-col.items-center/span.flex-col.inline-flex.items-center/span.font-extrabold.text-siv-cream",
+          "div/div.bg-siv-black.font-sans.min-h-screen/footer.bg-siv-black.border-t/div.flex.flex-col.items-center/span.flex-col.inline-flex.items-center/span.font-extrabold.text-siv-cream/span",
+          "div/div.bg-siv-black.font-sans.min-h-screen/main",
+          "div/div.bg-siv-black.font-sans.min-h-screen/main/section.bg-siv-black.border-t",
+          "div/div.bg-siv-black.font-sans.min-h-screen/main/section.bg-siv-black.border-t/div.mx-auto",
+          "div/div.bg-siv-black.font-sans.min-h-screen/main/section.bg-siv-black.border-t/div.mx-auto/div.ease-out.mx-auto.text-center",
+          "div/div.bg-siv-black.font-sans.min-h-screen/main/section.bg-siv-black.border-t/div.mx-auto/div.ease-out.mx-auto.text-center/h2.font-bold.text-siv-cream.tracking-tight",
+          "div/div.bg-siv-black.font-sans.min-h-screen/main/section.bg-siv-black.border-t/div.mx-auto/div.ease-out.mx-auto.text-center/p.leading-relaxed.max-w-md.mx-auto",
+          "div/div.bg-siv-black.font-sans.min-h-screen/main/section.bg-siv-black.border-t/div.mx-auto/ol.grid",
+          "div/div.bg-siv-black.font-sans.min-h-screen/main/section.bg-siv-black.border-t/div.mx-auto/ol.grid/li.ease-out.transition-all",
+          "div/div.bg-siv-black.font-sans.min-h-screen/main/section.bg-siv-black.border-t/div.mx-auto/ol.grid/li.ease-out.transition-all/div.flex.flex-col.items-center",
+          "div/div.bg-siv-black.font-sans.min-h-screen/main/section.bg-siv-black.border-t/div.mx-auto/ol.grid/li.ease-out.transition-all/div.flex.flex-col.items-center/div.bg-siv-white.border.flex",
+          "div/div.bg-siv-black.font-sans.min-h-screen/main/section.bg-siv-black.border-t/div.mx-auto/ol.grid/li.ease-out.transition-all/div.flex.flex-col.items-center/div.bg-siv-white.border.flex/span.absolute",
+          "div/div.bg-siv-black.font-sans.min-h-screen/main/section.bg-siv-black.border-t/div.mx-auto/ol.grid/li.ease-out.transition-all/div.flex.flex-col.items-center/div.bg-siv-white.border.flex/span.absolute.bg-siv-maroon.flex",
+          "div/div.bg-siv-black.font-sans.min-h-screen/main/section.bg-siv-black.border-t/div.mx-auto/ol.grid/li.ease-out.transition-all/div.flex.flex-col.items-center/div.bg-siv-white.border.flex/svg.lucide.lucide-banknote.relative",
+          "div/div.bg-siv-black.font-sans.min-h-screen/main/section.bg-siv-black.border-t/div.mx-auto/ol.grid/li.ease-out.transition-all/div.flex.flex-col.items-center/div.bg-siv-white.border.flex/svg.lucide.lucide-key-round.relative",
+          "div/div.bg-siv-black.font-sans.min-h-screen/main/section.bg-siv-black.border-t/div.mx-auto/ol.grid/li.ease-out.transition-all/div.flex.flex-col.items-center/div.bg-siv-white.border.flex/svg.lucide.lucide-pen-line.relative",
+          "div/div.bg-siv-black.font-sans.min-h-screen/main/section.bg-siv-black.border-t/div.mx-auto/ol.grid/li.ease-out.transition-all/div.flex.flex-col.items-center/div.bg-siv-white.border.flex/svg.lucide.lucide-store.relative",
+          "div/div.bg-siv-black.font-sans.min-h-screen/main/section.bg-siv-black.border-t/div.mx-auto/ol.grid/li.ease-out.transition-all/div.flex.flex-col.items-center/h3.font-semibold.text-lg.text-siv-cream",
+          "div/div.bg-siv-black.font-sans.min-h-screen/main/section.bg-siv-black.border-t/div.mx-auto/ol.grid/li.ease-out.transition-all/div.flex.flex-col.items-center/p.leading-relaxed.text-sm",
+          "div/div.bg-siv-black.font-sans.min-h-screen/main/section.bg-siv-black.border-t/div.mx-auto/ol.grid/li.ease-out.transition-all/div.flex.flex-col.items-center/span.absolute.bg-gradient-to-r.h-px",
+          "div/div.bg-siv-black.font-sans.min-h-screen/main/section.border-t",
+          "div/div.bg-siv-black.font-sans.min-h-screen/main/section.border-t/div.mx-auto",
+          "div/div.bg-siv-black.font-sans.min-h-screen/main/section.border-t/div.mx-auto/div.ease-out.mx-auto.text-center",
+          "div/div.bg-siv-black.font-sans.min-h-screen/main/section.border-t/div.mx-auto/div.ease-out.mx-auto.text-center/h2.font-bold.text-siv-cream.tracking-tight",
+          "div/div.bg-siv-black.font-sans.min-h-screen/main/section.border-t/div.mx-auto/div.ease-out.mx-auto.text-center/p.leading-relaxed.max-w-lg.mx-auto",
+          "div/div.bg-siv-black.font-sans.min-h-screen/main/section.border-t/div.mx-auto/div.grid",
+          "div/div.bg-siv-black.font-sans.min-h-screen/main/section.border-t/div.mx-auto/div.grid/div.bg-siv-white.border.ease-out",
+          "div/div.bg-siv-black.font-sans.min-h-screen/main/section.border-t/div.mx-auto/div.grid/div.bg-siv-white.border.ease-out/div.border.flex.items-center",
+          "div/div.bg-siv-black.font-sans.min-h-screen/main/section.border-t/div.mx-auto/div.grid/div.bg-siv-white.border.ease-out/div.border.flex.items-center/svg.lucide.lucide-compass.text-siv-maroon",
+          "div/div.bg-siv-black.font-sans.min-h-screen/main/section.border-t/div.mx-auto/div.grid/div.bg-siv-white.border.ease-out/div.border.flex.items-center/svg.lucide.lucide-lock-open.text-siv-maroon",
+          "div/div.bg-siv-black.font-sans.min-h-screen/main/section.border-t/div.mx-auto/div.grid/div.bg-siv-white.border.ease-out/div.border.flex.items-center/svg.lucide.lucide-newspaper.text-siv-maroon",
+          "div/div.bg-siv-black.font-sans.min-h-screen/main/section.border-t/div.mx-auto/div.grid/div.bg-siv-white.border.ease-out/div.border.flex.items-center/svg.lucide.lucide-store.text-siv-maroon",
+          "div/div.bg-siv-black.font-sans.min-h-screen/main/section.border-t/div.mx-auto/div.grid/div.bg-siv-white.border.ease-out/div.border.flex.items-center/svg.lucide.lucide-wallet.text-siv-maroon",
+          "div/div.bg-siv-black.font-sans.min-h-screen/main/section.border-t/div.mx-auto/div.grid/div.bg-siv-white.border.ease-out/h3.font-semibold.leading-snug.relative",
+          "div/div.bg-siv-black.font-sans.min-h-screen/main/section.border-t/div.mx-auto/div.grid/div.bg-siv-white.border.ease-out/p.leading-relaxed.relative",
+          "div/div.bg-siv-black.font-sans.min-h-screen/main/section.border-t/div.mx-auto/div.grid/div.bg-siv-white.border.ease-out/span.absolute.pointer-events-none.rounded-full",
+          "div/div.bg-siv-black.font-sans.min-h-screen/main/section.overflow-hidden.relative",
+          "div/div.bg-siv-black.font-sans.min-h-screen/main/section.overflow-hidden.relative/div.absolute.overflow-hidden.pointer-events-none",
+          "div/div.bg-siv-black.font-sans.min-h-screen/main/section.overflow-hidden.relative/div.absolute.overflow-hidden.pointer-events-none/div.absolute",
+          "div/div.bg-siv-black.font-sans.min-h-screen/main/section.overflow-hidden.relative/div.absolute.overflow-hidden.pointer-events-none/div.absolute.animate-siv-drift.rounded-full",
+          "div/div.bg-siv-black.font-sans.min-h-screen/main/section.overflow-hidden.relative/div.absolute.overflow-hidden.pointer-events-none/div.absolute.animate-siv-glow.rounded-full",
+          "div/div.bg-siv-black.font-sans.min-h-screen/main/section.overflow-hidden.relative/div.absolute.overflow-hidden.pointer-events-none/svg.absolute.lucide.lucide-lock",
+          "div/div.bg-siv-black.font-sans.min-h-screen/main/section.overflow-hidden.relative/div.mx-auto.relative.text-center",
+          "div/div.bg-siv-black.font-sans.min-h-screen/main/section.overflow-hidden.relative/div.mx-auto.relative.text-center/div.flex.flex-col.items-center",
+          "div/div.bg-siv-black.font-sans.min-h-screen/main/section.overflow-hidden.relative/div.mx-auto.relative.text-center/div.flex.flex-col.items-center/span.bg-siv-maroon.font-semibold.inline-flex",
+          "div/div.bg-siv-black.font-sans.min-h-screen/main/section.overflow-hidden.relative/div.mx-auto.relative.text-center/div.flex.flex-col.items-center/span.bg-siv-maroon.font-semibold.inline-flex/svg.lucide.lucide-calendar-clock",
+          "div/div.bg-siv-black.font-sans.min-h-screen/main/section.overflow-hidden.relative/div.mx-auto.relative.text-center/div.flex.flex-col.items-center/span.text-xs.uppercase",
+          "div/div.bg-siv-black.font-sans.min-h-screen/main/section.overflow-hidden.relative/div.mx-auto.relative.text-center/div.flex.justify-center",
+          "div/div.bg-siv-black.font-sans.min-h-screen/main/section.overflow-hidden.relative/div.mx-auto.relative.text-center/div.flex.justify-center/a.backdrop-blur.border.font-medium",
+          "div/div.bg-siv-black.font-sans.min-h-screen/main/section.overflow-hidden.relative/div.mx-auto.relative.text-center/div.flex.justify-center/a.backdrop-blur.border.font-medium/svg.lucide.lucide-arrow-left",
+          "div/div.bg-siv-black.font-sans.min-h-screen/main/section.overflow-hidden.relative/div.mx-auto.relative.text-center/div.flex.justify-center/span.flex-col.inline-flex.items-center",
+          "div/div.bg-siv-black.font-sans.min-h-screen/main/section.overflow-hidden.relative/div.mx-auto.relative.text-center/div.flex.justify-center/span.flex-col.inline-flex.items-center/span.bg-siv-maroon.h-px",
+          "div/div.bg-siv-black.font-sans.min-h-screen/main/section.overflow-hidden.relative/div.mx-auto.relative.text-center/div.flex.justify-center/span.flex-col.inline-flex.items-center/span.font-extrabold.text-siv-cream",
+          "div/div.bg-siv-black.font-sans.min-h-screen/main/section.overflow-hidden.relative/div.mx-auto.relative.text-center/div.flex.justify-center/span.flex-col.inline-flex.items-center/span.font-extrabold.text-siv-cream/span",
+          "div/div.bg-siv-black.font-sans.min-h-screen/main/section.overflow-hidden.relative/div.mx-auto.relative.text-center/h1.font-extrabold.mx-auto.text-siv-cream",
+          "div/div.bg-siv-black.font-sans.min-h-screen/main/section.overflow-hidden.relative/div.mx-auto.relative.text-center/h1.font-extrabold.mx-auto.text-siv-cream/span.text-siv-maroon",
+          "div/div.bg-siv-black.font-sans.min-h-screen/main/section.overflow-hidden.relative/div.mx-auto.relative.text-center/p.font-semibold.text-xs.uppercase",
+          "div/div.bg-siv-black.font-sans.min-h-screen/main/section.overflow-hidden.relative/div.mx-auto.relative.text-center/p.leading-relaxed.max-w-xl.mx-auto"
+        ]
+      },
+      "settled": {
+        "ms": 1000,
+        "networkQuiet": true,
+        "domQuiet": true
+      },
+      "declared": [
+        "website"
+      ],
+      "headings": [
+        "Members Only, By Design.",
+        "How it works",
+        "Creator sets up their page",
+        "Fans subscribe or unlock",
+        "Content is posted",
+        "Creator gets paid",
+        "What's in the first release",
+        "Creator Profiles",
+        "Subscriptions & Instant Unlock",
+        "Feed, Pay-Per-View & Messaging",
+        "Payments & Payouts",
+        "Discovery"
+      ],
+      "structure": {
+        "h1": [
+          "Members Only, By Design."
+        ],
+        "main": true
+      },
+      "snapshot": "pages/projects/siv.html",
+      "markup": {
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1.0",
+        "description": "Spiral builds mobile, web, and AI software — from artist profiles to booking systems to surveillance tools. Tell us what you're building."
+      },
+      "seen": [
+        {
+          "role": "link",
+          "name": "Spiral Projects",
+          "url": "/projects"
+        },
+        {
+          "role": "link",
+          "name": "← Back to Spiral Projects",
+          "url": "/projects"
+        }
+      ],
+      "load": {
+        "headers": {
+          "server": "AmazonS3"
+        }
+      }
+    },
+    {
+      "url": "https://spiralmm.com/careers/devops-engineer",
+      "finalUrl": "https://spiralmm.com/careers/devops-engineer/",
+      "status": 404,
+      "redirects": [
+        {
+          "url": "https://spiralmm.com/careers/devops-engineer",
+          "status": 301
+        }
+      ],
+      "title": "Spiral — Software for Every Idea",
+      "contentType": "text/html",
+      "depth": 2,
+      "fingerprint": {
+        "hash": "5cdeae66a6265b86",
+        "paths": [
+          "div",
+          "div/footer.bg-bg",
+          "div/footer.bg-bg/div.border-border.border-t.flex",
+          "div/footer.bg-bg/div.border-border.border-t.flex/a.flex.items-center",
+          "div/footer.bg-bg/div.border-border.border-t.flex/a.flex.items-center/img",
+          "div/footer.bg-bg/div.border-border.border-t.flex/a.flex.items-center/span.font-black.text-ink.text-lg",
+          "div/footer.bg-bg/div.border-border.border-t.flex/nav.flex.flex-wrap.items-center",
+          "div/footer.bg-bg/div.border-border.border-t.flex/nav.flex.flex-wrap.items-center/a.font-semibold.text-sm.transition-colors",
+          "div/footer.bg-bg/div.border-border.border-t.flex/p.text-muted.text-sm",
+          "div/header.backdrop-blur-md.sticky",
+          "div/header.backdrop-blur-md.sticky/div.flex.items-center.justify-between",
+          "div/header.backdrop-blur-md.sticky/div.flex.items-center.justify-between/a.flex.items-center",
+          "div/header.backdrop-blur-md.sticky/div.flex.items-center.justify-between/a.flex.items-center/img",
+          "div/header.backdrop-blur-md.sticky/div.flex.items-center.justify-between/a.flex.items-center/span.font-black.text-ink.text-xl",
+          "div/header.backdrop-blur-md.sticky/div.flex.items-center.justify-between/a.flex.items-center/span.leading-none.text-base",
+          "div/header.backdrop-blur-md.sticky/div.flex.items-center.justify-between/div.flex.items-center",
+          "div/header.backdrop-blur-md.sticky/div.flex.items-center.justify-between/div.flex.items-center/a.bg-ink.font-bold.rounded-full",
+          "div/header.backdrop-blur-md.sticky/div.flex.items-center.justify-between/div.flex.items-center/button.flex.items-center.justify-center",
+          "div/header.backdrop-blur-md.sticky/div.flex.items-center.justify-between/div.flex.items-center/button.flex.items-center.justify-center/svg.lucide.lucide-menu",
+          "div/header.backdrop-blur-md.sticky/div.flex.items-center.justify-between/nav.hidden.items-center",
+          "div/header.backdrop-blur-md.sticky/div.flex.items-center.justify-between/nav.hidden.items-center/a.font-semibold.transition-colors",
+          "div/header.backdrop-blur-md.sticky/div.flex.items-center.justify-between/nav.hidden.items-center/button.font-semibold.transition-colors",
+          "div/main",
+          "div/main/section.bg-bg",
+          "div/main/section.bg-bg/div.border-border.border-t.flex",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/div.bg-ink",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/div.bg-ink/a.bg-white.font-bold.inline-flex",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/div.bg-ink/a.bg-white.font-bold.inline-flex/svg.lucide.lucide-mail",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/div.bg-ink/div.flex.flex-wrap",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/div.bg-ink/div.flex.flex-wrap/span.font-medium.rounded-full.text-xs",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/div.bg-ink/h2.font-black.text-white.tracking-tighter",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/div.bg-ink/p.max-w-md",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/div.bg-ink/p.max-w-md/a.font-semibold.text-white.underline",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/div.flex.flex-col",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/div.flex.flex-col/div.bg-bg-soft",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/div.flex.flex-col/div.bg-bg-soft/div.flex.items-center",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/div.flex.flex-col/div.bg-bg-soft/div.flex.items-center/h3.font-bold.text-ink.text-lg",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/div.flex.flex-col/div.bg-bg-soft/div.flex.items-center/span",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/div.flex.flex-col/div.bg-bg-soft/p.leading-relaxed.text-muted",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/dl.bg-bg-soft.overflow-hidden",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/dl.bg-bg-soft.overflow-hidden/div.border-bg.border-t.flex",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/dl.bg-bg-soft.overflow-hidden/div.border-bg.border-t.flex/dd.font-medium.text-ink",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/dl.bg-bg-soft.overflow-hidden/div.border-bg.border-t.flex/dt.font-semibold.text-muted.text-sm",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/dl.bg-bg-soft.overflow-hidden/div.flex.flex-col",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/dl.bg-bg-soft.overflow-hidden/div.flex.flex-col/dd.font-medium.text-ink",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/dl.bg-bg-soft.overflow-hidden/div.flex.flex-col/dt.font-semibold.text-muted.text-sm",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/h2.font-black.text-ink.tracking-tighter",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/ul.flex.flex-col",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/ul.flex.flex-col/li.flex.items-start",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/ul.flex.flex-col/li.flex.items-start/span.bg-ink.flex.items-center",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/ul.flex.flex-col/li.flex.items-start/span.bg-ink.flex.items-center/svg.lucide.lucide-check.text-white",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/ul.flex.flex-col/li.flex.items-start/span.leading-relaxed.text-ink",
+          "div/main/section.bg-bg/div.mx-auto",
+          "div/main/section.bg-bg/div.mx-auto/div.ease-out.transition-all",
+          "div/main/section.bg-bg/div.mx-auto/div.ease-out.transition-all/a.bg-ink.font-bold.inline-flex",
+          "div/main/section.bg-bg/div.mx-auto/div.ease-out.transition-all/a.bg-ink.font-bold.inline-flex/svg.lucide.lucide-mail",
+          "div/main/section.bg-bg/div.mx-auto/div.ease-out.transition-all/a.font-bold.inline-flex.items-center",
+          "div/main/section.bg-bg/div.mx-auto/div.ease-out.transition-all/a.font-bold.inline-flex.items-center/svg.lucide.lucide-arrow-left",
+          "div/main/section.bg-bg/div.mx-auto/div.ease-out.transition-all/div.flex.flex-wrap.font-semibold",
+          "div/main/section.bg-bg/div.mx-auto/div.ease-out.transition-all/div.flex.flex-wrap.font-semibold/span.inline-flex.items-center",
+          "div/main/section.bg-bg/div.mx-auto/div.ease-out.transition-all/div.flex.flex-wrap.font-semibold/span.inline-flex.items-center/svg.lucide.lucide-briefcase",
+          "div/main/section.bg-bg/div.mx-auto/div.ease-out.transition-all/div.flex.flex-wrap.font-semibold/span.inline-flex.items-center/svg.lucide.lucide-map-pin",
+          "div/main/section.bg-bg/div.mx-auto/div.ease-out.transition-all/h1.font-black.text-ink.tracking-tighter",
+          "div/main/section.bg-bg/div.mx-auto/div.ease-out.transition-all/p.leading-relaxed.text-lg.text-muted"
+        ]
+      },
+      "settled": {
+        "ms": 1000,
+        "networkQuiet": true,
+        "domQuiet": true
+      },
+      "declared": [
+        "website"
+      ],
+      "headings": [
+        "DevOps Engineer",
+        "The Products",
+        "Stakefair",
+        "Flare",
+        "SIV",
+        "What you'll do",
+        "What we're looking for",
+        "Project details",
+        "Type",
+        "Scope",
+        "Location",
+        "Interested?"
+      ],
+      "structure": {
+        "h1": [
+          "DevOps Engineer"
+        ],
+        "main": true
+      },
+      "controls": [
+        {
+          "kind": "button",
+          "words": [
+            "Our Mission"
+          ],
+          "region": "header",
+          "xpath": "//button[normalize-space()='Our Mission']",
+          "stability": "OK"
+        },
+        {
+          "kind": "button",
+          "words": [
+            "Open Source"
+          ],
+          "region": "header",
+          "xpath": "//button[normalize-space()='Open Source']",
+          "stability": "OK"
+        },
+        {
+          "kind": "button",
+          "words": [
+            "About"
+          ],
+          "region": "header",
+          "xpath": "//button[normalize-space()='About']",
+          "stability": "OK"
+        }
+      ],
+      "snapshot": "pages/careers/devops-engineer.html",
+      "markup": {
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1.0",
+        "description": "Spiral builds mobile, web, and AI software — from artist profiles to booking systems to surveillance tools. Tell us what you're building.",
+        "copyright": {
+          "year": 2026,
+          "seen": 2026
+        }
+      },
+      "seen": [
+        {
+          "role": "link",
+          "name": "Spiral home",
+          "url": "/"
+        },
+        {
+          "role": "button",
+          "name": "Our Mission"
+        },
+        {
+          "role": "button",
+          "name": "Open Source"
+        },
+        {
+          "role": "link",
+          "name": "Projects",
+          "url": "/projects"
+        },
+        {
+          "role": "link",
+          "name": "Careers",
+          "url": "/careers"
+        },
+        {
+          "role": "button",
+          "name": "About"
+        },
+        {
+          "role": "link",
+          "name": "Start a Project",
+          "url": "/contact"
+        },
+        {
+          "role": "link",
+          "name": "All roles",
+          "url": "/careers"
+        },
+        {
+          "role": "link",
+          "name": "Apply for this role",
+          "url": "mailto:spiralmyanmar@gmail.com?subject=Application%3A%20DevOps%20Engineer"
+        },
+        {
+          "role": "link",
+          "name": "spiralmyanmar@gmail.com",
+          "url": "mailto:spiralmyanmar@gmail.com?subject=Application%3A%20DevOps%20Engineer"
+        },
+        {
+          "role": "link",
+          "name": "LinkedIn",
+          "url": "https://www.linkedin.com/company/spiralmm/"
+        },
+        {
+          "role": "link",
+          "name": "Facebook",
+          "url": "https://www.facebook.com/share/1GLATiU4Ap/"
+        },
+        {
+          "role": "link",
+          "name": "Instagram",
+          "url": "https://instagram.com/"
+        },
+        {
+          "role": "link",
+          "name": "X",
+          "url": "https://x.com/"
+        }
+      ],
+      "load": {
+        "headers": {
+          "server": "AmazonS3"
+        }
+      }
+    },
+    {
+      "url": "https://spiralmm.com/careers/product-owner",
+      "finalUrl": "https://spiralmm.com/careers/product-owner/",
+      "status": 404,
+      "redirects": [
+        {
+          "url": "https://spiralmm.com/careers/product-owner",
+          "status": 301
+        }
+      ],
+      "title": "Spiral — Software for Every Idea",
+      "contentType": "text/html",
+      "depth": 2,
+      "fingerprint": {
+        "hash": "b55719a1894bab44",
+        "paths": [
+          "div",
+          "div/footer.bg-bg",
+          "div/footer.bg-bg/div.border-border.border-t.flex",
+          "div/footer.bg-bg/div.border-border.border-t.flex/a.flex.items-center",
+          "div/footer.bg-bg/div.border-border.border-t.flex/a.flex.items-center/img",
+          "div/footer.bg-bg/div.border-border.border-t.flex/a.flex.items-center/span.font-black.text-ink.text-lg",
+          "div/footer.bg-bg/div.border-border.border-t.flex/nav.flex.flex-wrap.items-center",
+          "div/footer.bg-bg/div.border-border.border-t.flex/nav.flex.flex-wrap.items-center/a.font-semibold.text-sm.transition-colors",
+          "div/footer.bg-bg/div.border-border.border-t.flex/p.text-muted.text-sm",
+          "div/header.backdrop-blur-md.sticky",
+          "div/header.backdrop-blur-md.sticky/div.flex.items-center.justify-between",
+          "div/header.backdrop-blur-md.sticky/div.flex.items-center.justify-between/a.flex.items-center",
+          "div/header.backdrop-blur-md.sticky/div.flex.items-center.justify-between/a.flex.items-center/img",
+          "div/header.backdrop-blur-md.sticky/div.flex.items-center.justify-between/a.flex.items-center/span.font-black.text-ink.text-xl",
+          "div/header.backdrop-blur-md.sticky/div.flex.items-center.justify-between/a.flex.items-center/span.leading-none.text-base",
+          "div/header.backdrop-blur-md.sticky/div.flex.items-center.justify-between/div.flex.items-center",
+          "div/header.backdrop-blur-md.sticky/div.flex.items-center.justify-between/div.flex.items-center/a.bg-ink.font-bold.rounded-full",
+          "div/header.backdrop-blur-md.sticky/div.flex.items-center.justify-between/div.flex.items-center/button.flex.items-center.justify-center",
+          "div/header.backdrop-blur-md.sticky/div.flex.items-center.justify-between/div.flex.items-center/button.flex.items-center.justify-center/svg.lucide.lucide-menu",
+          "div/header.backdrop-blur-md.sticky/div.flex.items-center.justify-between/nav.hidden.items-center",
+          "div/header.backdrop-blur-md.sticky/div.flex.items-center.justify-between/nav.hidden.items-center/a.font-semibold.transition-colors",
+          "div/header.backdrop-blur-md.sticky/div.flex.items-center.justify-between/nav.hidden.items-center/button.font-semibold.transition-colors",
+          "div/main",
+          "div/main/section.bg-bg",
+          "div/main/section.bg-bg/div.border-border.border-t.flex",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/div.bg-ink",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/div.bg-ink/a.bg-white.font-bold.inline-flex",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/div.bg-ink/a.bg-white.font-bold.inline-flex/svg.lucide.lucide-mail",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/div.bg-ink/div.flex.flex-wrap",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/div.bg-ink/div.flex.flex-wrap/span.font-medium.rounded-full.text-xs",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/div.bg-ink/h2.font-black.text-white.tracking-tighter",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/div.bg-ink/p.max-w-md",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/div.bg-ink/p.max-w-md/a.font-semibold.text-white.underline",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/div.flex.flex-col",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/div.flex.flex-col/div.bg-bg-soft",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/div.flex.flex-col/div.bg-bg-soft/div.flex.items-center",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/div.flex.flex-col/div.bg-bg-soft/div.flex.items-center/h3.font-bold.text-ink.text-lg",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/div.flex.flex-col/div.bg-bg-soft/div.flex.items-center/span",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/div.flex.flex-col/div.bg-bg-soft/p.leading-relaxed.text-muted",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/dl.bg-bg-soft.overflow-hidden",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/dl.bg-bg-soft.overflow-hidden/div.border-bg.border-t.flex",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/dl.bg-bg-soft.overflow-hidden/div.border-bg.border-t.flex/dd.font-medium.text-ink",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/dl.bg-bg-soft.overflow-hidden/div.border-bg.border-t.flex/dt.font-semibold.text-muted.text-sm",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/dl.bg-bg-soft.overflow-hidden/div.flex.flex-col",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/dl.bg-bg-soft.overflow-hidden/div.flex.flex-col/dd.font-medium.text-ink",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/dl.bg-bg-soft.overflow-hidden/div.flex.flex-col/dt.font-semibold.text-muted.text-sm",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/h2.font-black.text-ink.tracking-tighter",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/p.leading-relaxed.text-muted",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/ul.flex.flex-col",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/ul.flex.flex-col/li.flex.items-start",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/ul.flex.flex-col/li.flex.items-start/span.bg-ink.flex.items-center",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/ul.flex.flex-col/li.flex.items-start/span.bg-ink.flex.items-center/svg.lucide.lucide-check.text-white",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/ul.flex.flex-col/li.flex.items-start/span.leading-relaxed.text-ink",
+          "div/main/section.bg-bg/div.mx-auto",
+          "div/main/section.bg-bg/div.mx-auto/div.ease-out.transition-all",
+          "div/main/section.bg-bg/div.mx-auto/div.ease-out.transition-all/a.bg-ink.font-bold.inline-flex",
+          "div/main/section.bg-bg/div.mx-auto/div.ease-out.transition-all/a.bg-ink.font-bold.inline-flex/svg.lucide.lucide-mail",
+          "div/main/section.bg-bg/div.mx-auto/div.ease-out.transition-all/a.font-bold.inline-flex.items-center",
+          "div/main/section.bg-bg/div.mx-auto/div.ease-out.transition-all/a.font-bold.inline-flex.items-center/svg.lucide.lucide-arrow-left",
+          "div/main/section.bg-bg/div.mx-auto/div.ease-out.transition-all/div.flex.flex-wrap.font-semibold",
+          "div/main/section.bg-bg/div.mx-auto/div.ease-out.transition-all/div.flex.flex-wrap.font-semibold/span.inline-flex.items-center",
+          "div/main/section.bg-bg/div.mx-auto/div.ease-out.transition-all/div.flex.flex-wrap.font-semibold/span.inline-flex.items-center/svg.lucide.lucide-briefcase",
+          "div/main/section.bg-bg/div.mx-auto/div.ease-out.transition-all/div.flex.flex-wrap.font-semibold/span.inline-flex.items-center/svg.lucide.lucide-map-pin",
+          "div/main/section.bg-bg/div.mx-auto/div.ease-out.transition-all/h1.font-black.text-ink.tracking-tighter",
+          "div/main/section.bg-bg/div.mx-auto/div.ease-out.transition-all/p.leading-relaxed.text-lg.text-muted"
+        ]
+      },
+      "settled": {
+        "ms": 1000,
+        "networkQuiet": true,
+        "domQuiet": true
+      },
+      "declared": [
+        "website"
+      ],
+      "headings": [
+        "Product Owner",
+        "The Products",
+        "Qsure",
+        "Stakefair",
+        "Flare",
+        "How you can help us",
+        "What we're looking for",
+        "Why join us",
+        "Project details",
+        "Type",
+        "Scope",
+        "Location",
+        "Interested?"
+      ],
+      "structure": {
+        "h1": [
+          "Product Owner"
+        ],
+        "main": true
+      },
+      "controls": [
+        {
+          "kind": "button",
+          "words": [
+            "Our Mission"
+          ],
+          "region": "header",
+          "xpath": "//button[normalize-space()='Our Mission']",
+          "stability": "OK"
+        },
+        {
+          "kind": "button",
+          "words": [
+            "Open Source"
+          ],
+          "region": "header",
+          "xpath": "//button[normalize-space()='Open Source']",
+          "stability": "OK"
+        },
+        {
+          "kind": "button",
+          "words": [
+            "About"
+          ],
+          "region": "header",
+          "xpath": "//button[normalize-space()='About']",
+          "stability": "OK"
+        }
+      ],
+      "snapshot": "pages/careers/product-owner.html",
+      "markup": {
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1.0",
+        "description": "Spiral builds mobile, web, and AI software — from artist profiles to booking systems to surveillance tools. Tell us what you're building.",
+        "copyright": {
+          "year": 2026,
+          "seen": 2026
+        }
+      },
+      "seen": [
+        {
+          "role": "link",
+          "name": "Spiral home",
+          "url": "/"
+        },
+        {
+          "role": "button",
+          "name": "Our Mission"
+        },
+        {
+          "role": "button",
+          "name": "Open Source"
+        },
+        {
+          "role": "link",
+          "name": "Projects",
+          "url": "/projects"
+        },
+        {
+          "role": "link",
+          "name": "Careers",
+          "url": "/careers"
+        },
+        {
+          "role": "button",
+          "name": "About"
+        },
+        {
+          "role": "link",
+          "name": "Start a Project",
+          "url": "/contact"
+        },
+        {
+          "role": "link",
+          "name": "All roles",
+          "url": "/careers"
+        },
+        {
+          "role": "link",
+          "name": "Apply for this role",
+          "url": "mailto:spiralmyanmar@gmail.com?subject=Application%3A%20Product%20Owner"
+        },
+        {
+          "role": "link",
+          "name": "spiralmyanmar@gmail.com",
+          "url": "mailto:spiralmyanmar@gmail.com?subject=Application%3A%20Product%20Owner"
+        },
+        {
+          "role": "link",
+          "name": "LinkedIn",
+          "url": "https://www.linkedin.com/company/spiralmm/"
+        },
+        {
+          "role": "link",
+          "name": "Facebook",
+          "url": "https://www.facebook.com/share/1GLATiU4Ap/"
+        },
+        {
+          "role": "link",
+          "name": "Instagram",
+          "url": "https://instagram.com/"
+        },
+        {
+          "role": "link",
+          "name": "X",
+          "url": "https://x.com/"
+        }
+      ],
+      "load": {
+        "headers": {
+          "server": "AmazonS3"
+        }
+      }
+    },
+    {
+      "url": "https://spiralmm.com/careers/nextjs-frontend-developer",
+      "finalUrl": "https://spiralmm.com/careers/nextjs-frontend-developer/",
+      "status": 404,
+      "redirects": [
+        {
+          "url": "https://spiralmm.com/careers/nextjs-frontend-developer",
+          "status": 301
+        }
+      ],
+      "title": "Spiral — Software for Every Idea",
+      "contentType": "text/html",
+      "depth": 2,
+      "fingerprint": {
+        "hash": "5cdeae66a6265b86",
+        "paths": [
+          "div",
+          "div/footer.bg-bg",
+          "div/footer.bg-bg/div.border-border.border-t.flex",
+          "div/footer.bg-bg/div.border-border.border-t.flex/a.flex.items-center",
+          "div/footer.bg-bg/div.border-border.border-t.flex/a.flex.items-center/img",
+          "div/footer.bg-bg/div.border-border.border-t.flex/a.flex.items-center/span.font-black.text-ink.text-lg",
+          "div/footer.bg-bg/div.border-border.border-t.flex/nav.flex.flex-wrap.items-center",
+          "div/footer.bg-bg/div.border-border.border-t.flex/nav.flex.flex-wrap.items-center/a.font-semibold.text-sm.transition-colors",
+          "div/footer.bg-bg/div.border-border.border-t.flex/p.text-muted.text-sm",
+          "div/header.backdrop-blur-md.sticky",
+          "div/header.backdrop-blur-md.sticky/div.flex.items-center.justify-between",
+          "div/header.backdrop-blur-md.sticky/div.flex.items-center.justify-between/a.flex.items-center",
+          "div/header.backdrop-blur-md.sticky/div.flex.items-center.justify-between/a.flex.items-center/img",
+          "div/header.backdrop-blur-md.sticky/div.flex.items-center.justify-between/a.flex.items-center/span.font-black.text-ink.text-xl",
+          "div/header.backdrop-blur-md.sticky/div.flex.items-center.justify-between/a.flex.items-center/span.leading-none.text-base",
+          "div/header.backdrop-blur-md.sticky/div.flex.items-center.justify-between/div.flex.items-center",
+          "div/header.backdrop-blur-md.sticky/div.flex.items-center.justify-between/div.flex.items-center/a.bg-ink.font-bold.rounded-full",
+          "div/header.backdrop-blur-md.sticky/div.flex.items-center.justify-between/div.flex.items-center/button.flex.items-center.justify-center",
+          "div/header.backdrop-blur-md.sticky/div.flex.items-center.justify-between/div.flex.items-center/button.flex.items-center.justify-center/svg.lucide.lucide-menu",
+          "div/header.backdrop-blur-md.sticky/div.flex.items-center.justify-between/nav.hidden.items-center",
+          "div/header.backdrop-blur-md.sticky/div.flex.items-center.justify-between/nav.hidden.items-center/a.font-semibold.transition-colors",
+          "div/header.backdrop-blur-md.sticky/div.flex.items-center.justify-between/nav.hidden.items-center/button.font-semibold.transition-colors",
+          "div/main",
+          "div/main/section.bg-bg",
+          "div/main/section.bg-bg/div.border-border.border-t.flex",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/div.bg-ink",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/div.bg-ink/a.bg-white.font-bold.inline-flex",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/div.bg-ink/a.bg-white.font-bold.inline-flex/svg.lucide.lucide-mail",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/div.bg-ink/div.flex.flex-wrap",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/div.bg-ink/div.flex.flex-wrap/span.font-medium.rounded-full.text-xs",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/div.bg-ink/h2.font-black.text-white.tracking-tighter",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/div.bg-ink/p.max-w-md",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/div.bg-ink/p.max-w-md/a.font-semibold.text-white.underline",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/div.flex.flex-col",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/div.flex.flex-col/div.bg-bg-soft",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/div.flex.flex-col/div.bg-bg-soft/div.flex.items-center",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/div.flex.flex-col/div.bg-bg-soft/div.flex.items-center/h3.font-bold.text-ink.text-lg",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/div.flex.flex-col/div.bg-bg-soft/div.flex.items-center/span",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/div.flex.flex-col/div.bg-bg-soft/p.leading-relaxed.text-muted",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/dl.bg-bg-soft.overflow-hidden",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/dl.bg-bg-soft.overflow-hidden/div.border-bg.border-t.flex",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/dl.bg-bg-soft.overflow-hidden/div.border-bg.border-t.flex/dd.font-medium.text-ink",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/dl.bg-bg-soft.overflow-hidden/div.border-bg.border-t.flex/dt.font-semibold.text-muted.text-sm",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/dl.bg-bg-soft.overflow-hidden/div.flex.flex-col",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/dl.bg-bg-soft.overflow-hidden/div.flex.flex-col/dd.font-medium.text-ink",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/dl.bg-bg-soft.overflow-hidden/div.flex.flex-col/dt.font-semibold.text-muted.text-sm",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/h2.font-black.text-ink.tracking-tighter",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/ul.flex.flex-col",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/ul.flex.flex-col/li.flex.items-start",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/ul.flex.flex-col/li.flex.items-start/span.bg-ink.flex.items-center",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/ul.flex.flex-col/li.flex.items-start/span.bg-ink.flex.items-center/svg.lucide.lucide-check.text-white",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/ul.flex.flex-col/li.flex.items-start/span.leading-relaxed.text-ink",
+          "div/main/section.bg-bg/div.mx-auto",
+          "div/main/section.bg-bg/div.mx-auto/div.ease-out.transition-all",
+          "div/main/section.bg-bg/div.mx-auto/div.ease-out.transition-all/a.bg-ink.font-bold.inline-flex",
+          "div/main/section.bg-bg/div.mx-auto/div.ease-out.transition-all/a.bg-ink.font-bold.inline-flex/svg.lucide.lucide-mail",
+          "div/main/section.bg-bg/div.mx-auto/div.ease-out.transition-all/a.font-bold.inline-flex.items-center",
+          "div/main/section.bg-bg/div.mx-auto/div.ease-out.transition-all/a.font-bold.inline-flex.items-center/svg.lucide.lucide-arrow-left",
+          "div/main/section.bg-bg/div.mx-auto/div.ease-out.transition-all/div.flex.flex-wrap.font-semibold",
+          "div/main/section.bg-bg/div.mx-auto/div.ease-out.transition-all/div.flex.flex-wrap.font-semibold/span.inline-flex.items-center",
+          "div/main/section.bg-bg/div.mx-auto/div.ease-out.transition-all/div.flex.flex-wrap.font-semibold/span.inline-flex.items-center/svg.lucide.lucide-briefcase",
+          "div/main/section.bg-bg/div.mx-auto/div.ease-out.transition-all/div.flex.flex-wrap.font-semibold/span.inline-flex.items-center/svg.lucide.lucide-map-pin",
+          "div/main/section.bg-bg/div.mx-auto/div.ease-out.transition-all/h1.font-black.text-ink.tracking-tighter",
+          "div/main/section.bg-bg/div.mx-auto/div.ease-out.transition-all/p.leading-relaxed.text-lg.text-muted"
+        ]
+      },
+      "settled": {
+        "ms": 1000,
+        "networkQuiet": true,
+        "domQuiet": true
+      },
+      "declared": [
+        "website"
+      ],
+      "headings": [
+        "Next.js Frontend Developer",
+        "The Products",
+        "Stakefair",
+        "Flare",
+        "SIV",
+        "What you'll do",
+        "What we're looking for",
+        "Project details",
+        "Type",
+        "Scope",
+        "Location",
+        "Interested?"
+      ],
+      "structure": {
+        "h1": [
+          "Next.js Frontend Developer"
+        ],
+        "main": true
+      },
+      "controls": [
+        {
+          "kind": "button",
+          "words": [
+            "Our Mission"
+          ],
+          "region": "header",
+          "xpath": "//button[normalize-space()='Our Mission']",
+          "stability": "OK"
+        },
+        {
+          "kind": "button",
+          "words": [
+            "Open Source"
+          ],
+          "region": "header",
+          "xpath": "//button[normalize-space()='Open Source']",
+          "stability": "OK"
+        },
+        {
+          "kind": "button",
+          "words": [
+            "About"
+          ],
+          "region": "header",
+          "xpath": "//button[normalize-space()='About']",
+          "stability": "OK"
+        }
+      ],
+      "snapshot": "pages/careers/nextjs-frontend-developer.html",
+      "markup": {
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1.0",
+        "description": "Spiral builds mobile, web, and AI software — from artist profiles to booking systems to surveillance tools. Tell us what you're building.",
+        "copyright": {
+          "year": 2026,
+          "seen": 2026
+        }
+      },
+      "seen": [
+        {
+          "role": "link",
+          "name": "Spiral home",
+          "url": "/"
+        },
+        {
+          "role": "button",
+          "name": "Our Mission"
+        },
+        {
+          "role": "button",
+          "name": "Open Source"
+        },
+        {
+          "role": "link",
+          "name": "Projects",
+          "url": "/projects"
+        },
+        {
+          "role": "link",
+          "name": "Careers",
+          "url": "/careers"
+        },
+        {
+          "role": "button",
+          "name": "About"
+        },
+        {
+          "role": "link",
+          "name": "Start a Project",
+          "url": "/contact"
+        },
+        {
+          "role": "link",
+          "name": "All roles",
+          "url": "/careers"
+        },
+        {
+          "role": "link",
+          "name": "Apply for this role",
+          "url": "mailto:spiralmyanmar@gmail.com?subject=Application%3A%20Next.js%20Frontend%20Developer"
+        },
+        {
+          "role": "link",
+          "name": "spiralmyanmar@gmail.com",
+          "url": "mailto:spiralmyanmar@gmail.com?subject=Application%3A%20Next.js%20Frontend%20Developer"
+        },
+        {
+          "role": "link",
+          "name": "LinkedIn",
+          "url": "https://www.linkedin.com/company/spiralmm/"
+        },
+        {
+          "role": "link",
+          "name": "Facebook",
+          "url": "https://www.facebook.com/share/1GLATiU4Ap/"
+        },
+        {
+          "role": "link",
+          "name": "Instagram",
+          "url": "https://instagram.com/"
+        },
+        {
+          "role": "link",
+          "name": "X",
+          "url": "https://x.com/"
+        }
+      ],
+      "load": {
+        "headers": {
+          "server": "AmazonS3"
+        }
+      }
+    },
+    {
+      "url": "https://spiralmm.com/careers/react-native-developer",
+      "finalUrl": "https://spiralmm.com/careers/react-native-developer/",
+      "status": 404,
+      "redirects": [
+        {
+          "url": "https://spiralmm.com/careers/react-native-developer",
+          "status": 301
+        }
+      ],
+      "title": "Spiral — Software for Every Idea",
+      "contentType": "text/html",
+      "depth": 2,
+      "fingerprint": {
+        "hash": "5cdeae66a6265b86",
+        "paths": [
+          "div",
+          "div/footer.bg-bg",
+          "div/footer.bg-bg/div.border-border.border-t.flex",
+          "div/footer.bg-bg/div.border-border.border-t.flex/a.flex.items-center",
+          "div/footer.bg-bg/div.border-border.border-t.flex/a.flex.items-center/img",
+          "div/footer.bg-bg/div.border-border.border-t.flex/a.flex.items-center/span.font-black.text-ink.text-lg",
+          "div/footer.bg-bg/div.border-border.border-t.flex/nav.flex.flex-wrap.items-center",
+          "div/footer.bg-bg/div.border-border.border-t.flex/nav.flex.flex-wrap.items-center/a.font-semibold.text-sm.transition-colors",
+          "div/footer.bg-bg/div.border-border.border-t.flex/p.text-muted.text-sm",
+          "div/header.backdrop-blur-md.sticky",
+          "div/header.backdrop-blur-md.sticky/div.flex.items-center.justify-between",
+          "div/header.backdrop-blur-md.sticky/div.flex.items-center.justify-between/a.flex.items-center",
+          "div/header.backdrop-blur-md.sticky/div.flex.items-center.justify-between/a.flex.items-center/img",
+          "div/header.backdrop-blur-md.sticky/div.flex.items-center.justify-between/a.flex.items-center/span.font-black.text-ink.text-xl",
+          "div/header.backdrop-blur-md.sticky/div.flex.items-center.justify-between/a.flex.items-center/span.leading-none.text-base",
+          "div/header.backdrop-blur-md.sticky/div.flex.items-center.justify-between/div.flex.items-center",
+          "div/header.backdrop-blur-md.sticky/div.flex.items-center.justify-between/div.flex.items-center/a.bg-ink.font-bold.rounded-full",
+          "div/header.backdrop-blur-md.sticky/div.flex.items-center.justify-between/div.flex.items-center/button.flex.items-center.justify-center",
+          "div/header.backdrop-blur-md.sticky/div.flex.items-center.justify-between/div.flex.items-center/button.flex.items-center.justify-center/svg.lucide.lucide-menu",
+          "div/header.backdrop-blur-md.sticky/div.flex.items-center.justify-between/nav.hidden.items-center",
+          "div/header.backdrop-blur-md.sticky/div.flex.items-center.justify-between/nav.hidden.items-center/a.font-semibold.transition-colors",
+          "div/header.backdrop-blur-md.sticky/div.flex.items-center.justify-between/nav.hidden.items-center/button.font-semibold.transition-colors",
+          "div/main",
+          "div/main/section.bg-bg",
+          "div/main/section.bg-bg/div.border-border.border-t.flex",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/div.bg-ink",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/div.bg-ink/a.bg-white.font-bold.inline-flex",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/div.bg-ink/a.bg-white.font-bold.inline-flex/svg.lucide.lucide-mail",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/div.bg-ink/div.flex.flex-wrap",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/div.bg-ink/div.flex.flex-wrap/span.font-medium.rounded-full.text-xs",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/div.bg-ink/h2.font-black.text-white.tracking-tighter",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/div.bg-ink/p.max-w-md",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/div.bg-ink/p.max-w-md/a.font-semibold.text-white.underline",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/div.flex.flex-col",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/div.flex.flex-col/div.bg-bg-soft",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/div.flex.flex-col/div.bg-bg-soft/div.flex.items-center",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/div.flex.flex-col/div.bg-bg-soft/div.flex.items-center/h3.font-bold.text-ink.text-lg",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/div.flex.flex-col/div.bg-bg-soft/div.flex.items-center/span",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/div.flex.flex-col/div.bg-bg-soft/p.leading-relaxed.text-muted",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/dl.bg-bg-soft.overflow-hidden",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/dl.bg-bg-soft.overflow-hidden/div.border-bg.border-t.flex",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/dl.bg-bg-soft.overflow-hidden/div.border-bg.border-t.flex/dd.font-medium.text-ink",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/dl.bg-bg-soft.overflow-hidden/div.border-bg.border-t.flex/dt.font-semibold.text-muted.text-sm",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/dl.bg-bg-soft.overflow-hidden/div.flex.flex-col",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/dl.bg-bg-soft.overflow-hidden/div.flex.flex-col/dd.font-medium.text-ink",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/dl.bg-bg-soft.overflow-hidden/div.flex.flex-col/dt.font-semibold.text-muted.text-sm",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/h2.font-black.text-ink.tracking-tighter",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/ul.flex.flex-col",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/ul.flex.flex-col/li.flex.items-start",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/ul.flex.flex-col/li.flex.items-start/span.bg-ink.flex.items-center",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/ul.flex.flex-col/li.flex.items-start/span.bg-ink.flex.items-center/svg.lucide.lucide-check.text-white",
+          "div/main/section.bg-bg/div.border-border.border-t.flex/div.ease-out.transition-all/ul.flex.flex-col/li.flex.items-start/span.leading-relaxed.text-ink",
+          "div/main/section.bg-bg/div.mx-auto",
+          "div/main/section.bg-bg/div.mx-auto/div.ease-out.transition-all",
+          "div/main/section.bg-bg/div.mx-auto/div.ease-out.transition-all/a.bg-ink.font-bold.inline-flex",
+          "div/main/section.bg-bg/div.mx-auto/div.ease-out.transition-all/a.bg-ink.font-bold.inline-flex/svg.lucide.lucide-mail",
+          "div/main/section.bg-bg/div.mx-auto/div.ease-out.transition-all/a.font-bold.inline-flex.items-center",
+          "div/main/section.bg-bg/div.mx-auto/div.ease-out.transition-all/a.font-bold.inline-flex.items-center/svg.lucide.lucide-arrow-left",
+          "div/main/section.bg-bg/div.mx-auto/div.ease-out.transition-all/div.flex.flex-wrap.font-semibold",
+          "div/main/section.bg-bg/div.mx-auto/div.ease-out.transition-all/div.flex.flex-wrap.font-semibold/span.inline-flex.items-center",
+          "div/main/section.bg-bg/div.mx-auto/div.ease-out.transition-all/div.flex.flex-wrap.font-semibold/span.inline-flex.items-center/svg.lucide.lucide-briefcase",
+          "div/main/section.bg-bg/div.mx-auto/div.ease-out.transition-all/div.flex.flex-wrap.font-semibold/span.inline-flex.items-center/svg.lucide.lucide-map-pin",
+          "div/main/section.bg-bg/div.mx-auto/div.ease-out.transition-all/h1.font-black.text-ink.tracking-tighter",
+          "div/main/section.bg-bg/div.mx-auto/div.ease-out.transition-all/p.leading-relaxed.text-lg.text-muted"
+        ]
+      },
+      "settled": {
+        "ms": 1000,
+        "networkQuiet": true,
+        "domQuiet": true
+      },
+      "declared": [
+        "website"
+      ],
+      "headings": [
+        "React Native Developer",
+        "The Products",
+        "Stakefair",
+        "Flare",
+        "SIV",
+        "What you'll do",
+        "What we're looking for",
+        "Project details",
+        "Type",
+        "Scope",
+        "Location",
+        "Interested?"
+      ],
+      "structure": {
+        "h1": [
+          "React Native Developer"
+        ],
+        "main": true
+      },
+      "controls": [
+        {
+          "kind": "button",
+          "words": [
+            "Our Mission"
+          ],
+          "region": "header",
+          "xpath": "//button[normalize-space()='Our Mission']",
+          "stability": "OK"
+        },
+        {
+          "kind": "button",
+          "words": [
+            "Open Source"
+          ],
+          "region": "header",
+          "xpath": "//button[normalize-space()='Open Source']",
+          "stability": "OK"
+        },
+        {
+          "kind": "button",
+          "words": [
+            "About"
+          ],
+          "region": "header",
+          "xpath": "//button[normalize-space()='About']",
+          "stability": "OK"
+        }
+      ],
+      "snapshot": "pages/careers/react-native-developer.html",
+      "markup": {
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1.0",
+        "description": "Spiral builds mobile, web, and AI software — from artist profiles to booking systems to surveillance tools. Tell us what you're building.",
+        "copyright": {
+          "year": 2026,
+          "seen": 2026
+        }
+      },
+      "seen": [
+        {
+          "role": "link",
+          "name": "Spiral home",
+          "url": "/"
+        },
+        {
+          "role": "button",
+          "name": "Our Mission"
+        },
+        {
+          "role": "button",
+          "name": "Open Source"
+        },
+        {
+          "role": "link",
+          "name": "Projects",
+          "url": "/projects"
+        },
+        {
+          "role": "link",
+          "name": "Careers",
+          "url": "/careers"
+        },
+        {
+          "role": "button",
+          "name": "About"
+        },
+        {
+          "role": "link",
+          "name": "Start a Project",
+          "url": "/contact"
+        },
+        {
+          "role": "link",
+          "name": "All roles",
+          "url": "/careers"
+        },
+        {
+          "role": "link",
+          "name": "Apply for this role",
+          "url": "mailto:spiralmyanmar@gmail.com?subject=Application%3A%20React%20Native%20Developer"
+        },
+        {
+          "role": "link",
+          "name": "spiralmyanmar@gmail.com",
+          "url": "mailto:spiralmyanmar@gmail.com?subject=Application%3A%20React%20Native%20Developer"
+        },
+        {
+          "role": "link",
+          "name": "LinkedIn",
+          "url": "https://www.linkedin.com/company/spiralmm/"
+        },
+        {
+          "role": "link",
+          "name": "Facebook",
+          "url": "https://www.facebook.com/share/1GLATiU4Ap/"
+        },
+        {
+          "role": "link",
+          "name": "Instagram",
+          "url": "https://instagram.com/"
+        },
+        {
+          "role": "link",
+          "name": "X",
+          "url": "https://x.com/"
+        }
+      ],
+      "load": {
+        "headers": {
+          "server": "AmazonS3"
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "https://spiralmm.com/",
+      "to": "https://spiralmm.com/",
+      "href": "/",
+      "text": "Spiral 🇲🇲",
+      "external": false,
+      "region": "header"
+    },
+    {
+      "from": "https://spiralmm.com/",
+      "to": "https://spiralmm.com/projects",
+      "href": "/projects",
+      "text": "Projects",
+      "external": false,
+      "region": "header"
+    },
+    {
+      "from": "https://spiralmm.com/",
+      "to": "https://spiralmm.com/careers",
+      "href": "/careers",
+      "text": "Careers",
+      "external": false,
+      "region": "header"
+    },
+    {
+      "from": "https://spiralmm.com/",
+      "to": "https://spiralmm.com/contact",
+      "href": "/contact",
+      "text": "Start a Project",
+      "external": false,
+      "region": "header"
+    },
+    {
+      "from": "https://spiralmm.com/",
+      "to": "https://spiralmm.com/contact",
+      "href": "/contact",
+      "text": "Start a Project",
+      "external": false
+    },
+    {
+      "from": "https://spiralmm.com/",
+      "to": "https://spiralmm.com/projects",
+      "href": "/projects",
+      "text": "See our work",
+      "external": false
+    },
+    {
+      "from": "https://spiralmm.com/",
+      "to": "https://qsuremm.xyz/",
+      "href": "https://qsuremm.xyz/",
+      "text": "Qsure A crowd testing platform.",
+      "external": true,
+      "newTab": true
+    },
+    {
+      "from": "https://spiralmm.com/",
+      "to": "https://home.stakefairmm.xyz/",
+      "href": "https://home.stakefairmm.xyz/",
+      "text": "Stakefair Matchmaking from Chess, Dota 2 and Mobile Legends with staking as opt…",
+      "external": true,
+      "newTab": true
+    },
+    {
+      "from": "https://spiralmm.com/",
+      "to": "https://flaremm.xyz/",
+      "href": "https://flaremm.xyz/",
+      "text": "Flare A geofenced, time-boxed and flare based dating layer.",
+      "external": true,
+      "newTab": true
+    },
+    {
+      "from": "https://spiralmm.com/",
+      "to": "https://github.com/Spiral-Myanmar",
+      "href": "https://github.com/Spiral-Myanmar",
+      "text": "View on GitHub",
+      "external": true,
+      "newTab": true
+    },
+    {
+      "from": "https://spiralmm.com/",
+      "to": "https://www.facebook.com/share/1GLATiU4Ap/",
+      "href": "https://www.facebook.com/share/1GLATiU4Ap/",
+      "text": "Facebook",
+      "external": true,
+      "hidden": true,
+      "newTab": true
+    },
+    {
+      "from": "https://spiralmm.com/",
+      "to": "https://www.linkedin.com/company/spiralmm/",
+      "href": "https://www.linkedin.com/company/spiralmm/",
+      "text": "LinkedIn",
+      "external": true,
+      "hidden": true,
+      "newTab": true
+    },
+    {
+      "from": "https://spiralmm.com/",
+      "to": "https://spiralmm.com/",
+      "href": "/",
+      "text": "Spiral",
+      "external": false,
+      "region": "footer"
+    },
+    {
+      "from": "https://spiralmm.com/",
+      "to": "https://www.linkedin.com/company/spiralmm/",
+      "href": "https://www.linkedin.com/company/spiralmm/",
+      "text": "LinkedIn",
+      "external": true,
+      "region": "footer",
+      "newTab": true
+    },
+    {
+      "from": "https://spiralmm.com/",
+      "to": "https://www.facebook.com/share/1GLATiU4Ap/",
+      "href": "https://www.facebook.com/share/1GLATiU4Ap/",
+      "text": "Facebook",
+      "external": true,
+      "region": "footer",
+      "newTab": true
+    },
+    {
+      "from": "https://spiralmm.com/",
+      "to": "https://instagram.com/",
+      "href": "https://instagram.com/",
+      "text": "Instagram",
+      "external": true,
+      "region": "footer",
+      "newTab": true
+    },
+    {
+      "from": "https://spiralmm.com/",
+      "to": "https://x.com/",
+      "href": "https://x.com/",
+      "text": "X",
+      "external": true,
+      "region": "footer",
+      "newTab": true
+    },
+    {
+      "from": "https://spiralmm.com/contact/",
+      "to": "https://spiralmm.com/",
+      "href": "/",
+      "text": "Spiral 🇲🇲",
+      "external": false,
+      "region": "header"
+    },
+    {
+      "from": "https://spiralmm.com/contact/",
+      "to": "https://spiralmm.com/projects",
+      "href": "/projects",
+      "text": "Projects",
+      "external": false,
+      "region": "header"
+    },
+    {
+      "from": "https://spiralmm.com/contact/",
+      "to": "https://spiralmm.com/careers",
+      "href": "/careers",
+      "text": "Careers",
+      "external": false,
+      "region": "header"
+    },
+    {
+      "from": "https://spiralmm.com/contact/",
+      "to": "https://spiralmm.com/contact",
+      "href": "/contact",
+      "text": "Start a Project",
+      "external": false,
+      "region": "header"
+    },
+    {
+      "from": "https://spiralmm.com/contact/",
+      "to": "https://spiralmm.com/",
+      "href": "/",
+      "text": "Spiral",
+      "external": false,
+      "region": "footer"
+    },
+    {
+      "from": "https://spiralmm.com/contact/",
+      "to": "https://www.linkedin.com/company/spiralmm/",
+      "href": "https://www.linkedin.com/company/spiralmm/",
+      "text": "LinkedIn",
+      "external": true,
+      "region": "footer",
+      "newTab": true
+    },
+    {
+      "from": "https://spiralmm.com/contact/",
+      "to": "https://www.facebook.com/share/1GLATiU4Ap/",
+      "href": "https://www.facebook.com/share/1GLATiU4Ap/",
+      "text": "Facebook",
+      "external": true,
+      "region": "footer",
+      "newTab": true
+    },
+    {
+      "from": "https://spiralmm.com/contact/",
+      "to": "https://instagram.com/",
+      "href": "https://instagram.com/",
+      "text": "Instagram",
+      "external": true,
+      "region": "footer",
+      "newTab": true
+    },
+    {
+      "from": "https://spiralmm.com/contact/",
+      "to": "https://x.com/",
+      "href": "https://x.com/",
+      "text": "X",
+      "external": true,
+      "region": "footer",
+      "newTab": true
+    },
+    {
+      "from": "https://spiralmm.com/careers/",
+      "to": "https://spiralmm.com/",
+      "href": "/",
+      "text": "Spiral 🇲🇲",
+      "external": false,
+      "region": "header"
+    },
+    {
+      "from": "https://spiralmm.com/careers/",
+      "to": "https://spiralmm.com/projects",
+      "href": "/projects",
+      "text": "Projects",
+      "external": false,
+      "region": "header"
+    },
+    {
+      "from": "https://spiralmm.com/careers/",
+      "to": "https://spiralmm.com/careers",
+      "href": "/careers",
+      "text": "Careers",
+      "external": false,
+      "region": "header"
+    },
+    {
+      "from": "https://spiralmm.com/careers/",
+      "to": "https://spiralmm.com/contact",
+      "href": "/contact",
+      "text": "Start a Project",
+      "external": false,
+      "region": "header"
+    },
+    {
+      "from": "https://spiralmm.com/careers/",
+      "to": "https://spiralmm.com/careers/product-owner",
+      "href": "/careers/product-owner",
+      "text": "Product Owner We're building three products at once — and honestly, we need som…",
+      "external": false
+    },
+    {
+      "from": "https://spiralmm.com/careers/",
+      "to": "https://spiralmm.com/careers/uiux-designer",
+      "href": "/careers/uiux-designer",
+      "text": "UI/UX Designer Shape the app experiences of three distinct mobile products from…",
+      "external": false
+    },
+    {
+      "from": "https://spiralmm.com/careers/",
+      "to": "https://spiralmm.com/careers/react-native-developer",
+      "href": "/careers/react-native-developer",
+      "text": "React Native Developer Bring three distinct mobile products to life across iOS …",
+      "external": false
+    },
+    {
+      "from": "https://spiralmm.com/careers/",
+      "to": "https://spiralmm.com/careers/nodejs-developer",
+      "href": "/careers/nodejs-developer",
+      "text": "Node.js Developer Build the backend systems powering three distinct mobile prod…",
+      "external": false
+    },
+    {
+      "from": "https://spiralmm.com/careers/",
+      "to": "https://spiralmm.com/careers/nextjs-frontend-developer",
+      "href": "/careers/nextjs-frontend-developer",
+      "text": "Next.js Frontend Developer Build the admin panels that power and manage three d…",
+      "external": false
+    },
+    {
+      "from": "https://spiralmm.com/careers/",
+      "to": "https://spiralmm.com/careers/devops-engineer",
+      "href": "/careers/devops-engineer",
+      "text": "DevOps Engineer Architect and own the infrastructure powering three distinct mo…",
+      "external": false
+    },
+    {
+      "from": "https://spiralmm.com/careers/",
+      "to": "https://spiralmm.com/careers/ai-engineer-computer-vision",
+      "href": "/careers/ai-engineer-computer-vision",
+      "text": "AI Engineer (Computer Vision) Build next-gen markerless motion capture — turnin…",
+      "external": false
+    },
+    {
+      "from": "https://spiralmm.com/careers/",
+      "to": "https://spiralmm.com/",
+      "href": "/",
+      "text": "Spiral",
+      "external": false,
+      "region": "footer"
+    },
+    {
+      "from": "https://spiralmm.com/careers/",
+      "to": "https://www.linkedin.com/company/spiralmm/",
+      "href": "https://www.linkedin.com/company/spiralmm/",
+      "text": "LinkedIn",
+      "external": true,
+      "region": "footer",
+      "newTab": true
+    },
+    {
+      "from": "https://spiralmm.com/careers/",
+      "to": "https://www.facebook.com/share/1GLATiU4Ap/",
+      "href": "https://www.facebook.com/share/1GLATiU4Ap/",
+      "text": "Facebook",
+      "external": true,
+      "region": "footer",
+      "newTab": true
+    },
+    {
+      "from": "https://spiralmm.com/careers/",
+      "to": "https://instagram.com/",
+      "href": "https://instagram.com/",
+      "text": "Instagram",
+      "external": true,
+      "region": "footer",
+      "newTab": true
+    },
+    {
+      "from": "https://spiralmm.com/careers/",
+      "to": "https://x.com/",
+      "href": "https://x.com/",
+      "text": "X",
+      "external": true,
+      "region": "footer",
+      "newTab": true
+    },
+    {
+      "from": "https://spiralmm.com/careers/ai-engineer-computer-vision/",
+      "to": "https://spiralmm.com/",
+      "href": "/",
+      "text": "Spiral 🇲🇲",
+      "external": false,
+      "region": "header"
+    },
+    {
+      "from": "https://spiralmm.com/careers/ai-engineer-computer-vision/",
+      "to": "https://spiralmm.com/projects",
+      "href": "/projects",
+      "text": "Projects",
+      "external": false,
+      "region": "header"
+    },
+    {
+      "from": "https://spiralmm.com/careers/ai-engineer-computer-vision/",
+      "to": "https://spiralmm.com/careers",
+      "href": "/careers",
+      "text": "Careers",
+      "external": false,
+      "region": "header"
+    },
+    {
+      "from": "https://spiralmm.com/careers/ai-engineer-computer-vision/",
+      "to": "https://spiralmm.com/contact",
+      "href": "/contact",
+      "text": "Start a Project",
+      "external": false,
+      "region": "header"
+    },
+    {
+      "from": "https://spiralmm.com/careers/ai-engineer-computer-vision/",
+      "to": "https://spiralmm.com/careers",
+      "href": "/careers",
+      "text": "All roles",
+      "external": false
+    },
+    {
+      "from": "https://spiralmm.com/careers/ai-engineer-computer-vision/",
+      "to": "https://spiralmm.com/",
+      "href": "/",
+      "text": "Spiral",
+      "external": false,
+      "region": "footer"
+    },
+    {
+      "from": "https://spiralmm.com/careers/ai-engineer-computer-vision/",
+      "to": "https://www.linkedin.com/company/spiralmm/",
+      "href": "https://www.linkedin.com/company/spiralmm/",
+      "text": "LinkedIn",
+      "external": true,
+      "region": "footer",
+      "newTab": true
+    },
+    {
+      "from": "https://spiralmm.com/careers/ai-engineer-computer-vision/",
+      "to": "https://www.facebook.com/share/1GLATiU4Ap/",
+      "href": "https://www.facebook.com/share/1GLATiU4Ap/",
+      "text": "Facebook",
+      "external": true,
+      "region": "footer",
+      "newTab": true
+    },
+    {
+      "from": "https://spiralmm.com/careers/ai-engineer-computer-vision/",
+      "to": "https://instagram.com/",
+      "href": "https://instagram.com/",
+      "text": "Instagram",
+      "external": true,
+      "region": "footer",
+      "newTab": true
+    },
+    {
+      "from": "https://spiralmm.com/careers/ai-engineer-computer-vision/",
+      "to": "https://x.com/",
+      "href": "https://x.com/",
+      "text": "X",
+      "external": true,
+      "region": "footer",
+      "newTab": true
+    },
+    {
+      "from": "https://spiralmm.com/careers/nodejs-developer/",
+      "to": "https://spiralmm.com/",
+      "href": "/",
+      "text": "Spiral 🇲🇲",
+      "external": false,
+      "region": "header"
+    },
+    {
+      "from": "https://spiralmm.com/careers/nodejs-developer/",
+      "to": "https://spiralmm.com/projects",
+      "href": "/projects",
+      "text": "Projects",
+      "external": false,
+      "region": "header"
+    },
+    {
+      "from": "https://spiralmm.com/careers/nodejs-developer/",
+      "to": "https://spiralmm.com/careers",
+      "href": "/careers",
+      "text": "Careers",
+      "external": false,
+      "region": "header"
+    },
+    {
+      "from": "https://spiralmm.com/careers/nodejs-developer/",
+      "to": "https://spiralmm.com/contact",
+      "href": "/contact",
+      "text": "Start a Project",
+      "external": false,
+      "region": "header"
+    },
+    {
+      "from": "https://spiralmm.com/careers/nodejs-developer/",
+      "to": "https://spiralmm.com/careers",
+      "href": "/careers",
+      "text": "All roles",
+      "external": false
+    },
+    {
+      "from": "https://spiralmm.com/careers/nodejs-developer/",
+      "to": "https://spiralmm.com/",
+      "href": "/",
+      "text": "Spiral",
+      "external": false,
+      "region": "footer"
+    },
+    {
+      "from": "https://spiralmm.com/careers/nodejs-developer/",
+      "to": "https://www.linkedin.com/company/spiralmm/",
+      "href": "https://www.linkedin.com/company/spiralmm/",
+      "text": "LinkedIn",
+      "external": true,
+      "region": "footer",
+      "newTab": true
+    },
+    {
+      "from": "https://spiralmm.com/careers/nodejs-developer/",
+      "to": "https://www.facebook.com/share/1GLATiU4Ap/",
+      "href": "https://www.facebook.com/share/1GLATiU4Ap/",
+      "text": "Facebook",
+      "external": true,
+      "region": "footer",
+      "newTab": true
+    },
+    {
+      "from": "https://spiralmm.com/careers/nodejs-developer/",
+      "to": "https://instagram.com/",
+      "href": "https://instagram.com/",
+      "text": "Instagram",
+      "external": true,
+      "region": "footer",
+      "newTab": true
+    },
+    {
+      "from": "https://spiralmm.com/careers/nodejs-developer/",
+      "to": "https://x.com/",
+      "href": "https://x.com/",
+      "text": "X",
+      "external": true,
+      "region": "footer",
+      "newTab": true
+    },
+    {
+      "from": "https://spiralmm.com/careers/uiux-designer/",
+      "to": "https://spiralmm.com/",
+      "href": "/",
+      "text": "Spiral 🇲🇲",
+      "external": false,
+      "region": "header"
+    },
+    {
+      "from": "https://spiralmm.com/careers/uiux-designer/",
+      "to": "https://spiralmm.com/projects",
+      "href": "/projects",
+      "text": "Projects",
+      "external": false,
+      "region": "header"
+    },
+    {
+      "from": "https://spiralmm.com/careers/uiux-designer/",
+      "to": "https://spiralmm.com/careers",
+      "href": "/careers",
+      "text": "Careers",
+      "external": false,
+      "region": "header"
+    },
+    {
+      "from": "https://spiralmm.com/careers/uiux-designer/",
+      "to": "https://spiralmm.com/contact",
+      "href": "/contact",
+      "text": "Start a Project",
+      "external": false,
+      "region": "header"
+    },
+    {
+      "from": "https://spiralmm.com/careers/uiux-designer/",
+      "to": "https://spiralmm.com/careers",
+      "href": "/careers",
+      "text": "All roles",
+      "external": false
+    },
+    {
+      "from": "https://spiralmm.com/careers/uiux-designer/",
+      "to": "https://spiralmm.com/",
+      "href": "/",
+      "text": "Spiral",
+      "external": false,
+      "region": "footer"
+    },
+    {
+      "from": "https://spiralmm.com/careers/uiux-designer/",
+      "to": "https://www.linkedin.com/company/spiralmm/",
+      "href": "https://www.linkedin.com/company/spiralmm/",
+      "text": "LinkedIn",
+      "external": true,
+      "region": "footer",
+      "newTab": true
+    },
+    {
+      "from": "https://spiralmm.com/careers/uiux-designer/",
+      "to": "https://www.facebook.com/share/1GLATiU4Ap/",
+      "href": "https://www.facebook.com/share/1GLATiU4Ap/",
+      "text": "Facebook",
+      "external": true,
+      "region": "footer",
+      "newTab": true
+    },
+    {
+      "from": "https://spiralmm.com/careers/uiux-designer/",
+      "to": "https://instagram.com/",
+      "href": "https://instagram.com/",
+      "text": "Instagram",
+      "external": true,
+      "region": "footer",
+      "newTab": true
+    },
+    {
+      "from": "https://spiralmm.com/careers/uiux-designer/",
+      "to": "https://x.com/",
+      "href": "https://x.com/",
+      "text": "X",
+      "external": true,
+      "region": "footer",
+      "newTab": true
+    },
+    {
+      "from": "https://spiralmm.com/projects/",
+      "to": "https://spiralmm.com/",
+      "href": "/",
+      "text": "Spiral 🇲🇲",
+      "external": false,
+      "region": "header"
+    },
+    {
+      "from": "https://spiralmm.com/projects/",
+      "to": "https://spiralmm.com/projects",
+      "href": "/projects",
+      "text": "Projects",
+      "external": false,
+      "region": "header"
+    },
+    {
+      "from": "https://spiralmm.com/projects/",
+      "to": "https://spiralmm.com/careers",
+      "href": "/careers",
+      "text": "Careers",
+      "external": false,
+      "region": "header"
+    },
+    {
+      "from": "https://spiralmm.com/projects/",
+      "to": "https://spiralmm.com/contact",
+      "href": "/contact",
+      "text": "Start a Project",
+      "external": false,
+      "region": "header"
+    },
+    {
+      "from": "https://spiralmm.com/projects/",
+      "to": "https://home.stakefairmm.xyz/",
+      "href": "https://home.stakefairmm.xyz/",
+      "text": "Preview Stakefair Matchmaking from Chess, Dota 2 and Mobile Legends with stakin…",
+      "external": true,
+      "newTab": true
+    },
+    {
+      "from": "https://spiralmm.com/projects/",
+      "to": "https://flaremm.xyz/",
+      "href": "https://flaremm.xyz/",
+      "text": "Preview Flare A geofenced, time-boxed and flare based dating layer. Coming 2027",
+      "external": true,
+      "newTab": true
+    },
+    {
+      "from": "https://spiralmm.com/projects/",
+      "to": "https://spiralmm.com/projects/siv",
+      "href": "/projects/siv",
+      "text": "Preview SIV A members-only platform for premium content. Coming 2027",
+      "external": false
+    },
+    {
+      "from": "https://spiralmm.com/projects/",
+      "to": "https://qsuremm.xyz/",
+      "href": "https://qsuremm.xyz/",
+      "text": "Preview Qsure A crowd testing platform. Coming 2027",
+      "external": true,
+      "newTab": true
+    },
+    {
+      "from": "https://spiralmm.com/projects/",
+      "to": "https://spiralmm.com/",
+      "href": "/",
+      "text": "Spiral",
+      "external": false,
+      "region": "footer"
+    },
+    {
+      "from": "https://spiralmm.com/projects/",
+      "to": "https://www.linkedin.com/company/spiralmm/",
+      "href": "https://www.linkedin.com/company/spiralmm/",
+      "text": "LinkedIn",
+      "external": true,
+      "region": "footer",
+      "newTab": true
+    },
+    {
+      "from": "https://spiralmm.com/projects/",
+      "to": "https://www.facebook.com/share/1GLATiU4Ap/",
+      "href": "https://www.facebook.com/share/1GLATiU4Ap/",
+      "text": "Facebook",
+      "external": true,
+      "region": "footer",
+      "newTab": true
+    },
+    {
+      "from": "https://spiralmm.com/projects/",
+      "to": "https://instagram.com/",
+      "href": "https://instagram.com/",
+      "text": "Instagram",
+      "external": true,
+      "region": "footer",
+      "newTab": true
+    },
+    {
+      "from": "https://spiralmm.com/projects/",
+      "to": "https://x.com/",
+      "href": "https://x.com/",
+      "text": "X",
+      "external": true,
+      "region": "footer",
+      "newTab": true
+    },
+    {
+      "from": "https://spiralmm.com/projects/siv/",
+      "to": "https://spiralmm.com/projects",
+      "href": "/projects",
+      "text": "Spiral Projects",
+      "external": false
+    },
+    {
+      "from": "https://spiralmm.com/projects/siv/",
+      "to": "https://spiralmm.com/projects",
+      "href": "/projects",
+      "text": "← Back to Spiral Projects",
+      "external": false,
+      "region": "footer"
+    },
+    {
+      "from": "https://spiralmm.com/careers/devops-engineer/",
+      "to": "https://spiralmm.com/",
+      "href": "/",
+      "text": "Spiral 🇲🇲",
+      "external": false,
+      "region": "header"
+    },
+    {
+      "from": "https://spiralmm.com/careers/devops-engineer/",
+      "to": "https://spiralmm.com/projects",
+      "href": "/projects",
+      "text": "Projects",
+      "external": false,
+      "region": "header"
+    },
+    {
+      "from": "https://spiralmm.com/careers/devops-engineer/",
+      "to": "https://spiralmm.com/careers",
+      "href": "/careers",
+      "text": "Careers",
+      "external": false,
+      "region": "header"
+    },
+    {
+      "from": "https://spiralmm.com/careers/devops-engineer/",
+      "to": "https://spiralmm.com/contact",
+      "href": "/contact",
+      "text": "Start a Project",
+      "external": false,
+      "region": "header"
+    },
+    {
+      "from": "https://spiralmm.com/careers/devops-engineer/",
+      "to": "https://spiralmm.com/careers",
+      "href": "/careers",
+      "text": "All roles",
+      "external": false
+    },
+    {
+      "from": "https://spiralmm.com/careers/devops-engineer/",
+      "to": "https://spiralmm.com/",
+      "href": "/",
+      "text": "Spiral",
+      "external": false,
+      "region": "footer"
+    },
+    {
+      "from": "https://spiralmm.com/careers/devops-engineer/",
+      "to": "https://www.linkedin.com/company/spiralmm/",
+      "href": "https://www.linkedin.com/company/spiralmm/",
+      "text": "LinkedIn",
+      "external": true,
+      "region": "footer",
+      "newTab": true
+    },
+    {
+      "from": "https://spiralmm.com/careers/devops-engineer/",
+      "to": "https://www.facebook.com/share/1GLATiU4Ap/",
+      "href": "https://www.facebook.com/share/1GLATiU4Ap/",
+      "text": "Facebook",
+      "external": true,
+      "region": "footer",
+      "newTab": true
+    },
+    {
+      "from": "https://spiralmm.com/careers/devops-engineer/",
+      "to": "https://instagram.com/",
+      "href": "https://instagram.com/",
+      "text": "Instagram",
+      "external": true,
+      "region": "footer",
+      "newTab": true
+    },
+    {
+      "from": "https://spiralmm.com/careers/devops-engineer/",
+      "to": "https://x.com/",
+      "href": "https://x.com/",
+      "text": "X",
+      "external": true,
+      "region": "footer",
+      "newTab": true
+    },
+    {
+      "from": "https://spiralmm.com/careers/product-owner/",
+      "to": "https://spiralmm.com/",
+      "href": "/",
+      "text": "Spiral 🇲🇲",
+      "external": false,
+      "region": "header"
+    },
+    {
+      "from": "https://spiralmm.com/careers/product-owner/",
+      "to": "https://spiralmm.com/projects",
+      "href": "/projects",
+      "text": "Projects",
+      "external": false,
+      "region": "header"
+    },
+    {
+      "from": "https://spiralmm.com/careers/product-owner/",
+      "to": "https://spiralmm.com/careers",
+      "href": "/careers",
+      "text": "Careers",
+      "external": false,
+      "region": "header"
+    },
+    {
+      "from": "https://spiralmm.com/careers/product-owner/",
+      "to": "https://spiralmm.com/contact",
+      "href": "/contact",
+      "text": "Start a Project",
+      "external": false,
+      "region": "header"
+    },
+    {
+      "from": "https://spiralmm.com/careers/product-owner/",
+      "to": "https://spiralmm.com/careers",
+      "href": "/careers",
+      "text": "All roles",
+      "external": false
+    },
+    {
+      "from": "https://spiralmm.com/careers/product-owner/",
+      "to": "https://spiralmm.com/",
+      "href": "/",
+      "text": "Spiral",
+      "external": false,
+      "region": "footer"
+    },
+    {
+      "from": "https://spiralmm.com/careers/product-owner/",
+      "to": "https://www.linkedin.com/company/spiralmm/",
+      "href": "https://www.linkedin.com/company/spiralmm/",
+      "text": "LinkedIn",
+      "external": true,
+      "region": "footer",
+      "newTab": true
+    },
+    {
+      "from": "https://spiralmm.com/careers/product-owner/",
+      "to": "https://www.facebook.com/share/1GLATiU4Ap/",
+      "href": "https://www.facebook.com/share/1GLATiU4Ap/",
+      "text": "Facebook",
+      "external": true,
+      "region": "footer",
+      "newTab": true
+    },
+    {
+      "from": "https://spiralmm.com/careers/product-owner/",
+      "to": "https://instagram.com/",
+      "href": "https://instagram.com/",
+      "text": "Instagram",
+      "external": true,
+      "region": "footer",
+      "newTab": true
+    },
+    {
+      "from": "https://spiralmm.com/careers/product-owner/",
+      "to": "https://x.com/",
+      "href": "https://x.com/",
+      "text": "X",
+      "external": true,
+      "region": "footer",
+      "newTab": true
+    },
+    {
+      "from": "https://spiralmm.com/careers/nextjs-frontend-developer/",
+      "to": "https://spiralmm.com/",
+      "href": "/",
+      "text": "Spiral 🇲🇲",
+      "external": false,
+      "region": "header"
+    },
+    {
+      "from": "https://spiralmm.com/careers/nextjs-frontend-developer/",
+      "to": "https://spiralmm.com/projects",
+      "href": "/projects",
+      "text": "Projects",
+      "external": false,
+      "region": "header"
+    },
+    {
+      "from": "https://spiralmm.com/careers/nextjs-frontend-developer/",
+      "to": "https://spiralmm.com/careers",
+      "href": "/careers",
+      "text": "Careers",
+      "external": false,
+      "region": "header"
+    },
+    {
+      "from": "https://spiralmm.com/careers/nextjs-frontend-developer/",
+      "to": "https://spiralmm.com/contact",
+      "href": "/contact",
+      "text": "Start a Project",
+      "external": false,
+      "region": "header"
+    },
+    {
+      "from": "https://spiralmm.com/careers/nextjs-frontend-developer/",
+      "to": "https://spiralmm.com/careers",
+      "href": "/careers",
+      "text": "All roles",
+      "external": false
+    },
+    {
+      "from": "https://spiralmm.com/careers/nextjs-frontend-developer/",
+      "to": "https://spiralmm.com/",
+      "href": "/",
+      "text": "Spiral",
+      "external": false,
+      "region": "footer"
+    },
+    {
+      "from": "https://spiralmm.com/careers/nextjs-frontend-developer/",
+      "to": "https://www.linkedin.com/company/spiralmm/",
+      "href": "https://www.linkedin.com/company/spiralmm/",
+      "text": "LinkedIn",
+      "external": true,
+      "region": "footer",
+      "newTab": true
+    },
+    {
+      "from": "https://spiralmm.com/careers/nextjs-frontend-developer/",
+      "to": "https://www.facebook.com/share/1GLATiU4Ap/",
+      "href": "https://www.facebook.com/share/1GLATiU4Ap/",
+      "text": "Facebook",
+      "external": true,
+      "region": "footer",
+      "newTab": true
+    },
+    {
+      "from": "https://spiralmm.com/careers/nextjs-frontend-developer/",
+      "to": "https://instagram.com/",
+      "href": "https://instagram.com/",
+      "text": "Instagram",
+      "external": true,
+      "region": "footer",
+      "newTab": true
+    },
+    {
+      "from": "https://spiralmm.com/careers/nextjs-frontend-developer/",
+      "to": "https://x.com/",
+      "href": "https://x.com/",
+      "text": "X",
+      "external": true,
+      "region": "footer",
+      "newTab": true
+    },
+    {
+      "from": "https://spiralmm.com/careers/react-native-developer/",
+      "to": "https://spiralmm.com/",
+      "href": "/",
+      "text": "Spiral 🇲🇲",
+      "external": false,
+      "region": "header"
+    },
+    {
+      "from": "https://spiralmm.com/careers/react-native-developer/",
+      "to": "https://spiralmm.com/projects",
+      "href": "/projects",
+      "text": "Projects",
+      "external": false,
+      "region": "header"
+    },
+    {
+      "from": "https://spiralmm.com/careers/react-native-developer/",
+      "to": "https://spiralmm.com/careers",
+      "href": "/careers",
+      "text": "Careers",
+      "external": false,
+      "region": "header"
+    },
+    {
+      "from": "https://spiralmm.com/careers/react-native-developer/",
+      "to": "https://spiralmm.com/contact",
+      "href": "/contact",
+      "text": "Start a Project",
+      "external": false,
+      "region": "header"
+    },
+    {
+      "from": "https://spiralmm.com/careers/react-native-developer/",
+      "to": "https://spiralmm.com/careers",
+      "href": "/careers",
+      "text": "All roles",
+      "external": false
+    },
+    {
+      "from": "https://spiralmm.com/careers/react-native-developer/",
+      "to": "https://spiralmm.com/",
+      "href": "/",
+      "text": "Spiral",
+      "external": false,
+      "region": "footer"
+    },
+    {
+      "from": "https://spiralmm.com/careers/react-native-developer/",
+      "to": "https://www.linkedin.com/company/spiralmm/",
+      "href": "https://www.linkedin.com/company/spiralmm/",
+      "text": "LinkedIn",
+      "external": true,
+      "region": "footer",
+      "newTab": true
+    },
+    {
+      "from": "https://spiralmm.com/careers/react-native-developer/",
+      "to": "https://www.facebook.com/share/1GLATiU4Ap/",
+      "href": "https://www.facebook.com/share/1GLATiU4Ap/",
+      "text": "Facebook",
+      "external": true,
+      "region": "footer",
+      "newTab": true
+    },
+    {
+      "from": "https://spiralmm.com/careers/react-native-developer/",
+      "to": "https://instagram.com/",
+      "href": "https://instagram.com/",
+      "text": "Instagram",
+      "external": true,
+      "region": "footer",
+      "newTab": true
+    },
+    {
+      "from": "https://spiralmm.com/careers/react-native-developer/",
+      "to": "https://x.com/",
+      "href": "https://x.com/",
+      "text": "X",
+      "external": true,
+      "region": "footer",
+      "newTab": true
+    }
+  ],
+  "notCrawled": [],
+  "build": {
+    "commit": "11d9fe807e1067773121ddbb64d811b9a33dd0fc",
+    "branch": "main"
+  }
+}

@@ -30,7 +30,7 @@ Then decide whose problem it is:
 | `... did not load! URL was X, expected Y` | the site moved the page, or the link | check KNOWN-ISSUES.md; ask the user if the move is intended |
 | `note: X is the right page ..., but had not finished loading after 30 s; still loading: ...` (not a failure) | a slow part of the page: another site's frame, a video, an image | the page passed; the note names what held it back. Report it if it matters; `-DpageLoadTimeout` sets how long a test waits for it |
 | `... did not load! Title was ...` | the site changed its titles | regenerate, or update `TITLE` via a new crawl |
-| `... did not load! X_HEADING was not visible` | the page changed, or loads it late | save the page; compare with crawl/spiralmm.xyz.crawl.json |
+| `... did not load! X_HEADING was not visible` | the page changed, or loads it late | save the page; compare with crawl/spiralmm.com.crawl.json |
 | `Expected the X to be shown, but it was not` | a broken locator, or the site changed | save the page (use-a-saved-page.md) and fix the locator |
 | `the X matches 2 elements on the page; its locator must match one` | a locator that finds several things (Playwright refuses to guess) | add `.first()`, or narrow the locator to the one meant |
 | `the X's locator is not valid` (Playwright), `The locator ... is not valid` (Selenium) | a typo in the XPath or CSS: a missing bracket or quote | fix it, and check it with suite locate against the page as crawled |

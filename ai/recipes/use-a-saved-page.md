@@ -11,7 +11,7 @@ The user saves pages to `saved-pages/<PageClass>/` (saved-pages/README.md). To u
    the saved HTML. If you can, open the file in a browser and try it:
    `document.evaluate("//button[...]", document, null, 7, null).snapshotLength` for XPath, or
    `document.querySelectorAll("...").length` for CSS.
-4. **Compare with the crawl** when a generated locator stopped working: crawl/spiralmm.xyz.crawl.json
+4. **Compare with the crawl** when a generated locator stopped working: crawl/spiralmm.com.crawl.json
    has what each page showed when the suite was generated (search it for the page's URL).
 
 Never copy personal data from a saved page into code: names, emails, addresses, order numbers.

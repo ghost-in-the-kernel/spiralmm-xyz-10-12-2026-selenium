@@ -36,7 +36,7 @@ test still checks something after it (SR-19).
 
 **A form's data is one value.** Each form the crawl read has a record in its page's package, named
 for the form (`WriteToUs`), and its task takes it: `execute().fillWriteToUsForm(WriteToUs.sample())`.
-`sample()` gives plausible values (each can be set for a run by its name, `-Demail=...`); change one
+`sample()` gives plausible values (each can be set for a run by its name, `-Demail=...`, or `SUITE_VALUE_EMAIL`); change one
 field with a copy, `WriteToUs.sample().withEmail("pat@example.com")`, and check against the same
 value, `form.email()`. The record holds what a visitor types, nothing the site changes (an account
 used up, an order number): that belongs to the story's test.

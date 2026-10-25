@@ -2,15 +2,15 @@
   "tool": "suite-builder",
   "version": "1.39.0",
   "build": {
-    "commit": "f8b0a5749aceb6370b7ef97c134dab32f28439e6",
+    "commit": "11d9fe807e1067773121ddbb64d811b9a33dd0fc",
     "branch": "main"
   },
   "framework": "selenium",
-  "generatedAt": "2026-10-12T13:10:21.350Z",
-  "command": "suite-builder build spiralmm.xyz --cypress --selenium --playwright",
-  "templates": "crawl/spiralmm.xyz.templates.json",
-  "crawl": "crawl/spiralmm.xyz.crawl.json",
-  "crawlFileSaved": "2026-10-12T13:10:21.274Z",
+  "generatedAt": "2026-10-25T21:58:40.567Z",
+  "command": "suite-builder build https://spiralmm.com/ --selenium --playwright --cypress",
+  "templates": "crawl/spiralmm.com.templates.json",
+  "crawl": "crawl/spiralmm.com.crawl.json",
+  "crawlFileSaved": "2026-10-25T21:58:40.455Z",
   "accounts": [
     {
       "role": "user",

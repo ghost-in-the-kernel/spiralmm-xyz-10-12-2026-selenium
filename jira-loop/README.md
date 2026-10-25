@@ -63,10 +63,10 @@ blank. The names you chose are in `jira-loop/jira.properties`, which holds no se
 ## Many agents at once
 
 With the stories pipeline on GitHub, several agents work the backlog together (`jira-loop/agents.mjs`):
-each takes one story, claims its card, writes its tests on a branch of its own (`stories/SHOP-12`) and
-opens a pull request; the card moves to Done when that pull request merges. Two agents never take one
-story, and never change one page at once: the one that needs a page another holds waits for that merge.
-The number of agents is a list in the pipeline file.
+each story's tests are written on a branch of its own (`stories/SHOP-12`) and proposed as a pull request;
+the card moves to Done when that pull request merges. Two agents never take one story, and never change one
+page at once: a story whose page another holds waits for a later run. The number of agents is the team block
+in the pipeline file (`SUITE_AGENTS`).
 
 ## Without anyone at a desk
 
@@ -74,3 +74,10 @@ The suite's stories pipeline (`.github/workflows/stories.yml`, the `stories` job
 `azure-stories.yml`) runs the same loop on its own: when Jira calls it (an Automation rule on the card's
 move), and hourly on weekdays. Its first lines name the secrets to add (`JIRA_API_TOKEN`, `JIRA_EMAIL`,
 `ANTHROPIC_API_KEY`). It proposes the new tests as a pull request, and a person merges them.
+
+It runs as three jobs, each on a machine of its own. *Claim* takes the ready stories in Jira; *crew* writes their
+tests with the Anthropic key alone; *publish* pushes each story's branch, opens its pull request and moves its
+card. A story comes from Jira, so the crew, which writes and runs code, never holds the Jira token or one that
+can change the repository: give those to the claim and publish jobs only. The crew's job stops, saying which,
+when it is given one (on GitLab: scope `JIRA_API_TOKEN`, `JIRA_EMAIL` and `SUITE_PUSH_TOKEN` to the
+environment `jira`).

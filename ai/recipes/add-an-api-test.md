@@ -34,3 +34,6 @@ void anUnknownProductIsNotFound() {
   the live site, as a form that sends (forms-and-test-data.md).
 - **Its family:** `@Family.Smoke` if a broken API should stop a merge first; one of your own otherwise
   (Family.java says how). Each call is a step in the test's log, and in its evidence when it fails.
+- **Its time:** every call is timed, yours too: target/timings/api.csv, a call much slower than in the previous run
+  or past its slow line (core/Timings.java) listed at the run's end. `-DapiBudget=1.5` fails any call over 1.5 s;
+  `expectFasterThan(ms)` holds one call to a time of its own.

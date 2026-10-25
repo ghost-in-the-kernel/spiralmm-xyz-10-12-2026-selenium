@@ -12,7 +12,7 @@ import { fileURLToPath } from 'node:url';
 import { bold, choose, cyan, dim, tty } from './keys.mjs';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
-const SITE = "spiralmm.xyz";
+const SITE = "spiralmm.com";
 const FRAMEWORK = "Selenium";
 /** The suite's own test runs, as typed: the quick check, every test; what installs their packages first, if any. */
 const QUICK = ["mvn","test","-Dgroups=smoke"];
@@ -31,6 +31,12 @@ if (word === 'suite' && process.argv.length > 3) {
     `Suite Builder's commands run from any other folder: ${cyan(`cd .. then suite ${process.argv.slice(3).join(' ')}`)}`,
   );
   process.exit(1);
+}
+
+// "help <page>": a page of the suite's guide, printed here.
+if (word === 'help' && process.argv.length > 3) {
+  const run = spawnSync(process.execPath, [join(ROOT, 'menu', 'guide.mjs'), ...process.argv.slice(3)], { stdio: 'inherit' });
+  process.exit(run.status ?? 0);
 }
 
 const plural = (n, one, many = `${one}s`) => `${n} ${n === 1 ? one : many}`;
@@ -257,6 +263,12 @@ function choices(s) {
     },
     claude('Ask Claude anything about this suite', 'Opens Claude Code here: say what you want in your own words.', []),
     {
+      label: 'Read the guide',
+      what: 'How to run this suite, read a failure, keep your changes, and the rest: in your browser, or here when the computer has no screen.',
+      typed: 'node menu/guide.mjs',
+      run: () => spawnSync(process.execPath, [join(ROOT, 'menu', 'guide.mjs')], { cwd: ROOT, stdio: 'inherit' }).status ?? 0,
+    },
+    {
       label: 'Every command, to type yourself',
       what: 'The commands behind each choice, to read: nothing runs.',
       typed: `${word} (this menu)`,
@@ -311,6 +323,8 @@ function listCommands() {
   ${cyan('claude'.padEnd(34))}Claude Code, then /stories, /fix-failing or /explain-audit
   ${cyan('jira'.padEnd(34))}Jira: login, pull, push, status, watch, output (jira-loop/README.md)
   ${cyan(word.padEnd(34))}this menu (crew, help, suite and ask all open it)
+  ${cyan('help <page>'.padEnd(34))}a page of the suite's guide, here (help running, help bugs)
+  ${cyan('node menu/guide.mjs'.padEnd(34))}the whole guide, in your browser
 Everything else: README.md.`);
   return 0;
 }

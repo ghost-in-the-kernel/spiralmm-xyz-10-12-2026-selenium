@@ -42,8 +42,8 @@ function settings(needs) {
   }
   if (process.env.JIRA_SITE)
     Object.assign(s, { site: process.env.JIRA_SITE, edition: process.env.JIRA_EDITION || s.edition });
-  // Not set up at all: pull and report have nothing to do, and say so; check says what to fill in.
-  if (!s.site && !s.project && (process.argv[2] === 'pull' || process.argv[2] === 'report'))
+  // Not set up at all: pull, report and the coordinator's queue have nothing to do, and say so; check says what to fill in.
+  if (!s.site && !s.project && ['pull', 'report', 'queue'].includes(process.argv[2]))
     throw new Idle('Jira is not set up (jira-loop/jira.properties): nothing to do.');
   const missing = needs.filter((k) => !s[k]);
   if (missing.length)
@@ -380,6 +380,16 @@ async function take(s, auth) {
   if (!issue || !(await pullOne(s, auth, issue, storyFiles(s), reported()))) process.exitCode = 3;
 }
 
+/**
+ * holds <KEY>: exit 0 when the card is still this loop's to publish: in the claimed status (no claimed status
+ * set: still in a ready status); exit 3 when it moved on (a person took it back, or another run finished it).
+ */
+async function holds(s, auth) {
+  const key = (process.argv[3] ?? '').toUpperCase();
+  const now = ((await call(s, auth, 'GET', `/rest/api/2/issue/${key}?fields=status`)).fields?.status?.name ?? '').toLowerCase();
+  if (!(s.claimed ? [s.claimed] : watched(s)).some((r) => r.toLowerCase() === now)) process.exitCode = 3;
+}
+
 /** note <KEY> <text>: a comment of the crew's on the card (a pull request proposed, say). */
 async function note(s, auth) {
   await call(s, auth, 'POST', `/rest/api/2/issue/${process.argv[3]}/comment`, {
@@ -528,6 +538,7 @@ const COMMANDS = {
   results: [results, FULL, true],
   queue: [queue, FULL, true],
   take: [take, FULL, true],
+  holds: [holds, FULL, true],
   note: [note, FULL, true],
   unclaim: [unclaim, FULL, true],
   projects: [projects, ['site'], true],
